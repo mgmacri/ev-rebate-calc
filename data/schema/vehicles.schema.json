@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/evrebate/vehicles.schema.json",
+  "title": "EVAP eligible vehicle dataset",
+  "type": "object",
+  "required": ["meta", "vehicles"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["dataset_version", "generated_at", "rules_version", "source", "counts"],
+      "properties": {
+        "dataset_version": {"type": "string", "format": "date"},
+        "generated_at": {"type": "string", "format": "date-time"},
+        "pipeline_version": {"type": "string"},
+        "rules_version": {"type": "string"},
+        "source": {"type": "object"},
+        "counts": {"type": "object"},
+        "consistency_issues": {"type": "object"},
+        "changes_since_previous": {"type": "object"}
+      }
+    },
+    "vehicles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "program_id", "model_year", "make", "model", "fuel_type", "canadian_made",
+                     "price_cap_cad", "price_cap_basis", "published", "source", "first_seen", "last_seen"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "program_id": {"const": "ca-federal-evap"},
+          "model_year": {"type": "integer", "minimum": 2020},
+          "make": {"type": "string"},
+          "model": {"type": "string"},
+          "trim": {"type": ["string", "null"]},
+          "fuel_type": {"enum": ["BEV", "FCEV", "PHEV"]},
+          "canadian_made": {"type": "boolean", "description": "Exempt from the final transaction value cap"},
+          "price_cap_cad": {"type": ["integer", "null"], "description": "null when cap-exempt"},
+          "price_cap_basis": {"const": "final_transaction_value"},
+          "published": {
+            "type": "object",
+            "description": "Amounts exactly as printed on the TC list for `year`; derive other years from rules",
+            "required": ["year", "purchase_or_48mo", "lease_36mo", "lease_24mo", "lease_12mo"],
+            "properties": {
+              "year": {"type": "integer"},
+              "purchase_or_48mo": {"type": "integer"},
+              "lease_36mo": {"type": "integer"},
+              "lease_24mo": {"type": "integer"},
+              "lease_12mo": {"type": "integer"}
+            }
+          },
+          "source": {"type": "object", "required": ["name", "row_hash"]},
+          "first_seen": {"type": "string", "format": "date"},
+          "last_seen": {"type": "string", "format": "date"}
+        }
+      }
+    }
+  }
+}

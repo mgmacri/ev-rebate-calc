@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Federal EV Rebate Calculator</title>
+<meta name="description" content="Calculate Canada's federal EVAP electric vehicle incentive for any eligible vehicle, purchase or lease.">
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#16181d;--muted:#5d6470;--line:#dde1e7;--accent:#0b6e4f;--accent-ink:#fff;--bad:#b3261e;--warn:#8a5a00;--warn-bg:#fff6e0;--good-bg:#e8f5ef;--bad-bg:#fdecea}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1115;--card:#181b21;--ink:#e8eaee;--muted:#9aa2ad;--line:#2b3038;--accent:#3ccf96;--accent-ink:#04120c;--bad:#ff6b61;--warn:#f0b64a;--warn-bg:#2a2210;--good-bg:#0f2a20;--bad-bg:#2c1513}}
+:root[data-theme=dark]{--bg:#0f1115;--card:#181b21;--ink:#e8eaee;--muted:#9aa2ad;--line:#2b3038;--accent:#3ccf96;--accent-ink:#04120c;--bad:#ff6b61;--warn:#f0b64a;--warn-bg:#2a2210;--good-bg:#0f2a20;--bad-bg:#2c1513}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:920px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:1.6rem;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 20px;font-size:.95rem}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:720px){.grid{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.card h2{font-size:1rem;margin:0 0 12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+label{display:block;font-size:.85rem;color:var(--muted);margin:10px 0 4px}
+label:first-of-type{margin-top:0}
+input,select{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+input:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.hint{font-size:.78rem;color:var(--muted);margin-top:3px}
+.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{flex:1;padding:9px;border:0;background:transparent;color:var(--ink);font:inherit;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink)}
+.result{position:sticky;top:16px}
+.big{font-size:2.6rem;font-weight:700;line-height:1.1;margin:4px 0}
+.status{display:inline-block;padding:3px 10px;border-radius:999px;font-size:.8rem;font-weight:600}
+.ok{background:var(--good-bg);color:var(--accent)}
+.no{background:var(--bad-bg);color:var(--bad)}
+dl{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:14px 0 0;font-size:.92rem}
+dt{color:var(--muted)}dd{margin:0;text-align:right;font-variant-numeric:tabular-nums}
+ul{padding-left:18px;margin:8px 0;font-size:.92rem}
+.warn{background:var(--warn-bg);color:var(--warn);border-radius:6px;padding:8px 10px;font-size:.88rem;margin-top:10px}
+.veh{margin-top:6px;font-size:.9rem}
+.tag{display:inline-block;font-size:.72rem;padding:1px 7px;border:1px solid var(--line);border-radius:4px;margin-left:4px;color:var(--muted)}
+details{margin-top:22px;font-size:.9rem;color:var(--muted)}
+summary{cursor:pointer;color:var(--ink)}
+footer{margin-top:28px;font-size:.8rem;color:var(--muted)}
+footer a,details a{color:inherit}
+.excl{font-size:.8rem;color:var(--muted);margin-top:8px}
+</style>
+</head>
+<body>
+<main>
+<h1>Federal EV Rebate Calculator</h1>
+<p class="sub">Canada's Electric Vehicle Affordability Program (EVAP). Enter the deal, get the incentive and why.</p>
+
+<div class="grid">
+<section class="card">
+<h2>Vehicle</h2>
+<label for="q">Search eligible vehicles</label>
+<input id="q" type="search" placeholder="e.g. Equinox, Kia EV3, Pacifica" autocomplete="off">
+<select id="veh" size="6" aria-label="Eligible vehicles"></select>
+<div class="veh" id="vehinfo">Pick a vehicle from the Transport Canada list, or leave blank and set fuel type manually.</div>
+
+<div class="row">
+<div><label for="fuel">Fuel type</label>
+<select id="fuel"><option>BEV</option><option>PHEV</option><option>FCEV</option></select></div>
+<div><label for="cdn">Made in Canada</label>
+<select id="cdn"><option value="0">No ($50,000 cap applies)</option><option value="1">Yes (no cap)</option></select></div>
+</div>
+
+<h2 style="margin-top:20px">Deal</h2>
+<label>Purchase or lease</label>
+<div class="seg" id="type"><button aria-pressed="true" data-v="purchase">Purchase</button><button aria-pressed="false" data-v="lease">Lease</button></div>
+<div id="leasewrap" hidden><label for="term">Lease term (months)</label>
+<input id="term" type="number" min="12" max="96" step="1" value="48">
+<div class="hint">Minimum 12. Full amount at 48+. Prorated as full ÷ 48 × months.</div></div>
+
+<div class="row">
+<div><label for="date">Submission date</label><input id="date" type="date"></div>
+<div><label for="odo">Odometer (km)</label><input id="odo" type="number" min="0" value="0"></div>
+</div>
+<div class="hint">Amount is set by the date the dealer submits in the TC portal. Demonstrators must be under 10,000 km.</div>
+
+<h2 style="margin-top:20px">Price (before tax)</h2>
+<label for="msrp">Vehicle price after manufacturer/dealer discounts</label><input id="msrp" type="number" min="0" step="1" placeholder="0">
+<div class="row">
+<div><label for="opt">Options and packages</label><input id="opt" type="number" min="0" value="0"></div>
+<div><label for="acc">Accessories</label><input id="acc" type="number" min="0" value="0"></div>
+</div>
+<label for="fees">Dealer fees (doc, admin, market adjustment)</label><input id="fees" type="number" min="0" value="0">
+<div class="row">
+<div><label for="freight">Freight and PDI</label><input id="freight" type="number" min="0" value="0"></div>
+<div><label for="excl">Warranty, tires, charger, insurance</label><input id="excl" type="number" min="0" value="0"></div>
+</div>
+<div class="excl">Freight/PDI, extended warranty, one set of winter tires, Level 2 charger, insurance, taxes, trade-in and other incentives do <b>not</b> count toward the cap. They are entered only so the breakdown can show it.</div>
+</section>
+
+<section class="card result" id="out">
+<h2>Result</h2>
+<span class="status" id="st">Enter a price</span>
+<div class="big" id="amt">—</div>
+<div id="sub2" class="hint"></div>
+<dl id="dl"></dl>
+<ul id="reasons"></ul>
+<div id="warns"></div>
+</section>
+</div>
+
+<details>
+<summary>Program rules encoded here</summary>
+<div id="rules"></div>
+</details>
+<footer id="foot"></footer>
+</main>
+
+<script>
+const $ = s => document.querySelector(s);
+const fmt = n => '$' + Math.round(n).toLocaleString('en-CA');
+const fmt2 = n => '$' + n.toLocaleString('en-CA', {minimumFractionDigits: 0, maximumFractionDigits: 2});
+let DS = null, vehicles = [], selected = null, txType = 'purchase';
+
+fetch('./dataset.json').then(r => r.json()).then(d => {
+  DS = d; vehicles = d.vehicles;
+  $('#date').value = new Date().toISOString().slice(0, 10);
+  renderList(''); renderRules(); render();
+  const c = d.meta.counts;
+  $('#foot').innerHTML = `Vehicle list: ${c.vehicles} trims from <a href="${d.meta.source.url}">Transport Canada</a>, list last modified ${d.meta.source.date_modified}, fetched ${d.meta.source.fetched_at.slice(0,10)}. Rules version ${d.meta.rules_version}. This is an estimate; the dealer's portal submission is authoritative.`;
+}).catch(e => { $('#st').textContent = 'Could not load dataset'; console.error(e); });
+
+function renderList(q) {
+  const s = $('#veh'); s.innerHTML = '';
+  const t = q.toLowerCase().split(/\s+/).filter(Boolean);
+  const hit = vehicles.filter(v => { const h = `${v.model_year} ${v.make} ${v.model} ${v.trim||''}`.toLowerCase(); return t.every(w => h.includes(w)); });
+  for (const v of hit) {
+    const o = document.createElement('option'); o.value = v.id;
+    o.textContent = `${v.model_year} ${v.make} ${v.model}${v.trim ? ' ' + v.trim : ''} · ${v.fuel_type}${v.canadian_made ? ' · 🍁' : ''}`;
+    s.appendChild(o);
+  }
+  if (!hit.length) { const o = document.createElement('option'); o.disabled = true; o.textContent = 'No eligible trims match'; s.appendChild(o); }
+}
+$('#q').addEventListener('input', e => renderList(e.target.value));
+$('#veh').addEventListener('change', e => {
+  selected = vehicles.find(v => v.id === e.target.value) || null;
+  if (selected) {
+    $('#fuel').value = selected.fuel_type; $('#cdn').value = selected.canadian_made ? '1' : '0';
+    $('#vehinfo').innerHTML = `<b>${selected.model_year} ${selected.make} ${selected.model} ${selected.trim||''}</b><span class="tag">${selected.fuel_type}</span>${selected.canadian_made ? '<span class="tag">Canadian-made, no cap</span>' : ''}<span class="tag">on TC list</span>`;
+  }
+  render();
+});
+$('#type').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  txType = b.dataset.v;
+  for (const x of $('#type').children) x.setAttribute('aria-pressed', x === b);
+  $('#leasewrap').hidden = txType !== 'lease'; render();
+});
+for (const id of ['fuel','cdn','term','date','odo','msrp','opt','acc','fees','freight','excl']) $('#' + id).addEventListener('input', render);
+const num = id => parseFloat($('#' + id).value) || 0;
+
+function fullAmount(R, fuel, year) { const row = R.incentive_schedule.amounts[year]; return row ? row[fuel] ?? null : null; }
+function nextStep(R, fuel, year) {
+  const cur = fullAmount(R, fuel, year); if (cur == null) return null;
+  const nxt = fullAmount(R, fuel, year + 1);
+  if (nxt == null) return {date: R.program.program_end, amount: 0, end: true};
+  if (nxt < cur) return {date: `${year + 1}-01-01`, amount: nxt};
+  return nextStep(R, fuel, year + 1);
+}
+
+function compute() {
+  const R = DS.rules, reasons = [], warns = [];
+  const fuel = $('#fuel').value, cdn = $('#cdn').value === '1';
+  const dateStr = $('#date').value, date = new Date(dateStr + 'T00:00:00'), year = date.getFullYear();
+  const full = fullAmount(R, fuel, year);
+  const ftv = num('msrp') + num('opt') + num('acc') + num('fees');
+  const cap = cdn && R.price_cap.exempt_if_canadian_made ? null : R.price_cap.max_cad;
+  const headroom = cap == null ? null : cap - ftv;
+  const odo = num('odo');
+  if (dateStr < String(R.program.transactions_eligible_from)) reasons.push(`Transaction is before the program start (${R.program.transactions_eligible_from})`);
+  if (dateStr > String(R.program.program_end)) reasons.push(`Transaction is after the program end (${R.program.program_end})`);
+  if (odo >= R.vehicle_eligibility.demonstrator_max_odometer_km) reasons.push(`Odometer ${odo.toLocaleString()} km is at or over the ${R.vehicle_eligibility.demonstrator_max_odometer_km.toLocaleString()} km demonstrator limit`);
+  if (cap != null && ftv > cap) reasons.push(`Final transaction value ${fmt2(ftv)} exceeds the ${fmt(cap)} cap. There is no partial incentive.`);
+  if (full == null) reasons.push(`No incentive schedule for ${year}`);
+  let factor = 1, term = null;
+  if (txType === 'lease') {
+    term = num('term');
+    if (term < R.lease.minimum_term_months) reasons.push(`Lease term ${term} months is below the ${R.lease.minimum_term_months}-month minimum`);
+    else factor = Math.min(1, term / R.lease.full_incentive_term_months);
+  }
+  const eligible = reasons.length === 0;
+  const amount = eligible ? (full || 0) * factor : 0;
+  if (eligible) {
+    reasons.push(cap == null ? 'Canadian-made vehicle: exempt from the final transaction value cap' : `Final transaction value ${fmt2(ftv)} is within the ${fmt(cap)} cap`);
+    if (factor < 1) reasons.push(`${term}-month lease prorated at ${(factor*100).toFixed(1)}% of the full ${fmt(full)}`);
+    if (txType === 'lease' && factor === 1) reasons.push(`${term}-month lease qualifies for the full amount`);
+    if (odo > 0) reasons.push(`Demonstrator with ${odo.toLocaleString()} km accepted`);
+    if (!selected) warns.push('No vehicle selected from the Transport Canada list. Only listed trims are eligible.');
+  }
+  if (headroom != null && headroom >= 0 && headroom < 1000) warns.push(`Only ${fmt(headroom)} of room under the cap. Any added fee or accessory could disqualify this deal.`);
+  const ns = full != null ? nextStep(R, fuel, year) : null;
+  return {eligible, amount, full, ftv, cap, headroom, factor, year, reasons, warns, ns, excluded: num('freight') + num('excl')};
+}
+
+function render() {
+  if (!DS) return;
+  const hasPrice = num('msrp') > 0 || $('#cdn').value === '1';
+  const r = compute();
+  const st = $('#st');
+  if (!hasPrice) { st.className = 'status'; st.textContent = 'Enter a price'; }
+  else { st.className = 'status ' + (r.eligible ? 'ok' : 'no'); st.textContent = r.eligible ? 'Eligible' : 'Not eligible'; }
+  $('#amt').textContent = hasPrice ? fmt2(r.amount) : '—';
+  $('#sub2').textContent = r.full != null ? `Full ${$('#fuel').value} incentive for ${r.year}: ${fmt(r.full)}` : '';
+  const rows = [
+    ['Final transaction value', fmt2(r.ftv)],
+    ['Price cap', r.cap == null ? 'None (Canadian-made)' : fmt(r.cap)],
+    ['Room under cap', r.headroom == null ? '—' : (r.headroom < 0 ? '−' : '') + fmt2(Math.abs(r.headroom))],
+    ['Excluded from cap', fmt2(r.excluded)],
+  ];
+  if (txType === 'lease') rows.push(['Lease factor', (r.factor * 100).toFixed(1) + '%']);
+  if (r.ns) rows.push([r.ns.end ? 'Program ends' : 'Next step-down', r.ns.end ? r.ns.date : `${r.ns.date} → ${fmt(r.ns.amount)}`]);
+  $('#dl').innerHTML = rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
+  $('#reasons').innerHTML = hasPrice ? r.reasons.map(x => `<li>${x}</li>`).join('') : '';
+  $('#warns').innerHTML = hasPrice ? r.warns.map(x => `<div class="warn">${x}</div>`).join('') : '';
+}
+
+function renderRules() {
+  const R = DS.rules, S = R.incentive_schedule.amounts;
+  const yrs = Object.keys(S).sort();
+  $('#rules').innerHTML = `
+<p><b>Amounts by submission year:</b> ${yrs.map(y => `${y}: BEV/FCEV ${fmt(S[y].BEV)}, PHEV ${fmt(S[y].PHEV)}`).join(' · ')}</p>
+<p><b>Cap:</b> final transaction value ≤ ${fmt(R.price_cap.max_cad)}, no cap for Canadian-made. Counts: ${R.price_cap.final_transaction_value.includes.join('; ')}. Excluded: ${R.price_cap.final_transaction_value.excludes.join('; ')}.</p>
+<p><b>Lease:</b> minimum ${R.lease.minimum_term_months} months, full amount at ${R.lease.full_incentive_term_months}+, linear proration below.</p>
+<p><b>Other:</b> new vehicles only, demonstrators under ${R.vehicle_eligibility.demonstrator_max_odometer_km.toLocaleString()} km, made in Canada or an FTA country, one incentive per individual for the whole program, ${R.recipient_limits.organization_total_over_program} per organization. Stacks on top of provincial incentives.</p>
+<p>Sources: ${R.program.sources.map(u => `<a href="${u}">${u.split('/').pop()}</a>`).join(' · ')}</p>`;
+}
+</script>
+</body>
+</html>

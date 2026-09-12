@@ -1,0 +1,3527 @@
+{
+  "meta": {
+    "dataset_version": "2026-09-12",
+    "generated_at": "2026-09-12T09:08:29+00:00",
+    "pipeline_version": "0.1.0",
+    "rules_version": "2026-09-12",
+    "source": {
+      "name": "tc_evap_vehicle_list",
+      "url": "https://tc.canada.ca/en/road-transportation/innovative-technologies/electric-vehicles/electric-vehicle-affordability-program-evap/electric-vehicle-affordability-program-vehicle-list",
+      "fetched_at": "2026-09-12T09:08:22+00:00",
+      "date_modified": "2026-03-10",
+      "sha256": "9a8c30007e02712052ce1fbf01e1b32dc9ba5783bd24b0931888ac67819d3690"
+    },
+    "counts": {
+      "vehicles": 125,
+      "by_fuel_type": {
+        "BEV": 91,
+        "PHEV": 34
+      },
+      "canadian_made": 13,
+      "makes": 16
+    },
+    "consistency_issues": {},
+    "changes_since_previous": {
+      "added": [
+        "2024-dodge-charger-r-t",
+        "2024-dodge-charger-scat-pack",
+        "2024-ford-escape-plug-in-hybrid-base",
+        "2024-kia-niro-ev-wind",
+        "2024-kia-niro-ev-wind-plus",
+        "2025-chevrolet-equinox-ev-lt",
+        "2025-chevrolet-equinox-ev-lt-awd",
+        "2025-chevrolet-equinox-ev-rs",
+        "2025-chrysler-pacifica-fav",
+        "2025-chrysler-pacifica-limited",
+        "2025-chrysler-pacifica-select",
+        "2025-dodge-charger-r-t",
+        "2025-dodge-charger-scat-pack",
+        "2025-fiat-500e-giorgio-armani",
+        "2025-fiat-500e-la-prima",
+        "2025-fiat-500e-red",
+        "2025-ford-escape-plug-in-hybrid-base",
+        "2025-hyundai-kona-ev-preferred",
+        "2025-hyundai-kona-ev-preferred-w-trend-package",
+        "2025-kia-ev6-light-rwd",
+        "2025-kia-niro-ev-wind",
+        "2025-kia-niro-ev-wind-plus",
+        "2025-kia-niro-phev-ex",
+        "2025-kia-niro-phev-ex-premium",
+        "2025-kia-niro-phev-lx",
+        "2025-kia-sportage-phev-ex-premium",
+        "2025-mitsubishi-outlander-phev-es",
+        "2025-volkswagen-id-4-base",
+        "2026-chevrolet-equinox-ev-lt",
+        "2026-chevrolet-equinox-ev-lt-awd",
+        "2026-chrysler-pacifica-100th",
+        "2026-chrysler-pacifica-limited",
+        "2026-chrysler-pacifica-pinnacle",
+        "2026-chrysler-pacifica-select",
+        "2026-dodge-charger-r-t",
+        "2026-dodge-charger-scat-pack",
+        "2026-fiat-500e-icona",
+        "2026-fiat-500e-pop",
+        "2026-ford-escape-plug-in-hybrid-base",
+        "2026-ford-mach-e-premium-eawd-standard-range",
+        "2026-ford-mach-e-premium-rwd-extended-range",
+        "2026-ford-mach-e-premium-rwd-standard-range",
+        "2026-ford-mach-e-select-eawd-extended-range",
+        "2026-ford-mach-e-select-eawd-standard-range",
+        "2026-ford-mach-e-select-rwd-standard-range",
+        "2026-hyundai-kona-ev-preferred",
+        "2026-hyundai-kona-ev-preferred-w-trend-package",
+        "2026-hyundai-kona-ev-preferred-w-ultimate-package",
+        "2026-kia-ev4-gt-line",
+        "2026-kia-ev4-light",
+        "2026-kia-ev4-wind",
+        "2026-kia-ev4-wind-premium",
+        "2026-kia-niro-ev-wind",
+        "2026-kia-niro-ev-wind-plus",
+        "2026-kia-niro-phev-ex",
+        "2026-kia-niro-phev-ex-premium",
+        "2026-kia-niro-phev-lx",
+        "2026-kia-sorento-phev-lx-phev",
+        "2026-kia-sportage-phev-ex",
+        "2026-kia-sportage-phev-ex-premium",
+        "2026-mazda-cx-70-phev-gs-sc",
+        "2026-mazda-cx-90-phev-gs",
+        "2026-mitsubishi-outlander-phev-es",
+        "2026-nissan-leaf-s-plus",
+        "2026-nissan-leaf-sv-plus",
+        "2026-subaru-uncharted-fwd",
+        "2026-subaru-uncharted-fwd-lr",
+        "2026-subaru-uncharted-sport",
+        "2026-tesla-model-y-rwd-b",
+        "2026-toyota-bz-xle-fwd",
+        "2026-toyota-c-hr-se-fwd",
+        "2026-toyota-c-hr-xse-awd",
+        "2026-toyota-prius-plug-in-hybrid-nightshade",
+        "2026-toyota-prius-plug-in-hybrid-se",
+        "2026-toyota-prius-plug-in-hybrid-xse",
+        "2026-toyota-prius-plug-in-hybrid-xse-premium",
+        "2026-toyota-rav4-plug-in-hybrid-se",
+        "2026-volvo-ex30-single-motor-extended-range-core",
+        "2026-volvo-ex30-single-motor-extended-range-plus",
+        "2026-volvo-ex30-single-motor-extended-range-ultra",
+        "2026-volvo-ex30-twin-motor-performance-plus",
+        "2026-volvo-ex30-twin-motor-performance-ultra",
+        "2026-volvo-ex30-twin-motor-performance-ultra-cross-country",
+        "2027-chevrolet-bolt-lt",
+        "2027-chevrolet-bolt-rs",
+        "2027-chevrolet-equinox-ev-lt-1",
+        "2027-chevrolet-equinox-ev-lt-2",
+        "2027-chevrolet-equinox-ev-lt1-awd",
+        "2027-kia-ev3-gt-line-awd",
+        "2027-kia-ev3-gt-line-fwd",
+        "2027-kia-ev3-gt-line-limited-fwd",
+        "2027-kia-ev3-land-awd",
+        "2027-kia-ev3-land-fwd",
+        "2027-kia-ev3-light-fwd",
+        "2027-kia-ev3-wind-awd",
+        "2027-kia-ev3-wind-fwd",
+        "2027-kia-ev4-gt-line-fwd",
+        "2027-kia-ev4-light-fwd",
+        "2027-kia-ev4-wind-awd",
+        "2027-kia-ev4-wind-fwd",
+        "2027-kia-ev4-wind-premium-awd",
+        "2027-kia-ev4-wind-premium-fwd",
+        "2027-kia-ev5-land-fwd",
+        "2027-kia-ev5-wind-awd",
+        "2027-kia-ev5-wind-fwd",
+        "2027-kia-pv5-basic",
+        "2027-kia-pv5-plus",
+        "2027-kia-sportage-phev-ex-awd",
+        "2027-kia-sportage-phev-ex-premium-awd",
+        "2027-mini-countryman-se-all4-elementary-edition",
+        "2027-subaru-solterra-limited",
+        "2027-subaru-solterra-limited-black-cladding",
+        "2027-subaru-solterra-touring",
+        "2027-subaru-solterra-touring-black-cladding",
+        "2027-subaru-trailseeker-touring",
+        "2027-subaru-uncharted-fwd",
+        "2027-subaru-uncharted-fwd-long-range",
+        "2027-subaru-uncharted-gt",
+        "2027-subaru-uncharted-sport",
+        "2027-toyota-bz-xle-fwd",
+        "2027-toyota-c-hr-se-fwd",
+        "2027-toyota-c-hr-xse-awd",
+        "2027-toyota-prius-plug-in-hybrid-se",
+        "2027-toyota-prius-plug-in-hybrid-xse",
+        "2027-toyota-prius-plug-in-hybrid-xse-premium"
+      ],
+      "removed": [],
+      "changed": []
+    }
+  },
+  "rules": {
+    "program": {
+      "id": "ca-federal-evap",
+      "name": "Electric Vehicle Affordability Program",
+      "short_name": "EVAP",
+      "jurisdiction": "CA",
+      "level": "federal",
+      "administrator": "Transport Canada",
+      "predecessor": "iZEV (closed 2025-03-31)",
+      "transactions_eligible_from": "2026-02-16",
+      "portal_opened": "2026-03-31",
+      "program_end": "2031-03-31",
+      "funding_total_cad": 2275000000,
+      "first_come_first_served": true,
+      "applied_at_point_of_sale": true,
+      "sources": [
+        "https://tc.canada.ca/en/road-transportation/innovative-technologies/electric-vehicles/electric-vehicle-affordability-program/overview",
+        "https://tc.canada.ca/en/road-transportation/innovative-technologies/electric-vehicles/electric-vehicle-affordability-program/questions-answers",
+        "https://tc.canada.ca/en/road-transportation/innovative-technologies/electric-vehicles/electric-vehicle-affordability-program-evap/electric-vehicle-affordability-program-vehicle-list"
+      ]
+    },
+    "rules_version": "2026-09-12",
+    "rules_reviewed_on": "2026-09-12",
+    "incentive_schedule": {
+      "year_basis": "calendar",
+      "determined_by": "portal_submission_date",
+      "amounts": {
+        "2026": {
+          "BEV": 5000,
+          "FCEV": 5000,
+          "PHEV": 2500
+        },
+        "2027": {
+          "BEV": 4000,
+          "FCEV": 4000,
+          "PHEV": 2000
+        },
+        "2028": {
+          "BEV": 3000,
+          "FCEV": 3000,
+          "PHEV": 1500
+        },
+        "2029": {
+          "BEV": 3000,
+          "FCEV": 3000,
+          "PHEV": 1500
+        },
+        "2030": {
+          "BEV": 2000,
+          "FCEV": 2000,
+          "PHEV": 1000
+        },
+        "2031": {
+          "BEV": 2000,
+          "FCEV": 2000,
+          "PHEV": 1000
+        }
+      }
+    },
+    "lease": {
+      "minimum_term_months": 12,
+      "full_incentive_term_months": 48,
+      "proration": "linear_by_month",
+      "rounding": "none_specified"
+    },
+    "price_cap": {
+      "basis": "final_transaction_value",
+      "max_cad": 50000,
+      "inclusive": true,
+      "partial_incentive_above_cap": false,
+      "exempt_if_canadian_made": true,
+      "final_transaction_value": {
+        "includes": [
+          "MSRP (after any manufacturer or dealer discounts)",
+          "accessories",
+          "optional features and add-ons",
+          "optional packages, trim and options",
+          "fees (documentation, admin, service, market adjustment)"
+        ],
+        "excludes": [
+          "pre-delivery inspection (PDI) and freight",
+          "extended warranties",
+          "insurance products",
+          "one set of winter tires",
+          "Level 2 charger and charger adapters",
+          "sales tax, tire tax, luxury tax",
+          "trade-in value",
+          "government incentives (federal or provincial)"
+        ],
+        "notes": [
+          "In all-in-price advertising provinces (e.g. ON, AB) freight and PDI may be backed out when determining eligibility."
+        ]
+      }
+    },
+    "vehicle_eligibility": {
+      "condition": "new",
+      "demonstrator_allowed": true,
+      "demonstrator_max_odometer_km": 10000,
+      "max_gvwr_lbs": 8500,
+      "min_wheels": 4,
+      "highway_capable": true,
+      "fuel_types": [
+        "BEV",
+        "FCEV",
+        "PHEV"
+      ],
+      "origin_rule": "made_in_canada_or_free_trade_partner",
+      "must_be_on_tc_list": true
+    },
+    "recipient_limits": {
+      "individual_total_over_program": 1,
+      "organization_total_over_program": 10,
+      "government_total_over_program": 10,
+      "carsharing_per_calendar_year": 50
+    },
+    "stacking": {
+      "with_provincial": true
+    }
+  },
+  "vehicles": [
+    {
+      "id": "2027-chevrolet-bolt-lt",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Chevrolet",
+      "model": "Bolt",
+      "trim": "LT",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "f151c6124923836a",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-chevrolet-bolt-rs",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Chevrolet",
+      "model": "Bolt",
+      "trim": "RS",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "d784b350942ff0a2",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-chevrolet-equinox-ev-lt-1",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT 1",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "6b48e7119468b529",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-chevrolet-equinox-ev-lt-2",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT 2",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "389b0707d07d0f1c",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-chevrolet-equinox-ev-lt1-awd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT1 AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "0a415f44cfdb8563",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-chevrolet-equinox-ev-lt",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "c018dfd477d93854",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-chevrolet-equinox-ev-lt-awd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "b0203d08e9804e48",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-chevrolet-equinox-ev-lt",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "7ef7f08e98a3e109",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-chevrolet-equinox-ev-lt-awd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "46fae3f21fac8f76",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-chevrolet-equinox-ev-rs",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "RS",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "6dd0ff5a85727cd4",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-chrysler-pacifica-100th",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "100th",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price_cap_cad": null,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "d44dc6afee30ec39",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-chrysler-pacifica-limited",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "Limited",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price_cap_cad": null,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "642eb4b134024ad7",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-chrysler-pacifica-pinnacle",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "Pinnacle",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price_cap_cad": null,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "ffc3e9f67a847b7f",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-chrysler-pacifica-select",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "Select",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price_cap_cad": null,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "e6638246e383bf47",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-chrysler-pacifica-fav",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "FAV",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price_cap_cad": null,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "e744d2cdd77d54ec",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-chrysler-pacifica-limited",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "Limited",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price_cap_cad": null,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "92b5db3ac0720e74",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-chrysler-pacifica-select",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "Select",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price_cap_cad": null,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "c1d03949f1d911f5",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-dodge-charger-r-t",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Dodge",
+      "model": "Charger",
+      "trim": "R/T",
+      "fuel_type": "BEV",
+      "canadian_made": true,
+      "price_cap_cad": null,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "f03aae7c5d85ea80",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-dodge-charger-scat-pack",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Dodge",
+      "model": "Charger",
+      "trim": "Scat Pack",
+      "fuel_type": "BEV",
+      "canadian_made": true,
+      "price_cap_cad": null,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "adc62546864317b1",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-dodge-charger-r-t",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Dodge",
+      "model": "Charger",
+      "trim": "R/T",
+      "fuel_type": "BEV",
+      "canadian_made": true,
+      "price_cap_cad": null,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "a5f0738bcbcd0724",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-dodge-charger-scat-pack",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Dodge",
+      "model": "Charger",
+      "trim": "Scat Pack",
+      "fuel_type": "BEV",
+      "canadian_made": true,
+      "price_cap_cad": null,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "0dcc6cc1d37b6428",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2024-dodge-charger-r-t",
+      "program_id": "ca-federal-evap",
+      "model_year": 2024,
+      "make": "Dodge",
+      "model": "Charger",
+      "trim": "R/T",
+      "fuel_type": "BEV",
+      "canadian_made": true,
+      "price_cap_cad": null,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "504ef3c1d227a80a",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2024-dodge-charger-scat-pack",
+      "program_id": "ca-federal-evap",
+      "model_year": 2024,
+      "make": "Dodge",
+      "model": "Charger",
+      "trim": "Scat Pack",
+      "fuel_type": "BEV",
+      "canadian_made": true,
+      "price_cap_cad": null,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "a05f50b1371baf0d",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-fiat-500e-icona",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Fiat",
+      "model": "500e",
+      "trim": "Icona",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "7f599c998000f8d3",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-fiat-500e-pop",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Fiat",
+      "model": "500e",
+      "trim": "Pop",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "680f4b0126991da2",
+        "page": 0
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-fiat-500e-giorgio-armani",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Fiat",
+      "model": "500e",
+      "trim": "Giorgio Armani",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "973d7c5f3d40fed6",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-fiat-500e-la-prima",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Fiat",
+      "model": "500e",
+      "trim": "La Prima",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "7dc1fd740e25f0d9",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-fiat-500e-red",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Fiat",
+      "model": "500e",
+      "trim": "Red",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "c0b8ac7e08d84d63",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-ford-escape-plug-in-hybrid-base",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Escape Plug-In Hybrid",
+      "trim": null,
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "d12b2d19c4c88fb1",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-ford-escape-plug-in-hybrid-base",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Ford",
+      "model": "Escape Plug-In Hybrid",
+      "trim": null,
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "f29ea1e0f246da5a",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2024-ford-escape-plug-in-hybrid-base",
+      "program_id": "ca-federal-evap",
+      "model_year": 2024,
+      "make": "Ford",
+      "model": "Escape Plug-In Hybrid",
+      "trim": null,
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "5eb58d2a31eb0b2a",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-ford-mach-e-premium-rwd-extended-range",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Mach-e",
+      "trim": "Premium RWD Extended Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "cc63badbd4015189",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-ford-mach-e-premium-rwd-standard-range",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Mach-e",
+      "trim": "Premium RWD Standard Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "3a042321ab43a34a",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-ford-mach-e-premium-eawd-standard-range",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Mach-e",
+      "trim": "Premium eAWD Standard Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "2a9cbfc4a4afdf27",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-ford-mach-e-select-rwd-standard-range",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Mach-e",
+      "trim": "Select RWD Standard Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "0185462a2b80cf93",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-ford-mach-e-select-eawd-extended-range",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Mach-e",
+      "trim": "Select eAWD Extended Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "ea818c78f56f2434",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-ford-mach-e-select-eawd-standard-range",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Mach-e",
+      "trim": "Select eAWD Standard Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "411501ffb872651e",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-hyundai-kona-ev-preferred",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Hyundai",
+      "model": "Kona EV",
+      "trim": "Preferred",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "8a5f6bbe0bcf9f52",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-hyundai-kona-ev-preferred-w-trend-package",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Hyundai",
+      "model": "Kona EV",
+      "trim": "Preferred w/Trend Package",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "e3220ed422b36bb8",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-hyundai-kona-ev-preferred-w-ultimate-package",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Hyundai",
+      "model": "Kona EV",
+      "trim": "Preferred w/Ultimate Package",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "b4df4242313da55e",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-hyundai-kona-ev-preferred",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Hyundai",
+      "model": "Kona EV",
+      "trim": "Preferred",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "51036454bc4fa757",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-hyundai-kona-ev-preferred-w-trend-package",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Hyundai",
+      "model": "Kona EV",
+      "trim": "Preferred w/Trend Package",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "239dd9d7a4ccf16c",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev3-gt-line-awd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "GT-Line AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "913cb325776d3be3",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev3-gt-line-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "GT-Line FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "8beb2244c98beef6",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev3-gt-line-limited-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "GT-Line Limited FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "dca4a060cbf83b85",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev3-land-awd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "Land AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "b96c786b58a084a5",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev3-land-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "Land FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "944dfe964addb09c",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev3-light-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "Light FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "f33e388945c2ef0b",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev3-wind-awd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "Wind AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "1a7c772de30e2381",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev3-wind-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "Wind FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "12d46740b63fb525",
+        "page": 1
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev4-gt-line-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "GT-Line FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "32505af236ff99db",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev4-light-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "Light FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "82cf59935fc685ee",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev4-wind-awd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "Wind AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "1dd1e0857eb173fe",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev4-wind-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "Wind FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "d21bcc6881e37e03",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev4-wind-premium-awd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "Wind Premium AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "342b41bbbe811d2d",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev4-wind-premium-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "Wind Premium FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "35b83bdabd71c083",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-kia-ev4-gt-line",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "GT-LINE",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "d102984d2bd9c608",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-kia-ev4-light",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "LIGHT",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "4fb7740c0e810a0b",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-kia-ev4-wind",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "WIND",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "6b299ca3efb536ec",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-kia-ev4-wind-premium",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "WIND PREMIUM",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "1de2d69d898bbc08",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev5-land-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV5",
+      "trim": "Land FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "1b86111c1b99bb81",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev5-wind-awd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV5",
+      "trim": "Wind AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "3ec648fa5d643d1d",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-ev5-wind-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV5",
+      "trim": "Wind FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "5254f70d212fca55",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-kia-ev6-light-rwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "EV6",
+      "trim": "LIGHT RWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "dedf1e8b4d0c634a",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-kia-niro-ev-wind",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Niro EV",
+      "trim": "WIND",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "1eced10f9b79e63a",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-kia-niro-ev-wind-plus",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Niro EV",
+      "trim": "WIND +",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "53714d270e91a40b",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-kia-niro-ev-wind",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "Niro EV",
+      "trim": "WIND",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "1d73a3c4fec10d70",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-kia-niro-ev-wind-plus",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "Niro EV",
+      "trim": "WIND +",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "a4f80ef147b7e41c",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2024-kia-niro-ev-wind",
+      "program_id": "ca-federal-evap",
+      "model_year": 2024,
+      "make": "Kia",
+      "model": "Niro EV",
+      "trim": "WIND",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "7a2d769809b05585",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2024-kia-niro-ev-wind-plus",
+      "program_id": "ca-federal-evap",
+      "model_year": 2024,
+      "make": "Kia",
+      "model": "Niro EV",
+      "trim": "WIND +",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "b9c2024d14e798ca",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-kia-niro-phev-ex",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Niro PHEV",
+      "trim": "EX",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "3e35f783ed0329f0",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-kia-niro-phev-ex-premium",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Niro PHEV",
+      "trim": "EX PREMIUM",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "46fbe94c27836619",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-kia-niro-phev-lx",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Niro PHEV",
+      "trim": "LX",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "440f9dc76e025b49",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-kia-niro-phev-ex",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "Niro PHEV",
+      "trim": "EX",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "4b53f1ec7d03fdc6",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-kia-niro-phev-ex-premium",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "Niro PHEV",
+      "trim": "EX PREMIUM",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "2eae3394f5ecac9d",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-kia-niro-phev-lx",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "Niro PHEV",
+      "trim": "LX",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "4e409d6f99d429cc",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-pv5-basic",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "PV5",
+      "trim": "Basic",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "34b6e783e5b66b92",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-pv5-plus",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "PV5",
+      "trim": "Plus",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "70694069cd3e10b4",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-kia-sorento-phev-lx-phev",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Sorento PHEV",
+      "trim": "LX PHEV",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "fe4c2b1b5a33f8e7",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-sportage-phev-ex-awd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "Sportage PHEV",
+      "trim": "EX AWD",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "3aaa48ec40b24e40",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-kia-sportage-phev-ex-premium-awd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "Sportage PHEV",
+      "trim": "EX Premium AWD",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "0b2014db8d595afe",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-kia-sportage-phev-ex",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Sportage PHEV",
+      "trim": "EX",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "6c450614b39c3252",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-kia-sportage-phev-ex-premium",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Sportage PHEV",
+      "trim": "EX PREMIUM",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "60e7e8f83e79770a",
+        "page": 2
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-kia-sportage-phev-ex-premium",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "Sportage PHEV",
+      "trim": "EX PREMIUM",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "766478fb39f58563",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-mini-countryman-se-all4-elementary-edition",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "MINI",
+      "model": "Countryman SE All4",
+      "trim": "Elementary Edition",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "5ee68982da58417f",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-mazda-cx-70-phev-gs-sc",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Mazda",
+      "model": "CX-70 PHEV",
+      "trim": "GS-SC",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "8aa03637646e5086",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-mazda-cx-90-phev-gs",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Mazda",
+      "model": "CX-90 PHEV",
+      "trim": "GS",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "e3a0e229a8c323e6",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-mitsubishi-outlander-phev-es",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Mitsubishi",
+      "model": "Outlander PHEV",
+      "trim": "ES",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "72994bea000579e3",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-mitsubishi-outlander-phev-es",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Mitsubishi",
+      "model": "Outlander PHEV",
+      "trim": "ES",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "9b5f5ec6cd17faf7",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-nissan-leaf-s-plus",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Nissan",
+      "model": "Leaf",
+      "trim": "S+",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "ab79c72362ef517f",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-nissan-leaf-sv-plus",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Nissan",
+      "model": "Leaf",
+      "trim": "SV+",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "853b1207bd604f70",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-subaru-solterra-limited",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Solterra",
+      "trim": "Limited",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "d05fdbd8f9faa5e9",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-subaru-solterra-limited-black-cladding",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Solterra",
+      "trim": "Limited Black Cladding",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "dfc26bf22a163db2",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-subaru-solterra-touring",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Solterra",
+      "trim": "Touring",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "1da2670b2f2ff6a9",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-subaru-solterra-touring-black-cladding",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Solterra",
+      "trim": "Touring Black Cladding",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "74e1f42c438f5407",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-subaru-trailseeker-touring",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Trailseeker",
+      "trim": "Touring",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "533ab16d0513035f",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-subaru-uncharted-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "15ac136596f4b4f2",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-subaru-uncharted-fwd-long-range",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "FWD Long Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "680016c7ec45d03f",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-subaru-uncharted-gt",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "GT",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "578ce1639ef2f42c",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-subaru-uncharted-sport",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "Sport",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "100fe9bcf639c5c1",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-subaru-uncharted-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "f327fda5a60a38f9",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-subaru-uncharted-fwd-lr",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "FWD LR",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "3197cb10fbe9a44f",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-subaru-uncharted-sport",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "Sport",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "9a2924d1c9925a1a",
+        "page": 3
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-tesla-model-y-rwd-b",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Tesla",
+      "model": "Model Y",
+      "trim": "RWD-B",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "639eecbcf1bf4631",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-toyota-c-hr-se-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Toyota",
+      "model": "C-HR",
+      "trim": "SE (FWD)",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "03000f6d7ba3665e",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-toyota-c-hr-xse-awd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Toyota",
+      "model": "C-HR",
+      "trim": "XSE (AWD)",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "07ed00ddce54383f",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-toyota-c-hr-se-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "C-HR",
+      "trim": "SE (FWD)",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "89c27fbb4f90a402",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-toyota-c-hr-xse-awd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "C-HR",
+      "trim": "XSE (AWD)",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "ae6f15c07d5f4125",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-toyota-prius-plug-in-hybrid-se",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Toyota",
+      "model": "Prius Plug-In Hybrid",
+      "trim": "SE",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "4beef1ac677adf69",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-toyota-prius-plug-in-hybrid-xse",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Toyota",
+      "model": "Prius Plug-In Hybrid",
+      "trim": "XSE",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "b25bf3c6d8e34198",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-toyota-prius-plug-in-hybrid-xse-premium",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Toyota",
+      "model": "Prius Plug-In Hybrid",
+      "trim": "XSE Premium",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "4b6f07ce7d7185be",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-toyota-prius-plug-in-hybrid-nightshade",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "Prius Plug-in Hybrid",
+      "trim": "Nightshade",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "d8eed9d063d12816",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-toyota-prius-plug-in-hybrid-se",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "Prius Plug-in Hybrid",
+      "trim": "SE",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "084ca99b9da307f4",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-toyota-prius-plug-in-hybrid-xse",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "Prius Plug-in Hybrid",
+      "trim": "XSE",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "3b9bbe400d8712c0",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-toyota-prius-plug-in-hybrid-xse-premium",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "Prius Plug-in Hybrid",
+      "trim": "XSE Premium",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "e08a103b8018acf3",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-toyota-rav4-plug-in-hybrid-se",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "RAV4 Plug-In Hybrid",
+      "trim": "SE",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 2500,
+        "lease_36mo": 1875,
+        "lease_24mo": 1250,
+        "lease_12mo": 625
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "87d0f87001214195",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2027-toyota-bz-xle-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Toyota",
+      "model": "bZ",
+      "trim": "XLE FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "4fc900871fe67521",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-toyota-bz-xle-fwd",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "bZ",
+      "trim": "XLE FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "04f9643a18db561c",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2025-volkswagen-id-4-base",
+      "program_id": "ca-federal-evap",
+      "model_year": 2025,
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "trim": "Base",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "4daa23fcdaca31be",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-volvo-ex30-single-motor-extended-range-core",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Volvo",
+      "model": "EX30 Single Motor Extended Range",
+      "trim": "Core",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "fcb14f7f4bd82cb5",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-volvo-ex30-single-motor-extended-range-plus",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Volvo",
+      "model": "EX30 Single Motor Extended Range",
+      "trim": "Plus",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "5e3ca86fd054a6e0",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-volvo-ex30-single-motor-extended-range-ultra",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Volvo",
+      "model": "EX30 Single Motor Extended Range",
+      "trim": "Ultra",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "67964f68ad0fa0b4",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-volvo-ex30-twin-motor-performance-plus",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Volvo",
+      "model": "EX30 Twin Motor Performance",
+      "trim": "Plus",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "7aef7507156c57c0",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-volvo-ex30-twin-motor-performance-ultra",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Volvo",
+      "model": "EX30 Twin Motor Performance",
+      "trim": "Ultra",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "2676faaaa7589ad5",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    },
+    {
+      "id": "2026-volvo-ex30-twin-motor-performance-ultra-cross-country",
+      "program_id": "ca-federal-evap",
+      "model_year": 2026,
+      "make": "Volvo",
+      "model": "EX30 Twin Motor Performance",
+      "trim": "Ultra, Cross Country",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "959d4d4e03381580",
+        "page": 4
+      },
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-09-12"
+    }
+  ]
+}

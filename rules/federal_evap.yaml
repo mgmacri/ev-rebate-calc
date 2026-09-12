@@ -1,0 +1,94 @@
+# Federal program rules for Canada's Electric Vehicle Affordability Program (EVAP).
+# This file is the hand-curated, versioned half of the dataset. The vehicle list is
+# scraped; these rules are transcribed from Transport Canada and must be reviewed by
+# a human when the program changes. Every block cites its source.
+#
+# Amounts are CAD. Dates are ISO-8601. All rules are "as of" `rules_version`.
+
+program:
+  id: ca-federal-evap
+  name: Electric Vehicle Affordability Program
+  short_name: EVAP
+  jurisdiction: CA
+  level: federal
+  administrator: Transport Canada
+  predecessor: iZEV (closed 2025-03-31)
+  transactions_eligible_from: 2026-02-16
+  portal_opened: 2026-03-31
+  program_end: 2031-03-31            # or earlier if funding is exhausted
+  funding_total_cad: 2275000000
+  first_come_first_served: true
+  applied_at_point_of_sale: true      # dealer applies the discount; consumer is not reimbursed later
+  sources:
+    - https://tc.canada.ca/en/road-transportation/innovative-technologies/electric-vehicles/electric-vehicle-affordability-program/overview
+    - https://tc.canada.ca/en/road-transportation/innovative-technologies/electric-vehicles/electric-vehicle-affordability-program/questions-answers
+    - https://tc.canada.ca/en/road-transportation/innovative-technologies/electric-vehicles/electric-vehicle-affordability-program-evap/electric-vehicle-affordability-program-vehicle-list
+
+rules_version: "2026-09-12"
+rules_reviewed_on: "2026-09-12"
+
+# Full (purchase or >=48-month lease) incentive by calendar year of portal submission.
+# TC: "Incentive amount will be determined based on the submission date of the
+# eligibility assessment in the online portal." Step-down is on January 1.
+incentive_schedule:
+  year_basis: calendar
+  determined_by: portal_submission_date
+  amounts:
+    2026: {BEV: 5000, FCEV: 5000, PHEV: 2500}
+    2027: {BEV: 4000, FCEV: 4000, PHEV: 2000}
+    2028: {BEV: 3000, FCEV: 3000, PHEV: 1500}
+    2029: {BEV: 3000, FCEV: 3000, PHEV: 1500}
+    2030: {BEV: 2000, FCEV: 2000, PHEV: 1000}
+    2031: {BEV: 2000, FCEV: 2000, PHEV: 1000}
+
+lease:
+  minimum_term_months: 12
+  full_incentive_term_months: 48
+  # TC Q&A: "(full incentive amount ÷ 48) x (number of months of the lease)"
+  proration: linear_by_month
+  rounding: none_specified
+
+price_cap:
+  basis: final_transaction_value    # NOT MSRP. Pre-tax, post-manufacturer/dealer-discount.
+  max_cad: 50000
+  inclusive: true                   # "$50,000 or less"
+  partial_incentive_above_cap: false
+  exempt_if_canadian_made: true
+  final_transaction_value:
+    includes:
+      - MSRP (after any manufacturer or dealer discounts)
+      - accessories
+      - optional features and add-ons
+      - optional packages, trim and options
+      - fees (documentation, admin, service, market adjustment)
+    excludes:
+      - pre-delivery inspection (PDI) and freight
+      - extended warranties
+      - insurance products
+      - one set of winter tires
+      - Level 2 charger and charger adapters
+      - sales tax, tire tax, luxury tax
+      - trade-in value
+      - government incentives (federal or provincial)
+    notes:
+      - "In all-in-price advertising provinces (e.g. ON, AB) freight and PDI may be backed out when determining eligibility."
+
+vehicle_eligibility:
+  condition: new                    # used vehicles are not eligible
+  demonstrator_allowed: true
+  demonstrator_max_odometer_km: 10000
+  max_gvwr_lbs: 8500                # light-duty
+  min_wheels: 4
+  highway_capable: true
+  fuel_types: [BEV, FCEV, PHEV]
+  origin_rule: made_in_canada_or_free_trade_partner   # excludes China-built vehicles
+  must_be_on_tc_list: true
+
+recipient_limits:
+  individual_total_over_program: 1
+  organization_total_over_program: 10     # related entities are counted together
+  government_total_over_program: 10
+  carsharing_per_calendar_year: 50        # requires TC approval
+
+stacking:
+  with_provincial: true             # applied "on top of any provincial/territorial incentive program"
