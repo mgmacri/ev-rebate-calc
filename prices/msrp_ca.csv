@@ -1,0 +1,126 @@
+id,msrp_cad,freight_pdi_cad,source_url,as_of,confidence,notes
+2027-chevrolet-bolt-lt,39999,,https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2025/oct/1009_2027-chevrolet-bolt.html,2025-10-09,medium,"GM Canada release; all-in $43,470 incl. freight/AC/dealer fees"
+2027-chevrolet-bolt-rs,42599,,https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2025/oct/1009_2027-chevrolet-bolt.html,2025-10-09,medium,"GM Canada release; all-in $46,070"
+2027-chevrolet-equinox-ev-lt-1,,,,,,2027 Canadian pricing not yet published; only US pricing found (gmauthority 2026-08)
+2027-chevrolet-equinox-ev-lt-2,,,,,,2027 Canadian pricing not yet published; only US pricing found (gmauthority 2026-08)
+2027-chevrolet-equinox-ev-lt1-awd,,,,,,2027 Canadian pricing not yet published; only US pricing found (gmauthority 2026-08)
+2026-chevrolet-equinox-ev-lt,46199,2600,https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2026/specifications/rs-awd/,2026-09-12,high,
+2026-chevrolet-equinox-ev-lt-awd,49699,2600,https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2026/specifications/rs-awd/,2026-09-12,high,
+2025-chevrolet-equinox-ev-lt,44999,2500,https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2025/specifications/2lt-fwd/,2026-09-12,high,Car Guide lists trim as 2LT FWD
+2025-chevrolet-equinox-ev-lt-awd,48499,2500,https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2025/specifications/2lt-fwd/,2026-09-12,high,Car Guide lists trim as 2LT AWD
+2025-chevrolet-equinox-ev-rs,49999,2500,https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2025/specifications/2lt-fwd/,2026-09-12,high,RS FWD
+2026-chrysler-pacifica-100th,62490,2295,https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/,2026-09-12,high,
+2026-chrysler-pacifica-limited,69485,2295,https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/,2026-09-12,high,
+2026-chrysler-pacifica-pinnacle,74220,2295,https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/,2026-09-12,high,
+2026-chrysler-pacifica-select,59995,2295,https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/,2026-09-12,high,
+2025-chrysler-pacifica-fav,52980,2195,https://www.lakeviewchrysler.ca/2025-chrysler-pacifica-plug-in-hybrid-for-sale/,2026-09-12,low,FAV Edition price from dealer page; verify
+2025-chrysler-pacifica-limited,67990,2195,https://www.guideautoweb.com/en/makes/chrysler/pacifica/2025/specifications/hybrid-select/,2026-09-12,high,Hybrid Limited S Appearance
+2025-chrysler-pacifica-select,59995,2195,https://www.guideautoweb.com/en/makes/chrysler/pacifica/2025/specifications/hybrid-select/,2026-09-12,high,
+2026-dodge-charger-r-t,,,https://www.guideautoweb.com/en/makes/dodge/charger/2026/specifications/daytona-scat-pack/,2026-09-12,,"No electric Daytona R/T offered for 2026 per Car Guide; R/T $59,995 is the gas Sixpack"
+2026-dodge-charger-scat-pack,82500,2695,https://www.guideautoweb.com/en/makes/dodge/charger/2026/specifications/daytona-scat-pack/,2026-09-12,high,"2-door Daytona Scat Pack; 4-door is $85,000"
+2025-dodge-charger-r-t,54995,2695,https://www.guideautoweb.com/en/makes/dodge/charger/2025/specifications/daytona-r-t/,2026-09-12,high,
+2025-dodge-charger-scat-pack,86995,2695,https://www.guideautoweb.com/en/makes/dodge/charger/2025/specifications/daytona-r-t/,2026-09-12,high,
+2024-dodge-charger-r-t,54995,2695,https://www.guideautoweb.com/en/makes/dodge/charger/2024/specifications/daytona-r-t/,2026-09-12,high,
+2024-dodge-charger-scat-pack,86995,2695,https://www.guideautoweb.com/en/makes/dodge/charger/2024/specifications/daytona-r-t/,2026-09-12,high,
+2026-fiat-500e-icona,42995,2195,https://www.guideautoweb.com/en/makes/fiat/500e/2026/specifications/pop/,2026-09-12,high,
+2026-fiat-500e-pop,39995,2195,https://www.guideautoweb.com/en/makes/fiat/500e/2026/specifications/pop/,2026-09-12,high,
+2025-fiat-500e-giorgio-armani,45995,2195,https://www.guideautoweb.com/en/makes/fiat/500e/2025/specifications/red/,2026-09-12,high,
+2025-fiat-500e-la-prima,42995,2195,https://www.guideautoweb.com/en/makes/fiat/500e/2025/specifications/red/,2026-09-12,high,
+2025-fiat-500e-red,39995,2195,https://www.guideautoweb.com/en/makes/fiat/500e/2025/specifications/red/,2026-09-12,high,
+2026-ford-escape-plug-in-hybrid-base,41599,2295,https://www.guideautoweb.com/en/makes/ford/escape/2026/specifications/plug-in-hybrid/,2026-09-12,medium,"ford.ca advertises from $40,494; Car Guide lists $41,599"
+2025-ford-escape-plug-in-hybrid-base,43999,2195,https://www.guideautoweb.com/en/makes/ford/escape/2025/specifications/plug-in-hybrid/,2026-09-12,high,
+2024-ford-escape-plug-in-hybrid-base,46499,2195,https://www.guideautoweb.com/en/makes/ford/escape/2024/specifications/plug-in-hybrid/,2026-09-12,high,
+2026-ford-mach-e-premium-rwd-extended-range,54995,2595,https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/,2026-09-12,high,
+2026-ford-mach-e-premium-rwd-standard-range,50995,2595,https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/,2026-09-12,high,
+2026-ford-mach-e-premium-eawd-standard-range,52995,2595,https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/,2026-09-12,high,
+2026-ford-mach-e-select-rwd-standard-range,46995,2595,https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/,2026-09-12,high,
+2026-ford-mach-e-select-eawd-extended-range,55995,2595,https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/,2026-09-12,high,
+2026-ford-mach-e-select-eawd-standard-range,48995,2595,https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/,2026-09-12,high,
+2026-hyundai-kona-ev-preferred,43999,2050,https://www.guideautoweb.com/en/makes/hyundai/kona/2026/specifications/ev-preferred/,2026-09-12,high,
+2026-hyundai-kona-ev-preferred-w-trend-package,45749,2050,https://www.guideautoweb.com/en/makes/hyundai/kona/2026/specifications/ev-preferred/,2026-09-12,high,
+2026-hyundai-kona-ev-preferred-w-ultimate-package,48799,2050,https://www.guideautoweb.com/en/makes/hyundai/kona/2026/specifications/ev-preferred/,2026-09-12,high,
+2025-hyundai-kona-ev-preferred,46499,1950,https://www.guideautoweb.com/en/makes/hyundai/kona/2025/specifications/ev-preferred/,2026-09-12,high,
+2025-hyundai-kona-ev-preferred-w-trend-package,47899,1950,https://www.guideautoweb.com/en/makes/hyundai/kona/2025/specifications/ev-preferred/,2026-09-12,high,
+2027-kia-ev3-gt-line-awd,48495,2185,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html,2026-08-13,high,"Kia Canada release; freight $2,185 plus up to $564 other fees"
+2027-kia-ev3-gt-line-fwd,45995,2185,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html,2026-08-13,high,"Kia Canada release; freight $2,185 plus up to $564 other fees"
+2027-kia-ev3-gt-line-limited-fwd,49995,2185,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html,2026-08-13,high,"Kia Canada release; freight $2,185 plus up to $564 other fees"
+2027-kia-ev3-land-awd,45995,2185,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html,2026-08-13,high,"Kia Canada release; freight $2,185 plus up to $564 other fees"
+2027-kia-ev3-land-fwd,43495,2185,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html,2026-08-13,high,"Kia Canada release; freight $2,185 plus up to $564 other fees"
+2027-kia-ev3-light-fwd,36995,2185,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html,2026-08-13,high,"Kia Canada release; freight $2,185 plus up to $564 other fees"
+2027-kia-ev3-wind-awd,43495,2185,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html,2026-08-13,high,"Kia Canada release; freight $2,185 plus up to $564 other fees"
+2027-kia-ev3-wind-fwd,40995,2185,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html,2026-08-13,high,"Kia Canada release; freight $2,185 plus up to $564 other fees"
+2027-kia-ev4-gt-line-fwd,48495,2150,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html,2026-09-02,medium,carryover from 2026
+2027-kia-ev4-light-fwd,38995,2150,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html,2026-09-02,medium,2027 non-GT pricing reported unchanged from 2026
+2027-kia-ev4-wind-awd,,,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html,,,2027 AWD Wind pricing not found
+2027-kia-ev4-wind-fwd,42995,2150,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html,2026-09-02,medium,carryover from 2026
+2027-kia-ev4-wind-premium-awd,,,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html,,,2027 AWD Wind Premium pricing not found
+2027-kia-ev4-wind-premium-fwd,45495,2150,https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html,2026-09-02,medium,carryover from 2026
+2026-kia-ev4-gt-line,48495,2150,https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/,2025-12-16,medium,"freight assumed $2,150"
+2026-kia-ev4-light,38995,2150,https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/,2025-12-16,medium,"freight assumed $2,150 (Kia CA standard)"
+2026-kia-ev4-wind,42995,2150,https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/,2025-12-16,medium,"freight assumed $2,150"
+2026-kia-ev4-wind-premium,45495,2150,https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/,2025-12-16,medium,"freight assumed $2,150"
+2027-kia-ev5-land-fwd,49995,2150,https://www.guideautoweb.com/en/makes/kia/ev5/2027/specifications/wind-fwd/,2026-09-12,high,
+2027-kia-ev5-wind-awd,49995,2150,https://www.guideautoweb.com/en/makes/kia/ev5/2027/specifications/wind-fwd/,2026-09-12,high,
+2027-kia-ev5-wind-fwd,47495,2150,https://www.guideautoweb.com/en/makes/kia/ev5/2027/specifications/wind-fwd/,2026-09-12,high,
+2025-kia-ev6-light-rwd,48995,2150,https://www.guideautoweb.com/en/makes/kia/ev6/2025/specifications/light-rwd/,2026-09-12,high,
+2026-kia-niro-ev-wind,45595,2000,https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/,2026-09-12,high,
+2026-kia-niro-ev-wind-plus,48595,2000,https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/,2026-09-12,high,
+2025-kia-niro-ev-wind,45595,1950,https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/,2026-09-12,high,
+2025-kia-niro-ev-wind-plus,48595,1950,https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/,2026-09-12,high,
+2024-kia-niro-ev-wind,45595,1950,https://www.guideautoweb.com/en/makes/kia/niro/2024/specifications/ev-wind/,2026-09-12,high,
+2024-kia-niro-ev-wind-plus,48595,1950,https://www.guideautoweb.com/en/makes/kia/niro/2024/specifications/ev-wind/,2026-09-12,high,
+2026-kia-niro-phev-ex,38845,2000,https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/,2026-09-12,high,
+2026-kia-niro-phev-ex-premium,41545,2000,https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/,2026-09-12,high,
+2026-kia-niro-phev-lx,36845,2000,https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/,2026-09-12,high,
+2025-kia-niro-phev-ex,38795,1950,https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/,2026-09-12,high,
+2025-kia-niro-phev-ex-premium,41495,1950,https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/,2026-09-12,high,
+2025-kia-niro-phev-lx,36795,1950,https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/,2026-09-12,high,
+2027-kia-pv5-basic,46995,,https://www.kia.ca/en/about-kia/news/Kia-Canada-announces-pricing-for-2027-PV5-Cargo-scheduled-to-arrive-in-Canada-later-this-year,2026-06-26,high,freight not published
+2027-kia-pv5-plus,49095,,https://www.kia.ca/en/about-kia/news/Kia-Canada-announces-pricing-for-2027-PV5-Cargo-scheduled-to-arrive-in-Canada-later-this-year,2026-06-26,high,freight not published
+2026-kia-sorento-phev-lx-phev,48695,2100,https://www.guideautoweb.com/en/makes/kia/sorento/2026/specifications/phev-lx/,2026-09-12,high,
+2027-kia-sportage-phev-ex-awd,,,,,,"2027 Canadian pricing not found (dealer listing showed $47,283, unverified)"
+2027-kia-sportage-phev-ex-premium-awd,,,,,,2027 Canadian pricing not found
+2026-kia-sportage-phev-ex,46295,2100,https://www.guideautoweb.com/en/makes/kia/sportage/2026/specifications/phev-ex/,2026-09-12,high,
+2026-kia-sportage-phev-ex-premium,49395,2100,https://www.guideautoweb.com/en/makes/kia/sportage/2026/specifications/phev-ex/,2026-09-12,high,
+2025-kia-sportage-phev-ex-premium,46995,2050,https://www.guideautoweb.com/en/makes/kia/sportage/2025/specifications/phev-ex-premium/,2026-09-12,high,
+2027-mini-countryman-se-all4-elementary-edition,49990,,https://mini.ca/en/discover/elementary-edition,2026-09-12,high,freight/PDI not published on page
+2026-mazda-cx-70-phev-gs-sc,48999,2195,https://www.guideautoweb.com/en/makes/mazda/cx-70/2026/specifications/phev-gs-sc/,2026-09-12,medium,"Mazda Canada Dec-2025 release said $52,750; Car Guide now shows $48,999 (price cut)"
+2026-mazda-cx-90-phev-gs,49999,2195,https://www.guideautoweb.com/en/makes/mazda/cx-90/2026/specifications/phev-gs/,2026-09-12,medium,"Mazda Canada Dec-2025 release said $53,750; Car Guide now shows $49,999"
+2026-mitsubishi-outlander-phev-es,49998,2125,https://www.guideautoweb.com/en/makes/mitsubishi/outlander/2026/specifications/phev-es/,2026-09-12,high,
+2025-mitsubishi-outlander-phev-es,48698,2050,https://www.guideautoweb.com/en/makes/mitsubishi/outlander/2025/specifications/phev-es/,2026-09-12,high,
+2026-nissan-leaf-s-plus,44998,2095,https://canada.nissannews.com/en-CA/releases/all-new-2026-nissan-leaf-pricing-announced-for-canada,2025-09-01,high,Nissan Canada release
+2026-nissan-leaf-sv-plus,47998,2095,https://canada.nissannews.com/en-CA/releases/all-new-2026-nissan-leaf-pricing-announced-for-canada,2025-09-01,high,Nissan Canada release
+2027-subaru-solterra-limited,,,https://www.guideautoweb.com/en/articles/82536/subaru-slashes-the-price-of-the-2027-solterra/,,,"2027 trim-level pricing not published; base starts $47,995"
+2027-subaru-solterra-limited-black-cladding,,,https://www.guideautoweb.com/en/articles/82536/subaru-slashes-the-price-of-the-2027-solterra/,,,"2027 trim-level pricing not published; base starts $47,995"
+2027-subaru-solterra-touring,47995,,https://www.guideautoweb.com/en/articles/82536/subaru-slashes-the-price-of-the-2027-solterra/,2026-07-15,medium,2027 starting MSRP; Touring assumed base trim
+2027-subaru-solterra-touring-black-cladding,,,https://www.guideautoweb.com/en/articles/82536/subaru-slashes-the-price-of-the-2027-solterra/,,,"2027 trim-level pricing not published; base starts $47,995"
+2027-subaru-trailseeker-touring,49995,,https://emptytank.ca/2026/08/07/2027-subaru-trailseeker-gets-lower-price/,2026-08-07,medium,"$53,152 incl. freight and fees per Subaru Canada release"
+2027-subaru-uncharted-fwd,,,https://emptytank.ca/2026/08/07/2027-subaru-trailseeker-gets-lower-price/,,,"2027 Uncharted reported $2,000 below 2026 trims; per-trim MSRP not confirmed"
+2027-subaru-uncharted-fwd-long-range,,,https://emptytank.ca/2026/08/07/2027-subaru-trailseeker-gets-lower-price/,,,"2027 Uncharted reported $2,000 below 2026 trims; per-trim MSRP not confirmed"
+2027-subaru-uncharted-gt,,,https://emptytank.ca/2026/08/07/2027-subaru-trailseeker-gets-lower-price/,,,"2027 Uncharted reported $2,000 below 2026 trims; per-trim MSRP not confirmed"
+2027-subaru-uncharted-sport,,,https://emptytank.ca/2026/08/07/2027-subaru-trailseeker-gets-lower-price/,,,"2027 Uncharted reported $2,000 below 2026 trims; per-trim MSRP not confirmed"
+2026-subaru-uncharted-fwd,42995,2295,https://www.guideautoweb.com/en/makes/subaru/uncharted/2026/specifications/sport/,2026-09-12,high,
+2026-subaru-uncharted-fwd-lr,46995,2295,https://www.guideautoweb.com/en/makes/subaru/uncharted/2026/specifications/sport/,2026-09-12,high,FWD Long Range
+2026-subaru-uncharted-sport,49995,2295,https://www.guideautoweb.com/en/makes/subaru/uncharted/2026/specifications/sport/,2026-09-12,high,
+2026-tesla-model-y-rwd-b,49990,2500,https://www.guideautoweb.com/en/makes/tesla/model-y/2026/specifications/rwd/,2026-09-12,high,TC lists trim as RWD-B
+2027-toyota-c-hr-se-fwd,,,,,,2027 Canadian pricing not yet published
+2027-toyota-c-hr-xse-awd,,,,,,2027 Canadian pricing not yet published
+2026-toyota-c-hr-se-fwd,44900,1930,https://emptytank.ca/2026/02/19/toyota-canada-announces-2026-c-hr-prices/,2026-02-19,high,
+2026-toyota-c-hr-xse-awd,49950,1930,https://emptytank.ca/2026/02/19/toyota-canada-announces-2026-c-hr-prices/,2026-02-19,high,
+2027-toyota-prius-plug-in-hybrid-se,,,,,,2027 Canadian pricing not yet published
+2027-toyota-prius-plug-in-hybrid-xse,,,,,,2027 Canadian pricing not yet published
+2027-toyota-prius-plug-in-hybrid-xse-premium,,,,,,2027 Canadian pricing not yet published
+2026-toyota-prius-plug-in-hybrid-nightshade,45680,1860,https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/,2026-09-12,high,
+2026-toyota-prius-plug-in-hybrid-se,40050,1860,https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/,2026-09-12,high,
+2026-toyota-prius-plug-in-hybrid-xse,44785,1860,https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/,2026-09-12,high,
+2026-toyota-prius-plug-in-hybrid-xse-premium,48535,1860,https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/,2026-09-12,high,
+2026-toyota-rav4-plug-in-hybrid-se,48750,,https://media.toyota.ca/en/releases/2026/toyota-canada-announces-pricing-for-the-all-new-2026-toyota-rav4.html,2026-03-01,high,Toyota Canada release
+2027-toyota-bz-xle-fwd,45985,,https://electrek.co/2026/08/18/2027-toyota-bz-now-on-sale-how-much-it-costs/,2026-08-18,medium,"starting price reported CA$45,985"
+2026-toyota-bz-xle-fwd,45990,1930,https://www.guideautoweb.com/en/makes/toyota/bz/2026/specifications/xle-fwd/,2026-09-12,high,
+2025-volkswagen-id-4-base,48495,2200,https://www.autotrader.ca/research/volkswagen/id-4/2025/,2026-09-12,medium,AutoTrader research page
+2026-volvo-ex30-single-motor-extended-range-core,44000,,https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/,2026-05-09,high,"all-in $47,919 incl. fees/levies"
+2026-volvo-ex30-single-motor-extended-range-plus,45000,,https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/,2026-05-09,high,"all-in $48,919"
+2026-volvo-ex30-single-motor-extended-range-ultra,46000,,https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/,2026-05-09,high,"all-in $49,919"
+2026-volvo-ex30-twin-motor-performance-plus,48000,,https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/,2026-05-09,high,"all-in $51,919"
+2026-volvo-ex30-twin-motor-performance-ultra,49000,,https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/,2026-05-09,high,"all-in $52,919"
+2026-volvo-ex30-twin-motor-performance-ultra-cross-country,49000,,https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/,2026-05-09,high,"Cross Country Ultra; all-in $52,919"

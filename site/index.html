@@ -11,10 +11,10 @@
 :root[data-theme=dark]{--bg:#0f1115;--card:#181b21;--ink:#e8eaee;--muted:#9aa2ad;--line:#2b3038;--accent:#3ccf96;--accent-ink:#04120c;--bad:#ff6b61;--warn:#f0b64a;--warn-bg:#2a2210;--good-bg:#0f2a20;--bad-bg:#2c1513}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-main{max-width:920px;margin:0 auto;padding:24px 16px 64px}
+main{max-width:1180px;margin:0 auto;padding:24px 16px 64px}
 h1{font-size:1.6rem;margin:0 0 4px}
 .sub{color:var(--muted);margin:0 0 20px;font-size:.95rem}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:920px}
 @media(max-width:720px){.grid{grid-template-columns:1fr}}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
 .card h2{font-size:1rem;margin:0 0 12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
@@ -43,13 +43,95 @@ summary{cursor:pointer;color:var(--ink)}
 footer{margin-top:28px;font-size:.8rem;color:var(--muted)}
 footer a,details a{color:inherit}
 .excl{font-size:.8rem;color:var(--muted);margin-top:8px}
+
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin:0 0 18px}
+.tabs button{background:transparent;border:0;border-bottom:3px solid transparent;padding:10px 14px;font:inherit;font-weight:600;color:var(--muted);cursor:pointer}
+.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
+.tabs .cmp{margin-left:auto}
+.badge{display:inline-block;min-width:18px;padding:0 6px;border-radius:999px;background:var(--accent);color:var(--accent-ink);font-size:.75rem;margin-left:6px}
+.view[hidden]{display:none}
+.filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:12px}
+.filters label{margin:0 0 3px}
+.chk{display:flex;align-items:center;gap:6px;font-size:.85rem;color:var(--ink);margin-top:22px}
+.chk input{width:auto}
+.tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{padding:8px 10px;text-align:left;white-space:nowrap;border-bottom:1px solid var(--line)}
+th{position:sticky;top:0;background:var(--card);cursor:pointer;user-select:none;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
+th.num,td.num{text-align:right;font-variant-numeric:tabular-nums}
+th[aria-sort]:after{content:" ↕";opacity:.4}
+th[aria-sort=ascending]:after{content:" ↑";opacity:1}
+th[aria-sort=descending]:after{content:" ↓";opacity:1}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:color-mix(in srgb,var(--accent) 8%,var(--card))}
+tbody tr.sel{background:color-mix(in srgb,var(--accent) 18%,var(--card));outline:2px solid var(--accent);outline-offset:-2px}
+tbody tr.dim{opacity:.55}
+.pill{display:inline-block;padding:1px 7px;border-radius:999px;font-size:.72rem;font-weight:600}
+.pill.ok{background:var(--good-bg);color:var(--accent)}.pill.no{background:var(--bad-bg);color:var(--bad)}.pill.na{background:var(--line);color:var(--muted)}
+.cbtn{padding:3px 9px;border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--ink);font:inherit;font-size:.78rem;cursor:pointer}
+.cbtn[aria-pressed=true]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.count{font-size:.85rem;color:var(--muted);margin:6px 0 10px}
+.back{margin-bottom:12px;font-size:.9rem}
+.back a{color:var(--accent);cursor:pointer;text-decoration:underline}
+.cmpgrid{overflow-x:auto}
+.cmpgrid table td:first-child,.cmpgrid table th:first-child{position:sticky;left:0;background:var(--card);color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+.cmpgrid th{cursor:default;text-transform:none;font-size:.95rem;color:var(--ink);letter-spacing:0;white-space:normal;min-width:180px}
+.cmpgrid td{white-space:normal}
+.empty{padding:28px;text-align:center;color:var(--muted)}
+.src{font-size:.75rem;color:var(--muted)}
+.src a{color:inherit}
+.best{color:var(--accent);font-weight:700}
 </style>
 </head>
 <body>
 <main>
 <h1>Federal EV Rebate Calculator</h1>
-<p class="sub">Canada's Electric Vehicle Affordability Program (EVAP). Enter the deal, get the incentive and why.</p>
+<p class="sub">Canada's Electric Vehicle Affordability Program (EVAP). Real prices, the rebate on each, and why.</p>
 
+<div class="tabs" role="tablist">
+<button role="tab" id="tab-deals" aria-selected="true" data-view="deals">Deals</button>
+<button role="tab" id="tab-calc" aria-selected="false" data-view="calc">Calculator</button>
+<button role="tab" id="tab-compare" class="cmp" aria-selected="false" data-view="compare">Compare<span class="badge" id="cmpcount" hidden>0</span></button>
+</div>
+
+<section class="view" id="view-deals">
+<div class="filters">
+<div><label for="fq">Search</label><input id="fq" type="search" placeholder="make, model, trim" autocomplete="off"></div>
+<div><label for="fmake">Make</label><select id="fmake"><option value="">All makes</option></select></div>
+<div><label for="ffuel">Fuel</label><select id="ffuel"><option value="">All</option><option>BEV</option><option>PHEV</option><option>FCEV</option></select></div>
+<div><label for="fclass">Body</label><select id="fclass"><option value="">All</option></select></div>
+<div><label for="fyear">Model year</label><select id="fyear"><option value="">All</option></select></div>
+<div><label for="fmax">Max net price</label><input id="fmax" type="number" step="1000" placeholder="any"></div>
+<div><label for="frange">Min range (km)</label><input id="frange" type="number" step="10" placeholder="any"></div>
+<div class="chk"><input id="felig" type="checkbox" checked><label for="felig" style="margin:0">Eligible at sticker only</label></div>
+<div class="chk"><input id="fcdn" type="checkbox"><label for="fcdn" style="margin:0">Canadian-made only</label></div>
+<div class="chk"><input id="fpriced" type="checkbox" checked><label for="fpriced" style="margin:0">Hide unpriced</label></div>
+</div>
+<div class="count" id="dcount"></div>
+<div class="tblwrap"><table id="dtable"><thead><tr>
+<th data-k="cmp" style="cursor:default"></th>
+<th data-k="name">Vehicle</th>
+<th data-k="fuel_type">Fuel</th>
+<th data-k="vehicle_class">Body</th>
+<th class="num" data-k="msrp">MSRP</th>
+<th class="num" data-k="rebate">Rebate</th>
+<th class="num" data-k="net">Net</th>
+<th class="num" data-k="allin">All-in net</th>
+<th class="num" data-k="headroom">Cap room</th>
+<th class="num" data-k="range">Range</th>
+<th class="num" data-k="perkm">Net $/km</th>
+<th data-k="status">Status</th>
+</tr></thead><tbody id="dbody"></tbody></table></div>
+<p class="src" id="dfoot"></p>
+</section>
+
+<section class="view" id="view-compare" hidden>
+<div class="count" id="cmpnote"></div>
+<div class="cmpgrid" id="cmpgrid"></div>
+</section>
+
+<section class="view" id="view-calc" hidden>
+<div class="back" id="backbar" hidden><a id="backlink">← Back to deals</a> <span id="backsel" class="hint"></span></div>
 <div class="grid">
 <section class="card">
 <h2>Vehicle</h2>
@@ -102,6 +184,7 @@ footer a,details a{color:inherit}
 <div id="warns"></div>
 </section>
 </div>
+</section>
 
 <details>
 <summary>Program rules encoded here</summary>
@@ -114,12 +197,16 @@ footer a,details a{color:inherit}
 const $ = s => document.querySelector(s);
 const fmt = n => '$' + Math.round(n).toLocaleString('en-CA');
 const fmt2 = n => '$' + n.toLocaleString('en-CA', {minimumFractionDigits: 0, maximumFractionDigits: 2});
-let DS = null, vehicles = [], selected = null, txType = 'purchase';
+let DS = null, vehicles = [], deals = [], selected = null, txType = 'purchase';
+let compareIds = JSON.parse(localStorage.getItem('evrebate.compare') || '[]');
+let currentDealId = localStorage.getItem('evrebate.deal') || null;
+let sortKey = 'net', sortDir = 1;
 
 fetch('./dataset.json').then(r => r.json()).then(d => {
-  DS = d; vehicles = d.vehicles;
+  DS = d; vehicles = d.vehicles; deals = d.deals || [];
   $('#date').value = new Date().toISOString().slice(0, 10);
   renderList(''); renderRules(); render();
+  initDeals(); restoreState();
   const c = d.meta.counts;
   $('#foot').innerHTML = `Vehicle list: ${c.vehicles} trims from <a href="${d.meta.source.url}">Transport Canada</a>, list last modified ${d.meta.source.date_modified}, fetched ${d.meta.source.fetched_at.slice(0,10)}. Rules version ${d.meta.rules_version}. This is an estimate; the dealer's portal submission is authoritative.`;
 }).catch(e => { $('#st').textContent = 'Could not load dataset'; console.error(e); });
@@ -216,6 +303,189 @@ function render() {
   $('#dl').innerHTML = rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
   $('#reasons').innerHTML = hasPrice ? r.reasons.map(x => `<li>${x}</li>`).join('') : '';
   $('#warns').innerHTML = hasPrice ? r.warns.map(x => `<div class="warn">${x}</div>`).join('') : '';
+}
+
+/* ---------------- tabs ---------------- */
+function showView(v, push = true) {
+  for (const b of document.querySelectorAll('.tabs [role=tab]')) b.setAttribute('aria-selected', b.dataset.view === v);
+  for (const s of document.querySelectorAll('.view')) s.hidden = s.id !== 'view-' + v;
+  if (push) history.replaceState(null, '', '#' + v);
+  if (v === 'deals') renderDeals();
+  if (v === 'compare') renderCompare();
+  window.scrollTo({top: 0});
+}
+document.querySelector('.tabs').addEventListener('click', e => { const b = e.target.closest('[role=tab]'); if (b) showView(b.dataset.view); });
+$('#backlink').addEventListener('click', () => showView('deals'));
+function restoreState() {
+  const h = (location.hash || '#deals').slice(1);
+  const [v, id] = h.split('/');
+  if (v === 'calc' && id) { const d = deals.find(x => x.id === id); if (d) { openDeal(d, false); return; } }
+  showView(['deals','calc','compare'].includes(v) ? v : 'deals', false);
+  updateCmpBadge();
+}
+
+/* ---------------- deals ---------------- */
+const F = {};
+function initDeals() {
+  for (const id of ['fq','fmake','ffuel','fclass','fyear','fmax','frange','felig','fcdn','fpriced']) F[id] = $('#' + id);
+  const makes = [...new Set(deals.map(d => d.make))].sort();
+  for (const m of makes) F.fmake.add(new Option(m));
+  const classes = [...new Set(deals.map(d => d.spec?.vehicle_class).filter(Boolean))].sort();
+  for (const c of classes) F.fclass.add(new Option(c));
+  const years = [...new Set(deals.map(d => d.model_year))].sort((a, b) => b - a);
+  for (const y of years) F.fyear.add(new Option(y));
+  const saved = JSON.parse(localStorage.getItem('evrebate.filters') || 'null');
+  if (saved) { for (const k in saved) if (F[k]) { if (F[k].type === 'checkbox') F[k].checked = saved[k]; else F[k].value = saved[k]; } sortKey = saved._sk || sortKey; sortDir = saved._sd || sortDir; }
+  for (const k in F) F[k].addEventListener('input', () => { saveFilters(); renderDeals(); });
+  $('#dtable thead').addEventListener('click', e => {
+    const th = e.target.closest('th'); if (!th || th.dataset.k === 'cmp') return;
+    if (sortKey === th.dataset.k) sortDir = -sortDir; else { sortKey = th.dataset.k; sortDir = ['name','fuel_type','vehicle_class','status'].includes(sortKey) ? 1 : 1; }
+    saveFilters(); renderDeals();
+  });
+  $('#dbody').addEventListener('click', e => {
+    const cb = e.target.closest('.cbtn');
+    const tr = e.target.closest('tr'); if (!tr) return;
+    const d = deals.find(x => x.id === tr.dataset.id);
+    if (cb) { e.stopPropagation(); toggleCompare(d.id); return; }
+    openDeal(d);
+  });
+  const m = DS.deals_meta || {};
+  $('#dfoot').innerHTML = `Prices are manufacturer Canadian MSRP before freight and taxes, transcribed from OEM releases and pricing pages (source on each row in the calculator). Rebate computed at sticker with no add-ons or dealer fees. Range and efficiency from NRCan fuel consumption ratings${m.nrcan_snapshot ? ' (' + m.nrcan_snapshot + ')' : ''}. ${m.summary ? m.summary.priced + ' of ' + m.summary.vehicles + ' listed trims priced.' : ''}`;
+}
+function saveFilters() {
+  const o = {_sk: sortKey, _sd: sortDir};
+  for (const k in F) o[k] = F[k].type === 'checkbox' ? F[k].checked : F[k].value;
+  localStorage.setItem('evrebate.filters', JSON.stringify(o));
+}
+function dealName(d) { return `${d.model_year} ${d.make} ${d.model}${d.trim ? ' ' + d.trim : ''}`; }
+function val(d, k) {
+  const p = d.price, r = d.rebate, s = d.spec || {};
+  switch (k) {
+    case 'name': return dealName(d);
+    case 'fuel_type': return d.fuel_type;
+    case 'vehicle_class': return s.vehicle_class || '';
+    case 'msrp': return p?.msrp_cad ?? null;
+    case 'rebate': return r ? r.purchase_cad : null;
+    case 'net': return r ? r.net_msrp_cad : null;
+    case 'allin': return r ? r.net_all_in_cad : null;
+    case 'headroom': return r ? r.headroom_cad : null;
+    case 'range': return s.range_km ?? null;
+    case 'perkm': return r?.net_cad_per_km_range ?? null;
+    case 'status': return !p?.msrp_cad ? 2 : r.eligible ? 0 : 1;
+  }
+}
+function filtered() {
+  const q = F.fq.value.toLowerCase().split(/\s+/).filter(Boolean);
+  const mx = parseFloat(F.fmax.value), mr = parseFloat(F.frange.value);
+  return deals.filter(d => {
+    const priced = !!(d.price && d.price.msrp_cad);
+    if (F.fpriced.checked && !priced) return false;
+    if (F.felig.checked && (!priced || !d.rebate.eligible)) return false;
+    if (F.fcdn.checked && !d.canadian_made) return false;
+    if (F.fmake.value && d.make !== F.fmake.value) return false;
+    if (F.ffuel.value && d.fuel_type !== F.ffuel.value) return false;
+    if (F.fclass.value && (d.spec?.vehicle_class || '') !== F.fclass.value) return false;
+    if (F.fyear.value && String(d.model_year) !== F.fyear.value) return false;
+    if (!isNaN(mx) && priced && d.rebate.net_msrp_cad > mx) return false;
+    if (!isNaN(mr) && (d.spec?.range_km ?? 0) < mr) return false;
+    const h = dealName(d).toLowerCase();
+    return q.every(w => h.includes(w));
+  });
+}
+function renderDeals() {
+  if (!deals.length) { $('#dbody').innerHTML = '<tr><td colspan="12" class="empty">No deal data in this dataset build.</td></tr>'; return; }
+  const rows = filtered();
+  rows.sort((a, b) => {
+    let x = val(a, sortKey), y = val(b, sortKey);
+    if (x == null && y == null) return 0; if (x == null) return 1; if (y == null) return -1;
+    return (typeof x === 'string' ? x.localeCompare(y) : x - y) * sortDir;
+  });
+  for (const th of document.querySelectorAll('#dtable th[data-k]')) { if (th.dataset.k === 'cmp') continue; th.setAttribute('aria-sort', th.dataset.k === sortKey ? (sortDir > 0 ? 'ascending' : 'descending') : 'none'); }
+  $('#dcount').textContent = `${rows.length} of ${deals.length} trims` + (currentDealId ? '' : '');
+  const money = v => v == null ? '—' : fmt(v);
+  $('#dbody').innerHTML = rows.length ? rows.map(d => {
+    const p = d.price, r = d.rebate, s = d.spec || {};
+    const priced = !!(p && p.msrp_cad);
+    const st = !priced ? '<span class="pill na">No price</span>' : r.eligible ? '<span class="pill ok">Eligible</span>' : '<span class="pill no">Over cap</span>';
+    const inCmp = compareIds.includes(d.id);
+    return `<tr data-id="${d.id}" class="${d.id === currentDealId ? 'sel' : ''}${priced ? '' : ' dim'}">
+<td><button class="cbtn" aria-pressed="${inCmp}" title="Add to compare">${inCmp ? '✓ Compare' : '+ Compare'}</button></td>
+<td>${dealName(d)}${d.canadian_made ? ' 🍁' : ''}${p?.stale ? ' <span class="pill na" title="Price older than 90 days">stale</span>' : ''}</td>
+<td>${d.fuel_type}</td><td>${(s.vehicle_class || '—').replace('Sport utility vehicle','SUV')}</td>
+<td class="num">${money(p?.msrp_cad)}</td>
+<td class="num">${priced ? (r.eligible ? '<span class="best">' + fmt(r.purchase_cad) + '</span>' : '$0') : '—'}</td>
+<td class="num">${priced ? fmt(r.net_msrp_cad) : '—'}</td>
+<td class="num">${priced && p.freight_pdi_cad != null ? fmt(r.net_all_in_cad) : '—'}</td>
+<td class="num">${priced ? (r.headroom_cad == null ? 'no cap' : (r.headroom_cad < 0 ? '−' : '') + fmt(Math.abs(r.headroom_cad))) : '—'}</td>
+<td class="num">${s.range_km ? s.range_km + ' km' : '—'}</td>
+<td class="num">${r?.net_cad_per_km_range ? '$' + r.net_cad_per_km_range.toFixed(0) : '—'}</td>
+<td>${st}</td></tr>`; }).join('') : '<tr><td colspan="12" class="empty">Nothing matches these filters.</td></tr>';
+}
+function openDeal(d, push = true) {
+  currentDealId = d.id; localStorage.setItem('evrebate.deal', d.id);
+  selected = vehicles.find(v => v.id === d.id) || null;
+  $('#q').value = `${d.make} ${d.model}`; renderList($('#q').value); $('#veh').value = d.id;
+  $('#fuel').value = d.fuel_type; $('#cdn').value = d.canadian_made ? '1' : '0';
+  if (d.price && d.price.msrp_cad) { $('#msrp').value = d.price.msrp_cad; $('#freight').value = d.price.freight_pdi_cad || 0; }
+  else { $('#msrp').value = ''; $('#freight').value = 0; }
+  for (const id of ['opt','acc','fees','excl']) $('#' + id).value = 0;
+  const src = d.price?.source_url ? ` · <a href="${d.price.source_url}" target="_blank" rel="noopener">price source</a>${d.price.as_of ? ' (' + d.price.as_of + ')' : ''}` : '';
+  $('#vehinfo').innerHTML = `<b>${dealName(d)}</b><span class="tag">${d.fuel_type}</span>${d.canadian_made ? '<span class="tag">Canadian-made, no cap</span>' : ''}<span class="tag">on TC list</span>${d.spec?.range_km ? '<span class="tag">' + d.spec.range_km + ' km NRCan</span>' : ''}${src}`;
+  $('#backbar').hidden = false; $('#backsel').textContent = 'Selected: ' + dealName(d);
+  showView('calc', false); if (push) history.replaceState(null, '', '#calc/' + d.id);
+  render();
+}
+
+/* ---------------- compare ---------------- */
+function toggleCompare(id) {
+  const i = compareIds.indexOf(id);
+  if (i >= 0) compareIds.splice(i, 1); else { if (compareIds.length >= 4) { alert('Compare up to 4 vehicles. Remove one first.'); return; } compareIds.push(id); }
+  localStorage.setItem('evrebate.compare', JSON.stringify(compareIds));
+  updateCmpBadge(); renderDeals(); if (!$('#view-compare').hidden) renderCompare();
+}
+function updateCmpBadge() { const b = $('#cmpcount'); b.textContent = compareIds.length; b.hidden = compareIds.length === 0; }
+function renderCompare() {
+  const items = compareIds.map(id => deals.find(d => d.id === id)).filter(Boolean);
+  $('#cmpnote').textContent = items.length ? `${items.length} of 4 selected. Rebate at sticker, ${DS.deals_meta?.as_of || ''}.` : '';
+  if (!items.length) { $('#cmpgrid').innerHTML = '<div class="empty">Pick "+ Compare" on deals to see them side by side.</div>'; return; }
+  const money = v => v == null ? '—' : fmt(v);
+  const best = (vals, dir) => { const nums = vals.filter(v => typeof v === 'number'); return nums.length > 1 ? (dir > 0 ? Math.max(...nums) : Math.min(...nums)) : null; };
+  const row = (label, fn, dir = 0, fmtf = v => v == null ? '—' : v) => {
+    const vals = items.map(fn); const b = dir ? best(vals, dir) : null;
+    return `<tr><td>${label}</td>${vals.map(v => `<td class="${v != null && v === b ? 'best' : ''}">${fmtf(v)}</td>`).join('')}</tr>`;
+  };
+  const yes = v => v ? 'Yes' : 'No';
+  $('#cmpgrid').innerHTML = `<table><thead><tr><th></th>${items.map(d => `<th>${dealName(d)}${d.canadian_made ? ' 🍁' : ''}<br><button class="cbtn" data-open="${d.id}">Open in calculator</button> <button class="cbtn" data-rm="${d.id}">Remove</button></th>`).join('')}</tr></thead><tbody>
+${row('Fuel type', d => d.fuel_type)}
+${row('Body', d => d.spec?.vehicle_class)}
+${row('Canadian-made (no cap)', d => d.canadian_made, 0, yes)}
+${row('MSRP', d => d.price?.msrp_cad ?? null, -1, money)}
+${row('Freight / PDI', d => d.price?.freight_pdi_cad ?? null, -1, money)}
+${row('All-in before tax', d => d.rebate ? d.rebate.final_transaction_value + (d.price.freight_pdi_cad || 0) : null, -1, money)}
+${row('Eligible at sticker', d => d.rebate ? d.rebate.eligible : null, 0, v => v == null ? '—' : yes(v))}
+${row('Rebate (purchase / 48+ mo lease)', d => d.rebate?.purchase_cad ?? null, 1, money)}
+${row('Rebate 36-month lease', d => d.rebate?.lease_cad?.['36'] ?? null, 1, money)}
+${row('Rebate 24-month lease', d => d.rebate?.lease_cad?.['24'] ?? null, 1, money)}
+${row('Rebate 12-month lease', d => d.rebate?.lease_cad?.['12'] ?? null, 1, money)}
+${row('Net price after rebate', d => d.rebate?.net_msrp_cad ?? null, -1, money)}
+${row('Net all-in', d => d.rebate && d.price.freight_pdi_cad != null ? d.rebate.net_all_in_cad : null, -1, money)}
+${row('Room under $50K cap', d => d.rebate ? (d.rebate.headroom_cad == null ? 'No cap' : d.rebate.headroom_cad) : null, 1, v => typeof v === 'number' ? (v < 0 ? '−' : '') + fmt(Math.abs(v)) : v ?? '—')}
+${row('Rebate as % of MSRP', d => d.rebate?.rebate_pct_of_msrp ?? null, 1, v => v == null ? '—' : v + '%')}
+${row('Electric range (NRCan)', d => d.spec?.range_km ?? null, 1, v => v == null ? '—' : v + ' km')}
+${row('Total range (PHEV)', d => d.spec?.total_range_km ?? null, 1, v => v == null ? '—' : v + ' km')}
+${row('Net $ per km of range', d => d.rebate?.net_cad_per_km_range ?? null, -1, v => v == null ? '—' : '$' + v.toFixed(0))}
+${row('Energy use (kWh/100 km)', d => d.spec?.combined_kwh_100km ?? null, -1)}
+${row('Gas use, PHEV (L/100 km)', d => d.spec?.gas_combined_l_100km ?? null, -1)}
+${row('Motor (kW)', d => d.spec?.motor_kw ?? null, 1)}
+${row('Recharge time (h)', d => d.spec?.recharge_h ?? null, -1)}
+${row('Next step-down', d => d.rebate?.next_step_down ? d.rebate.next_step_down.date + ' → ' + fmt(d.rebate.next_step_down.full_incentive_cad) : null)}
+${row('Price source', d => d.price?.source_url ? `<a href="${d.price.source_url}" target="_blank" rel="noopener">${new URL(d.price.source_url).hostname}</a> ${d.price.as_of || ''} (${d.price.confidence || '?'})` : null)}
+</tbody></table>`;
+  $('#cmpgrid').onclick = e => {
+    const b = e.target.closest('button'); if (!b) return;
+    if (b.dataset.rm) toggleCompare(b.dataset.rm);
+    if (b.dataset.open) openDeal(deals.find(d => d.id === b.dataset.open));
+  };
 }
 
 function renderRules() {

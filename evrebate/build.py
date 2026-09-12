@@ -10,10 +10,13 @@ from pathlib import Path
 from . import __version__
 from .normalize import consistency_issues, normalize
 from .rules import load_rules
-from .sources import tc_evap
+from .sources import nrcan, tc_evap
+from .prices import load_prices
+from .deals import build_deal, summarize
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw" / "tc_evap_vehicle_list"
+NRCAN_RAW = ROOT / "data" / "raw" / "nrcan_fuel_consumption"
 OUT_DIR = ROOT / "data" / "dataset"
 
 
@@ -33,6 +36,27 @@ def fetch_snapshot(today: date | None = None) -> Path:
     }
     (d / "meta.json").write_text(json.dumps(meta, indent=2))
     return d
+
+
+def fetch_nrcan(today: date | None = None) -> Path:
+    today = today or date.today()
+    d = NRCAN_RAW / today.isoformat()
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "bev.csv").write_text(nrcan.fetch(nrcan.BEV_URL), encoding="utf-8")
+    (d / "phev.csv").write_text(nrcan.fetch(nrcan.PHEV_URL), encoding="utf-8")
+    (d / "meta.json").write_text(json.dumps({"fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                                             "urls": [nrcan.BEV_URL, nrcan.PHEV_URL]}, indent=2))
+    return d
+
+
+def latest_nrcan() -> Path | None:
+    dirs = sorted(p for p in NRCAN_RAW.iterdir() if p.is_dir()) if NRCAN_RAW.exists() else []
+    return dirs[-1] if dirs else None
+
+
+def load_nrcan(d: Path) -> list[dict]:
+    return nrcan.parse_bev((d / "bev.csv").read_text(encoding="utf-8")) + \
+           nrcan.parse_phev((d / "phev.csv").read_text(encoding="utf-8"))
 
 
 def latest_snapshot() -> Path:
@@ -112,11 +136,31 @@ def build(snapshot: Path | None = None, today: date | None = None) -> dict:
         "changes_since_previous": diff,
     }
 
+    # --- deals branch: real prices + NRCan specs through the rules ---
+    prices = load_prices(today=today)
+    nr_dir = latest_nrcan()
+    nr_rows = load_nrcan(nr_dir) if nr_dir else []
+    deals = []
+    for v in vehicles:
+        spec = nrcan.match(v, nr_rows) if nr_rows else None
+        deals.append(build_deal(v, prices.get(v["id"]), spec, rules, today))
+    deals_meta = {
+        "as_of": today.isoformat(),
+        "prices_source": "prices/msrp_ca.csv (manufacturer Canadian pricing, see per-row source_url)",
+        "nrcan_snapshot": nr_dir.name if nr_dir else None,
+        "summary": summarize(deals),
+    }
+    dataset_meta["deals"] = {k: deals_meta["summary"][k] for k in ("priced", "eligible_at_msrp", "with_spec")}
+    dataset_meta["deals"]["unpriced"] = len(deals_meta["summary"]["unpriced"])
+    dataset_meta["deals"]["stale_prices"] = len(deals_meta["summary"]["stale_prices"])
+
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    (OUT_DIR / "deals.json").write_text(json.dumps({"meta": deals_meta, "deals": deals}, indent=2, default=str))
     (OUT_DIR / "vehicles.json").write_text(json.dumps({"meta": dataset_meta, "vehicles": vehicles}, indent=2))
     (OUT_DIR / "rules.json").write_text(json.dumps(rules, indent=2, default=str))
     (OUT_DIR / "dataset.json").write_text(json.dumps(
-        {"meta": dataset_meta, "rules": rules, "vehicles": vehicles}, indent=2, default=str))
+        {"meta": dataset_meta, "rules": rules, "vehicles": vehicles, "deals": deals, "deals_meta": deals_meta},
+        indent=2, default=str))
     _write_csv(vehicles, OUT_DIR / "vehicles.csv")
     site = ROOT / "site"
     if site.is_dir():  # static calculator reads ./dataset.json

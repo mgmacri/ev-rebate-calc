@@ -37,11 +37,13 @@ def main(argv: list[str] | None = None) -> int:
     if a.cmd == "fetch":
         d = B.fetch_snapshot()
         print(f"snapshot saved: {d}")
+        print(f"nrcan saved: {B.fetch_nrcan()}")
     elif a.cmd == "build":
         meta = B.build(a.snapshot)
         _report(meta)
     elif a.cmd == "refresh":
         B.fetch_snapshot()
+        B.fetch_nrcan()
         meta = B.build()
         _report(meta)
         if meta["consistency_issues"]:
@@ -72,6 +74,10 @@ def _report(meta: dict) -> None:
             print(f"  {'+' if k == 'added' else '-'} {i}")
     for i in ch["changed"]:
         print(f"  ~ {i['id']}: {i['fields']}")
+    if meta.get("deals"):
+        d = meta["deals"]
+        print(f"deals: priced={d['priced']} eligible_at_msrp={d['eligible_at_msrp']} unpriced={d['unpriced']} "
+              f"stale_prices={d['stale_prices']} with_spec={d['with_spec']}")
     if meta["consistency_issues"]:
         print("CONSISTENCY ISSUES (rules file may be stale):", file=sys.stderr)
         for k, v in meta["consistency_issues"].items():

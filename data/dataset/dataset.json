@@ -1,7 +1,7 @@
 {
   "meta": {
     "dataset_version": "2026-09-12",
-    "generated_at": "2026-09-12T09:08:29+00:00",
+    "generated_at": "2026-09-12T17:01:20+00:00",
     "pipeline_version": "0.1.0",
     "rules_version": "2026-09-12",
     "source": {
@@ -22,135 +22,16 @@
     },
     "consistency_issues": {},
     "changes_since_previous": {
-      "added": [
-        "2024-dodge-charger-r-t",
-        "2024-dodge-charger-scat-pack",
-        "2024-ford-escape-plug-in-hybrid-base",
-        "2024-kia-niro-ev-wind",
-        "2024-kia-niro-ev-wind-plus",
-        "2025-chevrolet-equinox-ev-lt",
-        "2025-chevrolet-equinox-ev-lt-awd",
-        "2025-chevrolet-equinox-ev-rs",
-        "2025-chrysler-pacifica-fav",
-        "2025-chrysler-pacifica-limited",
-        "2025-chrysler-pacifica-select",
-        "2025-dodge-charger-r-t",
-        "2025-dodge-charger-scat-pack",
-        "2025-fiat-500e-giorgio-armani",
-        "2025-fiat-500e-la-prima",
-        "2025-fiat-500e-red",
-        "2025-ford-escape-plug-in-hybrid-base",
-        "2025-hyundai-kona-ev-preferred",
-        "2025-hyundai-kona-ev-preferred-w-trend-package",
-        "2025-kia-ev6-light-rwd",
-        "2025-kia-niro-ev-wind",
-        "2025-kia-niro-ev-wind-plus",
-        "2025-kia-niro-phev-ex",
-        "2025-kia-niro-phev-ex-premium",
-        "2025-kia-niro-phev-lx",
-        "2025-kia-sportage-phev-ex-premium",
-        "2025-mitsubishi-outlander-phev-es",
-        "2025-volkswagen-id-4-base",
-        "2026-chevrolet-equinox-ev-lt",
-        "2026-chevrolet-equinox-ev-lt-awd",
-        "2026-chrysler-pacifica-100th",
-        "2026-chrysler-pacifica-limited",
-        "2026-chrysler-pacifica-pinnacle",
-        "2026-chrysler-pacifica-select",
-        "2026-dodge-charger-r-t",
-        "2026-dodge-charger-scat-pack",
-        "2026-fiat-500e-icona",
-        "2026-fiat-500e-pop",
-        "2026-ford-escape-plug-in-hybrid-base",
-        "2026-ford-mach-e-premium-eawd-standard-range",
-        "2026-ford-mach-e-premium-rwd-extended-range",
-        "2026-ford-mach-e-premium-rwd-standard-range",
-        "2026-ford-mach-e-select-eawd-extended-range",
-        "2026-ford-mach-e-select-eawd-standard-range",
-        "2026-ford-mach-e-select-rwd-standard-range",
-        "2026-hyundai-kona-ev-preferred",
-        "2026-hyundai-kona-ev-preferred-w-trend-package",
-        "2026-hyundai-kona-ev-preferred-w-ultimate-package",
-        "2026-kia-ev4-gt-line",
-        "2026-kia-ev4-light",
-        "2026-kia-ev4-wind",
-        "2026-kia-ev4-wind-premium",
-        "2026-kia-niro-ev-wind",
-        "2026-kia-niro-ev-wind-plus",
-        "2026-kia-niro-phev-ex",
-        "2026-kia-niro-phev-ex-premium",
-        "2026-kia-niro-phev-lx",
-        "2026-kia-sorento-phev-lx-phev",
-        "2026-kia-sportage-phev-ex",
-        "2026-kia-sportage-phev-ex-premium",
-        "2026-mazda-cx-70-phev-gs-sc",
-        "2026-mazda-cx-90-phev-gs",
-        "2026-mitsubishi-outlander-phev-es",
-        "2026-nissan-leaf-s-plus",
-        "2026-nissan-leaf-sv-plus",
-        "2026-subaru-uncharted-fwd",
-        "2026-subaru-uncharted-fwd-lr",
-        "2026-subaru-uncharted-sport",
-        "2026-tesla-model-y-rwd-b",
-        "2026-toyota-bz-xle-fwd",
-        "2026-toyota-c-hr-se-fwd",
-        "2026-toyota-c-hr-xse-awd",
-        "2026-toyota-prius-plug-in-hybrid-nightshade",
-        "2026-toyota-prius-plug-in-hybrid-se",
-        "2026-toyota-prius-plug-in-hybrid-xse",
-        "2026-toyota-prius-plug-in-hybrid-xse-premium",
-        "2026-toyota-rav4-plug-in-hybrid-se",
-        "2026-volvo-ex30-single-motor-extended-range-core",
-        "2026-volvo-ex30-single-motor-extended-range-plus",
-        "2026-volvo-ex30-single-motor-extended-range-ultra",
-        "2026-volvo-ex30-twin-motor-performance-plus",
-        "2026-volvo-ex30-twin-motor-performance-ultra",
-        "2026-volvo-ex30-twin-motor-performance-ultra-cross-country",
-        "2027-chevrolet-bolt-lt",
-        "2027-chevrolet-bolt-rs",
-        "2027-chevrolet-equinox-ev-lt-1",
-        "2027-chevrolet-equinox-ev-lt-2",
-        "2027-chevrolet-equinox-ev-lt1-awd",
-        "2027-kia-ev3-gt-line-awd",
-        "2027-kia-ev3-gt-line-fwd",
-        "2027-kia-ev3-gt-line-limited-fwd",
-        "2027-kia-ev3-land-awd",
-        "2027-kia-ev3-land-fwd",
-        "2027-kia-ev3-light-fwd",
-        "2027-kia-ev3-wind-awd",
-        "2027-kia-ev3-wind-fwd",
-        "2027-kia-ev4-gt-line-fwd",
-        "2027-kia-ev4-light-fwd",
-        "2027-kia-ev4-wind-awd",
-        "2027-kia-ev4-wind-fwd",
-        "2027-kia-ev4-wind-premium-awd",
-        "2027-kia-ev4-wind-premium-fwd",
-        "2027-kia-ev5-land-fwd",
-        "2027-kia-ev5-wind-awd",
-        "2027-kia-ev5-wind-fwd",
-        "2027-kia-pv5-basic",
-        "2027-kia-pv5-plus",
-        "2027-kia-sportage-phev-ex-awd",
-        "2027-kia-sportage-phev-ex-premium-awd",
-        "2027-mini-countryman-se-all4-elementary-edition",
-        "2027-subaru-solterra-limited",
-        "2027-subaru-solterra-limited-black-cladding",
-        "2027-subaru-solterra-touring",
-        "2027-subaru-solterra-touring-black-cladding",
-        "2027-subaru-trailseeker-touring",
-        "2027-subaru-uncharted-fwd",
-        "2027-subaru-uncharted-fwd-long-range",
-        "2027-subaru-uncharted-gt",
-        "2027-subaru-uncharted-sport",
-        "2027-toyota-bz-xle-fwd",
-        "2027-toyota-c-hr-se-fwd",
-        "2027-toyota-c-hr-xse-awd",
-        "2027-toyota-prius-plug-in-hybrid-se",
-        "2027-toyota-prius-plug-in-hybrid-xse",
-        "2027-toyota-prius-plug-in-hybrid-xse-premium"
-      ],
+      "added": [],
       "removed": [],
       "changed": []
+    },
+    "deals": {
+      "priced": 105,
+      "eligible_at_msrp": 101,
+      "with_spec": 102,
+      "unpriced": 20,
+      "stale_prices": 17
     }
   },
   "rules": {
@@ -3523,5 +3404,6454 @@
       "first_seen": "2026-09-12",
       "last_seen": "2026-09-12"
     }
-  ]
+  ],
+  "deals": [
+    {
+      "id": "2027-chevrolet-bolt-lt",
+      "model_year": 2027,
+      "make": "Chevrolet",
+      "model": "Bolt",
+      "trim": "LT",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 39999,
+        "freight_pdi_cad": null,
+        "all_in_cad": 39999,
+        "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2025/oct/1009_2027-chevrolet-bolt.html",
+        "as_of": "2025-10-09",
+        "age_days": 338,
+        "confidence": "medium",
+        "stale": true,
+        "notes": "GM Canada release; all-in $43,470 incl. freight/AC/dealer fees"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 39999.0,
+        "cap_cad": 50000,
+        "headroom_cad": 10001.0,
+        "net_msrp_cad": 34999.0,
+        "net_all_in_cad": 34999.0,
+        "rebate_pct_of_msrp": 12.5,
+        "reasons": [
+          "final transaction value $39,999 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-chevrolet-bolt-rs",
+      "model_year": 2027,
+      "make": "Chevrolet",
+      "model": "Bolt",
+      "trim": "RS",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 42599,
+        "freight_pdi_cad": null,
+        "all_in_cad": 42599,
+        "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2025/oct/1009_2027-chevrolet-bolt.html",
+        "as_of": "2025-10-09",
+        "age_days": 338,
+        "confidence": "medium",
+        "stale": true,
+        "notes": "GM Canada release; all-in $46,070"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 42599.0,
+        "cap_cad": 50000,
+        "headroom_cad": 7401.0,
+        "net_msrp_cad": 37599.0,
+        "net_all_in_cad": 37599.0,
+        "rebate_pct_of_msrp": 11.74,
+        "reasons": [
+          "final transaction value $42,599 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-chevrolet-equinox-ev-lt-1",
+      "model_year": 2027,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT 1",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": null,
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Canadian pricing not yet published; only US pricing found (gmauthority 2026-08)",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 513,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.3,
+        "combined_le_100km": 2.2,
+        "gas_combined_l_100km": null,
+        "motor_kw": 180,
+        "recharge_h": 9.5,
+        "match_confidence": "low",
+        "nrcan_model": "Equinox EV",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-chevrolet-equinox-ev-lt-2",
+      "model_year": 2027,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT 2",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": null,
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Canadian pricing not yet published; only US pricing found (gmauthority 2026-08)",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 513,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.3,
+        "combined_le_100km": 2.2,
+        "gas_combined_l_100km": null,
+        "motor_kw": 180,
+        "recharge_h": 9.5,
+        "match_confidence": "low",
+        "nrcan_model": "Equinox EV",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-chevrolet-equinox-ev-lt1-awd",
+      "model_year": 2027,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT1 AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": null,
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Canadian pricing not yet published; only US pricing found (gmauthority 2026-08)",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 494,
+        "total_range_km": null,
+        "combined_kwh_100km": 20.3,
+        "combined_le_100km": 2.3,
+        "gas_combined_l_100km": null,
+        "motor_kw": 247,
+        "recharge_h": 9.5,
+        "match_confidence": "low",
+        "nrcan_model": "Equinox EV AWD (11.5 kW Charger)",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-chevrolet-equinox-ev-lt",
+      "model_year": 2026,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 46199,
+        "freight_pdi_cad": 2600,
+        "all_in_cad": 48799,
+        "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2026/specifications/rs-awd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 46199.0,
+        "cap_cad": 50000,
+        "headroom_cad": 3801.0,
+        "net_msrp_cad": 41199.0,
+        "net_all_in_cad": 43799.0,
+        "rebate_pct_of_msrp": 10.82,
+        "reasons": [
+          "final transaction value $46,199 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 80.31
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 513,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.3,
+        "combined_le_100km": 2.2,
+        "gas_combined_l_100km": null,
+        "motor_kw": 180,
+        "recharge_h": 9.5,
+        "match_confidence": "high",
+        "nrcan_model": "Equinox EV",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-chevrolet-equinox-ev-lt-awd",
+      "model_year": 2026,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49699,
+        "freight_pdi_cad": 2600,
+        "all_in_cad": 52299,
+        "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2026/specifications/rs-awd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 49699.0,
+        "cap_cad": 50000,
+        "headroom_cad": 301.0,
+        "net_msrp_cad": 44699.0,
+        "net_all_in_cad": 47299.0,
+        "rebate_pct_of_msrp": 10.06,
+        "reasons": [
+          "final transaction value $49,699 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 90.48
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 494,
+        "total_range_km": null,
+        "combined_kwh_100km": 20.3,
+        "combined_le_100km": 2.3,
+        "gas_combined_l_100km": null,
+        "motor_kw": 247,
+        "recharge_h": 9.5,
+        "match_confidence": "high",
+        "nrcan_model": "Equinox EV AWD (11.5 kW Charger)",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2025-chevrolet-equinox-ev-lt",
+      "model_year": 2025,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 44999,
+        "freight_pdi_cad": 2500,
+        "all_in_cad": 47499,
+        "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2025/specifications/2lt-fwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": "Car Guide lists trim as 2LT FWD"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 44999.0,
+        "cap_cad": 50000,
+        "headroom_cad": 5001.0,
+        "net_msrp_cad": 39999.0,
+        "net_all_in_cad": 42499.0,
+        "rebate_pct_of_msrp": 11.11,
+        "reasons": [
+          "final transaction value $44,999 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 77.97
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 513,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.4,
+        "combined_le_100km": 2.2,
+        "gas_combined_l_100km": null,
+        "motor_kw": 180,
+        "recharge_h": 9.5,
+        "match_confidence": "high",
+        "nrcan_model": "Equinox EV",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2025-chevrolet-equinox-ev-lt-awd",
+      "model_year": 2025,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "LT AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48499,
+        "freight_pdi_cad": 2500,
+        "all_in_cad": 50999,
+        "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2025/specifications/2lt-fwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": "Car Guide lists trim as 2LT AWD"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 48499.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1501.0,
+        "net_msrp_cad": 43499.0,
+        "net_all_in_cad": 45999.0,
+        "rebate_pct_of_msrp": 10.31,
+        "reasons": [
+          "final transaction value $48,499 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 88.05
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 494,
+        "total_range_km": null,
+        "combined_kwh_100km": 20.3,
+        "combined_le_100km": 2.3,
+        "gas_combined_l_100km": null,
+        "motor_kw": 247,
+        "recharge_h": 9.5,
+        "match_confidence": "high",
+        "nrcan_model": "Equinox EV AWD (11.5 kW Charger)",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2025-chevrolet-equinox-ev-rs",
+      "model_year": 2025,
+      "make": "Chevrolet",
+      "model": "Equinox EV",
+      "trim": "RS",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49999,
+        "freight_pdi_cad": 2500,
+        "all_in_cad": 52499,
+        "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2025/specifications/2lt-fwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": "RS FWD"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 49999.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1.0,
+        "net_msrp_cad": 44999.0,
+        "net_all_in_cad": 47499.0,
+        "rebate_pct_of_msrp": 10.0,
+        "reasons": [
+          "final transaction value $49,999 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 87.72
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 513,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.4,
+        "combined_le_100km": 2.2,
+        "gas_combined_l_100km": null,
+        "motor_kw": 180,
+        "recharge_h": 9.5,
+        "match_confidence": "high",
+        "nrcan_model": "Equinox EV",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2026-chrysler-pacifica-100th",
+      "model_year": 2026,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "100th",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price": {
+        "msrp_cad": 62490,
+        "freight_pdi_cad": 2295,
+        "all_in_cad": 64785,
+        "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 62490.0,
+        "cap_cad": null,
+        "headroom_cad": null,
+        "net_msrp_cad": 59990.0,
+        "net_all_in_cad": 62285.0,
+        "rebate_pct_of_msrp": 4.0,
+        "reasons": [
+          "Canadian-made: exempt from the final transaction value cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 1176.27
+      },
+      "spec": {
+        "vehicle_class": "Minivan",
+        "range_km": 51,
+        "total_range_km": 835,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 8.0,
+        "motor_kw": 89,
+        "recharge_h": 2,
+        "match_confidence": "high",
+        "nrcan_model": "Pacifica Hybrid",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-chrysler-pacifica-limited",
+      "model_year": 2026,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "Limited",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price": {
+        "msrp_cad": 69485,
+        "freight_pdi_cad": 2295,
+        "all_in_cad": 71780,
+        "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 69485.0,
+        "cap_cad": null,
+        "headroom_cad": null,
+        "net_msrp_cad": 66985.0,
+        "net_all_in_cad": 69280.0,
+        "rebate_pct_of_msrp": 3.6,
+        "reasons": [
+          "Canadian-made: exempt from the final transaction value cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 1313.43
+      },
+      "spec": {
+        "vehicle_class": "Minivan",
+        "range_km": 51,
+        "total_range_km": 835,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 8.0,
+        "motor_kw": 89,
+        "recharge_h": 2,
+        "match_confidence": "high",
+        "nrcan_model": "Pacifica Hybrid",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-chrysler-pacifica-pinnacle",
+      "model_year": 2026,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "Pinnacle",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price": {
+        "msrp_cad": 74220,
+        "freight_pdi_cad": 2295,
+        "all_in_cad": 76515,
+        "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 74220.0,
+        "cap_cad": null,
+        "headroom_cad": null,
+        "net_msrp_cad": 71720.0,
+        "net_all_in_cad": 74015.0,
+        "rebate_pct_of_msrp": 3.37,
+        "reasons": [
+          "Canadian-made: exempt from the final transaction value cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 1406.27
+      },
+      "spec": {
+        "vehicle_class": "Minivan",
+        "range_km": 51,
+        "total_range_km": 835,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 8.0,
+        "motor_kw": 89,
+        "recharge_h": 2,
+        "match_confidence": "high",
+        "nrcan_model": "Pacifica Hybrid",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-chrysler-pacifica-select",
+      "model_year": 2026,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "Select",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price": {
+        "msrp_cad": 59995,
+        "freight_pdi_cad": 2295,
+        "all_in_cad": 62290,
+        "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 59995.0,
+        "cap_cad": null,
+        "headroom_cad": null,
+        "net_msrp_cad": 57495.0,
+        "net_all_in_cad": 59790.0,
+        "rebate_pct_of_msrp": 4.17,
+        "reasons": [
+          "Canadian-made: exempt from the final transaction value cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 1127.35
+      },
+      "spec": {
+        "vehicle_class": "Minivan",
+        "range_km": 51,
+        "total_range_km": 835,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 8.0,
+        "motor_kw": 89,
+        "recharge_h": 2,
+        "match_confidence": "high",
+        "nrcan_model": "Pacifica Hybrid",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2025-chrysler-pacifica-fav",
+      "model_year": 2025,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "FAV",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price": {
+        "msrp_cad": 52980,
+        "freight_pdi_cad": 2195,
+        "all_in_cad": 55175,
+        "source_url": "https://www.lakeviewchrysler.ca/2025-chrysler-pacifica-plug-in-hybrid-for-sale/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "low",
+        "stale": false,
+        "notes": "FAV Edition price from dealer page; verify"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 52980.0,
+        "cap_cad": null,
+        "headroom_cad": null,
+        "net_msrp_cad": 50480.0,
+        "net_all_in_cad": 52675.0,
+        "rebate_pct_of_msrp": 4.72,
+        "reasons": [
+          "Canadian-made: exempt from the final transaction value cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 989.8
+      },
+      "spec": {
+        "vehicle_class": "Minivan",
+        "range_km": 51,
+        "total_range_km": 835,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 8.0,
+        "motor_kw": 89,
+        "recharge_h": 2,
+        "match_confidence": "high",
+        "nrcan_model": "Pacifica Hybrid",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2025-chrysler-pacifica-limited",
+      "model_year": 2025,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "Limited",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price": {
+        "msrp_cad": 67990,
+        "freight_pdi_cad": 2195,
+        "all_in_cad": 70185,
+        "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2025/specifications/hybrid-select/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": "Hybrid Limited S Appearance"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 67990.0,
+        "cap_cad": null,
+        "headroom_cad": null,
+        "net_msrp_cad": 65490.0,
+        "net_all_in_cad": 67685.0,
+        "rebate_pct_of_msrp": 3.68,
+        "reasons": [
+          "Canadian-made: exempt from the final transaction value cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 1284.12
+      },
+      "spec": {
+        "vehicle_class": "Minivan",
+        "range_km": 51,
+        "total_range_km": 835,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 8.0,
+        "motor_kw": 89,
+        "recharge_h": 2,
+        "match_confidence": "high",
+        "nrcan_model": "Pacifica Hybrid",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2025-chrysler-pacifica-select",
+      "model_year": 2025,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "Select",
+      "fuel_type": "PHEV",
+      "canadian_made": true,
+      "price": {
+        "msrp_cad": 59995,
+        "freight_pdi_cad": 2195,
+        "all_in_cad": 62190,
+        "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2025/specifications/hybrid-select/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 59995.0,
+        "cap_cad": null,
+        "headroom_cad": null,
+        "net_msrp_cad": 57495.0,
+        "net_all_in_cad": 59690.0,
+        "rebate_pct_of_msrp": 4.17,
+        "reasons": [
+          "Canadian-made: exempt from the final transaction value cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 1127.35
+      },
+      "spec": {
+        "vehicle_class": "Minivan",
+        "range_km": 51,
+        "total_range_km": 835,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 8.0,
+        "motor_kw": 89,
+        "recharge_h": 2,
+        "match_confidence": "high",
+        "nrcan_model": "Pacifica Hybrid",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2026-dodge-charger-r-t",
+      "model_year": 2026,
+      "make": "Dodge",
+      "model": "Charger",
+      "trim": "R/T",
+      "fuel_type": "BEV",
+      "canadian_made": true,
+      "price": {
+        "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2026/specifications/daytona-scat-pack/",
+        "as_of": "2026-09-12",
+        "confidence": null,
+        "notes": "No electric Daytona R/T offered for 2026 per Car Guide; R/T $59,995 is the gas Sixpack",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Full-size",
+        "range_km": 423,
+        "total_range_km": null,
+        "combined_kwh_100km": 24.9,
+        "combined_le_100km": 2.8,
+        "gas_combined_l_100km": null,
+        "motor_kw": 370,
+        "recharge_h": 10,
+        "match_confidence": "medium",
+        "nrcan_model": "Charger Daytona R/T AWD 245/55ZR18",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-dodge-charger-scat-pack",
+      "model_year": 2026,
+      "make": "Dodge",
+      "model": "Charger",
+      "trim": "Scat Pack",
+      "fuel_type": "BEV",
+      "canadian_made": true,
+      "price": {
+        "msrp_cad": 82500,
+        "freight_pdi_cad": 2695,
+        "all_in_cad": 85195,
+        "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2026/specifications/daytona-scat-pack/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": "2-door Daytona Scat Pack; 4-door is $85,000"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 82500.0,
+        "cap_cad": null,
+        "headroom_cad": null,
+        "net_msrp_cad": 77500.0,
+        "net_all_in_cad": 80195.0,
+        "rebate_pct_of_msrp": 6.06,
+        "reasons": [
+          "Canadian-made: exempt from the final transaction value cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 183.22
+      },
+      "spec": {
+        "vehicle_class": "Full-size",
+        "range_km": 423,
+        "total_range_km": null,
+        "combined_kwh_100km": 24.9,
+        "combined_le_100km": 2.8,
+        "gas_combined_l_100km": null,
+        "motor_kw": 370,
+        "recharge_h": 10,
+        "match_confidence": "medium",
+        "nrcan_model": "Charger Daytona R/T AWD 245/55ZR18",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2025-dodge-charger-r-t",
+      "model_year": 2025,
+      "make": "Dodge",
+      "model": "Charger",
+      "trim": "R/T",
+      "fuel_type": "BEV",
+      "canadian_made": true,
+      "price": {
+        "msrp_cad": 54995,
+        "freight_pdi_cad": 2695,
+        "all_in_cad": 57690,
+        "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2025/specifications/daytona-r-t/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 54995.0,
+        "cap_cad": null,
+        "headroom_cad": null,
+        "net_msrp_cad": 49995.0,
+        "net_all_in_cad": 52690.0,
+        "rebate_pct_of_msrp": 9.09,
+        "reasons": [
+          "Canadian-made: exempt from the final transaction value cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 113.37
+      },
+      "spec": {
+        "vehicle_class": "Full-size",
+        "range_km": 441,
+        "total_range_km": null,
+        "combined_kwh_100km": 24.1,
+        "combined_le_100km": 2.7,
+        "gas_combined_l_100km": null,
+        "motor_kw": 370,
+        "recharge_h": 10,
+        "match_confidence": "medium",
+        "nrcan_model": "Charger Daytona R/T AWD 2Dr (18\" Nexen Tire)",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2025-dodge-charger-scat-pack",
+      "model_year": 2025,
+      "make": "Dodge",
+      "model": "Charger",
+      "trim": "Scat Pack",
+      "fuel_type": "BEV",
+      "canadian_made": true,
+      "price": {
+        "msrp_cad": 86995,
+        "freight_pdi_cad": 2695,
+        "all_in_cad": 89690,
+        "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2025/specifications/daytona-r-t/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 86995.0,
+        "cap_cad": null,
+        "headroom_cad": null,
+        "net_msrp_cad": 81995.0,
+        "net_all_in_cad": 84690.0,
+        "rebate_pct_of_msrp": 5.75,
+        "reasons": [
+          "Canadian-made: exempt from the final transaction value cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 185.93
+      },
+      "spec": {
+        "vehicle_class": "Full-size",
+        "range_km": 441,
+        "total_range_km": null,
+        "combined_kwh_100km": 24.1,
+        "combined_le_100km": 2.7,
+        "gas_combined_l_100km": null,
+        "motor_kw": 370,
+        "recharge_h": 10,
+        "match_confidence": "medium",
+        "nrcan_model": "Charger Daytona R/T AWD 2Dr (18\" Nexen Tire)",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2024-dodge-charger-r-t",
+      "model_year": 2024,
+      "make": "Dodge",
+      "model": "Charger",
+      "trim": "R/T",
+      "fuel_type": "BEV",
+      "canadian_made": true,
+      "price": {
+        "msrp_cad": 54995,
+        "freight_pdi_cad": 2695,
+        "all_in_cad": 57690,
+        "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2024/specifications/daytona-r-t/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 54995.0,
+        "cap_cad": null,
+        "headroom_cad": null,
+        "net_msrp_cad": 49995.0,
+        "net_all_in_cad": 52690.0,
+        "rebate_pct_of_msrp": 9.09,
+        "reasons": [
+          "Canadian-made: exempt from the final transaction value cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 113.37
+      },
+      "spec": {
+        "vehicle_class": "Full-size",
+        "range_km": 441,
+        "total_range_km": null,
+        "combined_kwh_100km": 24.1,
+        "combined_le_100km": 2.7,
+        "gas_combined_l_100km": null,
+        "motor_kw": 370,
+        "recharge_h": 10,
+        "match_confidence": "medium",
+        "nrcan_model": "Charger Daytona R/T AWD 2Dr (18\" Nexen Tire)",
+        "nrcan_model_year": 2024
+      }
+    },
+    {
+      "id": "2024-dodge-charger-scat-pack",
+      "model_year": 2024,
+      "make": "Dodge",
+      "model": "Charger",
+      "trim": "Scat Pack",
+      "fuel_type": "BEV",
+      "canadian_made": true,
+      "price": {
+        "msrp_cad": 86995,
+        "freight_pdi_cad": 2695,
+        "all_in_cad": 89690,
+        "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2024/specifications/daytona-r-t/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 86995.0,
+        "cap_cad": null,
+        "headroom_cad": null,
+        "net_msrp_cad": 81995.0,
+        "net_all_in_cad": 84690.0,
+        "rebate_pct_of_msrp": 5.75,
+        "reasons": [
+          "Canadian-made: exempt from the final transaction value cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 185.93
+      },
+      "spec": {
+        "vehicle_class": "Full-size",
+        "range_km": 441,
+        "total_range_km": null,
+        "combined_kwh_100km": 24.1,
+        "combined_le_100km": 2.7,
+        "gas_combined_l_100km": null,
+        "motor_kw": 370,
+        "recharge_h": 10,
+        "match_confidence": "medium",
+        "nrcan_model": "Charger Daytona R/T AWD 2Dr (18\" Nexen Tire)",
+        "nrcan_model_year": 2024
+      }
+    },
+    {
+      "id": "2026-fiat-500e-icona",
+      "model_year": 2026,
+      "make": "Fiat",
+      "model": "500e",
+      "trim": "Icona",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 42995,
+        "freight_pdi_cad": 2195,
+        "all_in_cad": 45190,
+        "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2026/specifications/pop/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 42995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 7005.0,
+        "net_msrp_cad": 37995.0,
+        "net_all_in_cad": 40190.0,
+        "rebate_pct_of_msrp": 11.63,
+        "reasons": [
+          "final transaction value $42,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 167.38
+      },
+      "spec": {
+        "vehicle_class": "Minicompact",
+        "range_km": 227,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.0,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 87,
+        "recharge_h": 6.2,
+        "match_confidence": "high",
+        "nrcan_model": "500e",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-fiat-500e-pop",
+      "model_year": 2026,
+      "make": "Fiat",
+      "model": "500e",
+      "trim": "Pop",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 39995,
+        "freight_pdi_cad": 2195,
+        "all_in_cad": 42190,
+        "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2026/specifications/pop/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 39995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 10005.0,
+        "net_msrp_cad": 34995.0,
+        "net_all_in_cad": 37190.0,
+        "rebate_pct_of_msrp": 12.5,
+        "reasons": [
+          "final transaction value $39,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 154.16
+      },
+      "spec": {
+        "vehicle_class": "Minicompact",
+        "range_km": 227,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.0,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 87,
+        "recharge_h": 6.2,
+        "match_confidence": "high",
+        "nrcan_model": "500e",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2025-fiat-500e-giorgio-armani",
+      "model_year": 2025,
+      "make": "Fiat",
+      "model": "500e",
+      "trim": "Giorgio Armani",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 45995,
+        "freight_pdi_cad": 2195,
+        "all_in_cad": 48190,
+        "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2025/specifications/red/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 45995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 4005.0,
+        "net_msrp_cad": 40995.0,
+        "net_all_in_cad": 43190.0,
+        "rebate_pct_of_msrp": 10.87,
+        "reasons": [
+          "final transaction value $45,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 180.59
+      },
+      "spec": {
+        "vehicle_class": "Minicompact",
+        "range_km": 227,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.0,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 87,
+        "recharge_h": 6.2,
+        "match_confidence": "high",
+        "nrcan_model": "500e",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2025-fiat-500e-la-prima",
+      "model_year": 2025,
+      "make": "Fiat",
+      "model": "500e",
+      "trim": "La Prima",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 42995,
+        "freight_pdi_cad": 2195,
+        "all_in_cad": 45190,
+        "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2025/specifications/red/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 42995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 7005.0,
+        "net_msrp_cad": 37995.0,
+        "net_all_in_cad": 40190.0,
+        "rebate_pct_of_msrp": 11.63,
+        "reasons": [
+          "final transaction value $42,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 167.38
+      },
+      "spec": {
+        "vehicle_class": "Minicompact",
+        "range_km": 227,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.0,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 87,
+        "recharge_h": 6.2,
+        "match_confidence": "high",
+        "nrcan_model": "500e",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2025-fiat-500e-red",
+      "model_year": 2025,
+      "make": "Fiat",
+      "model": "500e",
+      "trim": "Red",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 39995,
+        "freight_pdi_cad": 2195,
+        "all_in_cad": 42190,
+        "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2025/specifications/red/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 39995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 10005.0,
+        "net_msrp_cad": 34995.0,
+        "net_all_in_cad": 37190.0,
+        "rebate_pct_of_msrp": 12.5,
+        "reasons": [
+          "final transaction value $39,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 154.16
+      },
+      "spec": {
+        "vehicle_class": "Minicompact",
+        "range_km": 227,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.0,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 87,
+        "recharge_h": 6.2,
+        "match_confidence": "high",
+        "nrcan_model": "500e",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2026-ford-escape-plug-in-hybrid-base",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Escape Plug-In Hybrid",
+      "trim": null,
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 41599,
+        "freight_pdi_cad": 2295,
+        "all_in_cad": 43894,
+        "source_url": "https://www.guideautoweb.com/en/makes/ford/escape/2026/specifications/plug-in-hybrid/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "medium",
+        "stale": false,
+        "notes": "ford.ca advertises from $40,494; Car Guide lists $41,599"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 41599.0,
+        "cap_cad": 50000,
+        "headroom_cad": 8401.0,
+        "net_msrp_cad": 39099.0,
+        "net_all_in_cad": 41394.0,
+        "rebate_pct_of_msrp": 6.01,
+        "reasons": [
+          "final transaction value $41,599 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 651.65
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 60,
+        "total_range_km": 831,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 5.9,
+        "motor_kw": 62,
+        "recharge_h": 3.4,
+        "match_confidence": "high",
+        "nrcan_model": "Escape Plug-in Hybrid",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2025-ford-escape-plug-in-hybrid-base",
+      "model_year": 2025,
+      "make": "Ford",
+      "model": "Escape Plug-In Hybrid",
+      "trim": null,
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 43999,
+        "freight_pdi_cad": 2195,
+        "all_in_cad": 46194,
+        "source_url": "https://www.guideautoweb.com/en/makes/ford/escape/2025/specifications/plug-in-hybrid/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 43999.0,
+        "cap_cad": 50000,
+        "headroom_cad": 6001.0,
+        "net_msrp_cad": 41499.0,
+        "net_all_in_cad": 43694.0,
+        "rebate_pct_of_msrp": 5.68,
+        "reasons": [
+          "final transaction value $43,999 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 691.65
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 60,
+        "total_range_km": 831,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 5.9,
+        "motor_kw": 62,
+        "recharge_h": 3.4,
+        "match_confidence": "high",
+        "nrcan_model": "Escape Plug-in Hybrid",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2024-ford-escape-plug-in-hybrid-base",
+      "model_year": 2024,
+      "make": "Ford",
+      "model": "Escape Plug-In Hybrid",
+      "trim": null,
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 46499,
+        "freight_pdi_cad": 2195,
+        "all_in_cad": 48694,
+        "source_url": "https://www.guideautoweb.com/en/makes/ford/escape/2024/specifications/plug-in-hybrid/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 46499.0,
+        "cap_cad": 50000,
+        "headroom_cad": 3501.0,
+        "net_msrp_cad": 43999.0,
+        "net_all_in_cad": 46194.0,
+        "rebate_pct_of_msrp": 5.38,
+        "reasons": [
+          "final transaction value $46,499 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 733.32
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 60,
+        "total_range_km": 831,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 5.9,
+        "motor_kw": 62,
+        "recharge_h": 3.4,
+        "match_confidence": "high",
+        "nrcan_model": "Escape Plug-in Hybrid",
+        "nrcan_model_year": 2024
+      }
+    },
+    {
+      "id": "2026-ford-mach-e-premium-rwd-extended-range",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Mach-e",
+      "trim": "Premium RWD Extended Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 54995,
+        "freight_pdi_cad": 2595,
+        "all_in_cad": 57590,
+        "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": false,
+        "purchase_cad": 0.0,
+        "lease_cad": {
+          "48": 0.0,
+          "36": 0.0,
+          "24": 0.0,
+          "12": 0.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 54995.0,
+        "cap_cad": 50000,
+        "headroom_cad": -4995.0,
+        "net_msrp_cad": 54995.0,
+        "net_all_in_cad": 57590.0,
+        "rebate_pct_of_msrp": 0.0,
+        "reasons": [
+          "final transaction value $54,995 exceeds $50,000 cap (no partial incentive)"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 515,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.1,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 216,
+        "recharge_h": 9.6,
+        "match_confidence": "high",
+        "nrcan_model": "Mustang Mach-E Extended Range",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-ford-mach-e-premium-rwd-standard-range",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Mach-e",
+      "trim": "Premium RWD Standard Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 50995,
+        "freight_pdi_cad": 2595,
+        "all_in_cad": 53590,
+        "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": false,
+        "purchase_cad": 0.0,
+        "lease_cad": {
+          "48": 0.0,
+          "36": 0.0,
+          "24": 0.0,
+          "12": 0.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 50995.0,
+        "cap_cad": 50000,
+        "headroom_cad": -995.0,
+        "net_msrp_cad": 50995.0,
+        "net_all_in_cad": 53590.0,
+        "rebate_pct_of_msrp": 0.0,
+        "reasons": [
+          "final transaction value $50,995 exceeds $50,000 cap (no partial incentive)"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 406,
+        "total_range_km": null,
+        "combined_kwh_100km": 20.4,
+        "combined_le_100km": 2.3,
+        "gas_combined_l_100km": null,
+        "motor_kw": 197,
+        "recharge_h": 7.8,
+        "match_confidence": "high",
+        "nrcan_model": "Mustang Mach-E Standard Range",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-ford-mach-e-premium-eawd-standard-range",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Mach-e",
+      "trim": "Premium eAWD Standard Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 52995,
+        "freight_pdi_cad": 2595,
+        "all_in_cad": 55590,
+        "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": false,
+        "purchase_cad": 0.0,
+        "lease_cad": {
+          "48": 0.0,
+          "36": 0.0,
+          "24": 0.0,
+          "12": 0.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 52995.0,
+        "cap_cad": 50000,
+        "headroom_cad": -2995.0,
+        "net_msrp_cad": 52995.0,
+        "net_all_in_cad": 55590.0,
+        "rebate_pct_of_msrp": 0.0,
+        "reasons": [
+          "final transaction value $52,995 exceeds $50,000 cap (no partial incentive)"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 380,
+        "total_range_km": null,
+        "combined_kwh_100km": 22.3,
+        "combined_le_100km": 2.5,
+        "gas_combined_l_100km": null,
+        "motor_kw": 242,
+        "recharge_h": 7.7,
+        "match_confidence": "high",
+        "nrcan_model": "Mustang Mach-E Standard Range AWD",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-ford-mach-e-select-rwd-standard-range",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Mach-e",
+      "trim": "Select RWD Standard Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 46995,
+        "freight_pdi_cad": 2595,
+        "all_in_cad": 49590,
+        "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 46995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 3005.0,
+        "net_msrp_cad": 41995.0,
+        "net_all_in_cad": 44590.0,
+        "rebate_pct_of_msrp": 10.64,
+        "reasons": [
+          "final transaction value $46,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 103.44
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 406,
+        "total_range_km": null,
+        "combined_kwh_100km": 20.4,
+        "combined_le_100km": 2.3,
+        "gas_combined_l_100km": null,
+        "motor_kw": 197,
+        "recharge_h": 7.8,
+        "match_confidence": "high",
+        "nrcan_model": "Mustang Mach-E Standard Range",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-ford-mach-e-select-eawd-extended-range",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Mach-e",
+      "trim": "Select eAWD Extended Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 55995,
+        "freight_pdi_cad": 2595,
+        "all_in_cad": 58590,
+        "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": false,
+        "purchase_cad": 0.0,
+        "lease_cad": {
+          "48": 0.0,
+          "36": 0.0,
+          "24": 0.0,
+          "12": 0.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 55995.0,
+        "cap_cad": 50000,
+        "headroom_cad": -5995.0,
+        "net_msrp_cad": 55995.0,
+        "net_all_in_cad": 58590.0,
+        "rebate_pct_of_msrp": 0.0,
+        "reasons": [
+          "final transaction value $55,995 exceeds $50,000 cap (no partial incentive)"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 483,
+        "total_range_km": null,
+        "combined_kwh_100km": 20.0,
+        "combined_le_100km": 2.3,
+        "gas_combined_l_100km": null,
+        "motor_kw": 272,
+        "recharge_h": 10.2,
+        "match_confidence": "high",
+        "nrcan_model": "Mustang Mach-E Extended Range AWD",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-ford-mach-e-select-eawd-standard-range",
+      "model_year": 2026,
+      "make": "Ford",
+      "model": "Mach-e",
+      "trim": "Select eAWD Standard Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48995,
+        "freight_pdi_cad": 2595,
+        "all_in_cad": 51590,
+        "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 48995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1005.0,
+        "net_msrp_cad": 43995.0,
+        "net_all_in_cad": 46590.0,
+        "rebate_pct_of_msrp": 10.21,
+        "reasons": [
+          "final transaction value $48,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 115.78
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 380,
+        "total_range_km": null,
+        "combined_kwh_100km": 22.3,
+        "combined_le_100km": 2.5,
+        "gas_combined_l_100km": null,
+        "motor_kw": 242,
+        "recharge_h": 7.7,
+        "match_confidence": "high",
+        "nrcan_model": "Mustang Mach-E Standard Range AWD",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-hyundai-kona-ev-preferred",
+      "model_year": 2026,
+      "make": "Hyundai",
+      "model": "Kona EV",
+      "trim": "Preferred",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 43999,
+        "freight_pdi_cad": 2050,
+        "all_in_cad": 46049,
+        "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2026/specifications/ev-preferred/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 43999.0,
+        "cap_cad": 50000,
+        "headroom_cad": 6001.0,
+        "net_msrp_cad": 38999.0,
+        "net_all_in_cad": 41049.0,
+        "rebate_pct_of_msrp": 11.36,
+        "reasons": [
+          "final transaction value $43,999 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 92.85
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 420,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.1,
+        "combined_le_100km": 2.0,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 6.7,
+        "match_confidence": "high",
+        "nrcan_model": "Kona Electric",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-hyundai-kona-ev-preferred-w-trend-package",
+      "model_year": 2026,
+      "make": "Hyundai",
+      "model": "Kona EV",
+      "trim": "Preferred w/Trend Package",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 45749,
+        "freight_pdi_cad": 2050,
+        "all_in_cad": 47799,
+        "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2026/specifications/ev-preferred/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 45749.0,
+        "cap_cad": 50000,
+        "headroom_cad": 4251.0,
+        "net_msrp_cad": 40749.0,
+        "net_all_in_cad": 42799.0,
+        "rebate_pct_of_msrp": 10.93,
+        "reasons": [
+          "final transaction value $45,749 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 97.02
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 420,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.1,
+        "combined_le_100km": 2.0,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 6.7,
+        "match_confidence": "high",
+        "nrcan_model": "Kona Electric",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-hyundai-kona-ev-preferred-w-ultimate-package",
+      "model_year": 2026,
+      "make": "Hyundai",
+      "model": "Kona EV",
+      "trim": "Preferred w/Ultimate Package",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48799,
+        "freight_pdi_cad": 2050,
+        "all_in_cad": 50849,
+        "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2026/specifications/ev-preferred/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 48799.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1201.0,
+        "net_msrp_cad": 43799.0,
+        "net_all_in_cad": 45849.0,
+        "rebate_pct_of_msrp": 10.25,
+        "reasons": [
+          "final transaction value $48,799 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 104.28
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 420,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.1,
+        "combined_le_100km": 2.0,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 6.7,
+        "match_confidence": "high",
+        "nrcan_model": "Kona Electric",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2025-hyundai-kona-ev-preferred",
+      "model_year": 2025,
+      "make": "Hyundai",
+      "model": "Kona EV",
+      "trim": "Preferred",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 46499,
+        "freight_pdi_cad": 1950,
+        "all_in_cad": 48449,
+        "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2025/specifications/ev-preferred/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 46499.0,
+        "cap_cad": 50000,
+        "headroom_cad": 3501.0,
+        "net_msrp_cad": 41499.0,
+        "net_all_in_cad": 43449.0,
+        "rebate_pct_of_msrp": 10.75,
+        "reasons": [
+          "final transaction value $46,499 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 98.81
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 420,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.1,
+        "combined_le_100km": 2.0,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 6.7,
+        "match_confidence": "high",
+        "nrcan_model": "Kona Electric (17\" Wheels)",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2025-hyundai-kona-ev-preferred-w-trend-package",
+      "model_year": 2025,
+      "make": "Hyundai",
+      "model": "Kona EV",
+      "trim": "Preferred w/Trend Package",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 47899,
+        "freight_pdi_cad": 1950,
+        "all_in_cad": 49849,
+        "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2025/specifications/ev-preferred/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 47899.0,
+        "cap_cad": 50000,
+        "headroom_cad": 2101.0,
+        "net_msrp_cad": 42899.0,
+        "net_all_in_cad": 44849.0,
+        "rebate_pct_of_msrp": 10.44,
+        "reasons": [
+          "final transaction value $47,899 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 102.14
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 420,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.1,
+        "combined_le_100km": 2.0,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 6.7,
+        "match_confidence": "high",
+        "nrcan_model": "Kona Electric (17\" Wheels)",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2027-kia-ev3-gt-line-awd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "GT-Line AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48495,
+        "freight_pdi_cad": 2185,
+        "all_in_cad": 50680,
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
+        "as_of": "2026-08-13",
+        "age_days": 30,
+        "confidence": "high",
+        "stale": false,
+        "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 48495.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1505.0,
+        "net_msrp_cad": 43495.0,
+        "net_all_in_cad": 45680.0,
+        "rebate_pct_of_msrp": 10.31,
+        "reasons": [
+          "final transaction value $48,495 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-kia-ev3-gt-line-fwd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "GT-Line FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 45995,
+        "freight_pdi_cad": 2185,
+        "all_in_cad": 48180,
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
+        "as_of": "2026-08-13",
+        "age_days": 30,
+        "confidence": "high",
+        "stale": false,
+        "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 45995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 4005.0,
+        "net_msrp_cad": 40995.0,
+        "net_all_in_cad": 43180.0,
+        "rebate_pct_of_msrp": 10.87,
+        "reasons": [
+          "final transaction value $45,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-kia-ev3-gt-line-limited-fwd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "GT-Line Limited FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49995,
+        "freight_pdi_cad": 2185,
+        "all_in_cad": 52180,
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
+        "as_of": "2026-08-13",
+        "age_days": 30,
+        "confidence": "high",
+        "stale": false,
+        "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 49995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 5.0,
+        "net_msrp_cad": 44995.0,
+        "net_all_in_cad": 47180.0,
+        "rebate_pct_of_msrp": 10.0,
+        "reasons": [
+          "final transaction value $49,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-kia-ev3-land-awd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "Land AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 45995,
+        "freight_pdi_cad": 2185,
+        "all_in_cad": 48180,
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
+        "as_of": "2026-08-13",
+        "age_days": 30,
+        "confidence": "high",
+        "stale": false,
+        "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 45995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 4005.0,
+        "net_msrp_cad": 40995.0,
+        "net_all_in_cad": 43180.0,
+        "rebate_pct_of_msrp": 10.87,
+        "reasons": [
+          "final transaction value $45,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-kia-ev3-land-fwd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "Land FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 43495,
+        "freight_pdi_cad": 2185,
+        "all_in_cad": 45680,
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
+        "as_of": "2026-08-13",
+        "age_days": 30,
+        "confidence": "high",
+        "stale": false,
+        "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 43495.0,
+        "cap_cad": 50000,
+        "headroom_cad": 6505.0,
+        "net_msrp_cad": 38495.0,
+        "net_all_in_cad": 40680.0,
+        "rebate_pct_of_msrp": 11.5,
+        "reasons": [
+          "final transaction value $43,495 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-kia-ev3-light-fwd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "Light FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 36995,
+        "freight_pdi_cad": 2185,
+        "all_in_cad": 39180,
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
+        "as_of": "2026-08-13",
+        "age_days": 30,
+        "confidence": "high",
+        "stale": false,
+        "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 36995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 13005.0,
+        "net_msrp_cad": 31995.0,
+        "net_all_in_cad": 34180.0,
+        "rebate_pct_of_msrp": 13.52,
+        "reasons": [
+          "final transaction value $36,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-kia-ev3-wind-awd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "Wind AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 43495,
+        "freight_pdi_cad": 2185,
+        "all_in_cad": 45680,
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
+        "as_of": "2026-08-13",
+        "age_days": 30,
+        "confidence": "high",
+        "stale": false,
+        "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 43495.0,
+        "cap_cad": 50000,
+        "headroom_cad": 6505.0,
+        "net_msrp_cad": 38495.0,
+        "net_all_in_cad": 40680.0,
+        "rebate_pct_of_msrp": 11.5,
+        "reasons": [
+          "final transaction value $43,495 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-kia-ev3-wind-fwd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV3",
+      "trim": "Wind FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 40995,
+        "freight_pdi_cad": 2185,
+        "all_in_cad": 43180,
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
+        "as_of": "2026-08-13",
+        "age_days": 30,
+        "confidence": "high",
+        "stale": false,
+        "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 40995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 9005.0,
+        "net_msrp_cad": 35995.0,
+        "net_all_in_cad": 38180.0,
+        "rebate_pct_of_msrp": 12.2,
+        "reasons": [
+          "final transaction value $40,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-kia-ev4-gt-line-fwd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "GT-Line FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48495,
+        "freight_pdi_cad": 2150,
+        "all_in_cad": 50645,
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
+        "as_of": "2026-09-02",
+        "age_days": 10,
+        "confidence": "medium",
+        "stale": false,
+        "notes": "carryover from 2026"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 48495.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1505.0,
+        "net_msrp_cad": 43495.0,
+        "net_all_in_cad": 45645.0,
+        "rebate_pct_of_msrp": 10.31,
+        "reasons": [
+          "final transaction value $48,495 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 89.13
+      },
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 488,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.3,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 9.1,
+        "match_confidence": "low",
+        "nrcan_model": "EV4 GT-Line",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-kia-ev4-light-fwd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "Light FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 38995,
+        "freight_pdi_cad": 2150,
+        "all_in_cad": 41145,
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
+        "as_of": "2026-09-02",
+        "age_days": 10,
+        "confidence": "medium",
+        "stale": false,
+        "notes": "2027 non-GT pricing reported unchanged from 2026"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 38995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 11005.0,
+        "net_msrp_cad": 33995.0,
+        "net_all_in_cad": 36145.0,
+        "rebate_pct_of_msrp": 12.82,
+        "reasons": [
+          "final transaction value $38,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 86.94
+      },
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 391,
+        "total_range_km": null,
+        "combined_kwh_100km": 16.8,
+        "combined_le_100km": 1.9,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 5.9,
+        "match_confidence": "low",
+        "nrcan_model": "EV4 Light",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-kia-ev4-wind-awd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "Wind AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 AWD Wind pricing not found",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 552,
+        "total_range_km": null,
+        "combined_kwh_100km": 16.8,
+        "combined_le_100km": 1.9,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 8.1,
+        "match_confidence": "low",
+        "nrcan_model": "EV4 Wind",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-kia-ev4-wind-fwd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "Wind FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 42995,
+        "freight_pdi_cad": 2150,
+        "all_in_cad": 45145,
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
+        "as_of": "2026-09-02",
+        "age_days": 10,
+        "confidence": "medium",
+        "stale": false,
+        "notes": "carryover from 2026"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 42995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 7005.0,
+        "net_msrp_cad": 37995.0,
+        "net_all_in_cad": 40145.0,
+        "rebate_pct_of_msrp": 11.63,
+        "reasons": [
+          "final transaction value $42,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 68.83
+      },
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 552,
+        "total_range_km": null,
+        "combined_kwh_100km": 16.8,
+        "combined_le_100km": 1.9,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 8.1,
+        "match_confidence": "low",
+        "nrcan_model": "EV4 Wind",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-kia-ev4-wind-premium-awd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "Wind Premium AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 AWD Wind Premium pricing not found",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 515,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.0,
+        "combined_le_100km": 2.0,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 8.1,
+        "match_confidence": "low",
+        "nrcan_model": "EV4 Wind Premium",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-kia-ev4-wind-premium-fwd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "Wind Premium FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 45495,
+        "freight_pdi_cad": 2150,
+        "all_in_cad": 47645,
+        "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
+        "as_of": "2026-09-02",
+        "age_days": 10,
+        "confidence": "medium",
+        "stale": false,
+        "notes": "carryover from 2026"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 45495.0,
+        "cap_cad": 50000,
+        "headroom_cad": 4505.0,
+        "net_msrp_cad": 40495.0,
+        "net_all_in_cad": 42645.0,
+        "rebate_pct_of_msrp": 10.99,
+        "reasons": [
+          "final transaction value $45,495 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 78.63
+      },
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 515,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.0,
+        "combined_le_100km": 2.0,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 8.1,
+        "match_confidence": "low",
+        "nrcan_model": "EV4 Wind Premium",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-kia-ev4-gt-line",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "GT-LINE",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48495,
+        "freight_pdi_cad": 2150,
+        "all_in_cad": 50645,
+        "source_url": "https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/",
+        "as_of": "2025-12-16",
+        "age_days": 270,
+        "confidence": "medium",
+        "stale": true,
+        "notes": "freight assumed $2,150"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 48495.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1505.0,
+        "net_msrp_cad": 43495.0,
+        "net_all_in_cad": 45645.0,
+        "rebate_pct_of_msrp": 10.31,
+        "reasons": [
+          "final transaction value $48,495 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 89.13
+      },
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 488,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.3,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 9.1,
+        "match_confidence": "high",
+        "nrcan_model": "EV4 GT-Line",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-kia-ev4-light",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "LIGHT",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 38995,
+        "freight_pdi_cad": 2150,
+        "all_in_cad": 41145,
+        "source_url": "https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/",
+        "as_of": "2025-12-16",
+        "age_days": 270,
+        "confidence": "medium",
+        "stale": true,
+        "notes": "freight assumed $2,150 (Kia CA standard)"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 38995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 11005.0,
+        "net_msrp_cad": 33995.0,
+        "net_all_in_cad": 36145.0,
+        "rebate_pct_of_msrp": 12.82,
+        "reasons": [
+          "final transaction value $38,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 86.94
+      },
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 391,
+        "total_range_km": null,
+        "combined_kwh_100km": 16.8,
+        "combined_le_100km": 1.9,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 5.9,
+        "match_confidence": "high",
+        "nrcan_model": "EV4 Light",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-kia-ev4-wind",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "WIND",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 42995,
+        "freight_pdi_cad": 2150,
+        "all_in_cad": 45145,
+        "source_url": "https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/",
+        "as_of": "2025-12-16",
+        "age_days": 270,
+        "confidence": "medium",
+        "stale": true,
+        "notes": "freight assumed $2,150"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 42995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 7005.0,
+        "net_msrp_cad": 37995.0,
+        "net_all_in_cad": 40145.0,
+        "rebate_pct_of_msrp": 11.63,
+        "reasons": [
+          "final transaction value $42,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 68.83
+      },
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 552,
+        "total_range_km": null,
+        "combined_kwh_100km": 16.8,
+        "combined_le_100km": 1.9,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 8.1,
+        "match_confidence": "high",
+        "nrcan_model": "EV4 Wind",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-kia-ev4-wind-premium",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "EV4",
+      "trim": "WIND PREMIUM",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 45495,
+        "freight_pdi_cad": 2150,
+        "all_in_cad": 47645,
+        "source_url": "https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/",
+        "as_of": "2025-12-16",
+        "age_days": 270,
+        "confidence": "medium",
+        "stale": true,
+        "notes": "freight assumed $2,150"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 45495.0,
+        "cap_cad": 50000,
+        "headroom_cad": 4505.0,
+        "net_msrp_cad": 40495.0,
+        "net_all_in_cad": 42645.0,
+        "rebate_pct_of_msrp": 10.99,
+        "reasons": [
+          "final transaction value $45,495 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 78.63
+      },
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 515,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.0,
+        "combined_le_100km": 2.0,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 8.1,
+        "match_confidence": "high",
+        "nrcan_model": "EV4 Wind Premium",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-kia-ev5-land-fwd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV5",
+      "trim": "Land FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49995,
+        "freight_pdi_cad": 2150,
+        "all_in_cad": 52145,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/ev5/2027/specifications/wind-fwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 49995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 5.0,
+        "net_msrp_cad": 44995.0,
+        "net_all_in_cad": 47145.0,
+        "rebate_pct_of_msrp": 10.0,
+        "reasons": [
+          "final transaction value $49,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-kia-ev5-wind-awd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV5",
+      "trim": "Wind AWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49995,
+        "freight_pdi_cad": 2150,
+        "all_in_cad": 52145,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/ev5/2027/specifications/wind-fwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 49995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 5.0,
+        "net_msrp_cad": 44995.0,
+        "net_all_in_cad": 47145.0,
+        "rebate_pct_of_msrp": 10.0,
+        "reasons": [
+          "final transaction value $49,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-kia-ev5-wind-fwd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "EV5",
+      "trim": "Wind FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 47495,
+        "freight_pdi_cad": 2150,
+        "all_in_cad": 49645,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/ev5/2027/specifications/wind-fwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 47495.0,
+        "cap_cad": 50000,
+        "headroom_cad": 2505.0,
+        "net_msrp_cad": 42495.0,
+        "net_all_in_cad": 44645.0,
+        "rebate_pct_of_msrp": 10.53,
+        "reasons": [
+          "final transaction value $47,495 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2025-kia-ev6-light-rwd",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "EV6",
+      "trim": "LIGHT RWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48995,
+        "freight_pdi_cad": 2150,
+        "all_in_cad": 51145,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/ev6/2025/specifications/light-rwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 48995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1005.0,
+        "net_msrp_cad": 43995.0,
+        "net_all_in_cad": 46145.0,
+        "rebate_pct_of_msrp": 10.21,
+        "reasons": [
+          "final transaction value $48,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 115.47
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 381,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.2,
+        "combined_le_100km": 2.0,
+        "gas_combined_l_100km": null,
+        "motor_kw": 125,
+        "recharge_h": 6.2,
+        "match_confidence": "high",
+        "nrcan_model": "EV6 Light",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2026-kia-niro-ev-wind",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Niro EV",
+      "trim": "WIND",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 45595,
+        "freight_pdi_cad": 2000,
+        "all_in_cad": 47595,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 45595.0,
+        "cap_cad": 50000,
+        "headroom_cad": 4405.0,
+        "net_msrp_cad": 40595.0,
+        "net_all_in_cad": 42595.0,
+        "rebate_pct_of_msrp": 10.97,
+        "reasons": [
+          "final transaction value $45,595 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 99.74
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 407,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.6,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 7.5,
+        "match_confidence": "high",
+        "nrcan_model": "Niro EV",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-kia-niro-ev-wind-plus",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Niro EV",
+      "trim": "WIND +",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48595,
+        "freight_pdi_cad": 2000,
+        "all_in_cad": 50595,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 48595.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1405.0,
+        "net_msrp_cad": 43595.0,
+        "net_all_in_cad": 45595.0,
+        "rebate_pct_of_msrp": 10.29,
+        "reasons": [
+          "final transaction value $48,595 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 107.11
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 407,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.6,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 7.5,
+        "match_confidence": "high",
+        "nrcan_model": "Niro EV",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2025-kia-niro-ev-wind",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "Niro EV",
+      "trim": "WIND",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 45595,
+        "freight_pdi_cad": 1950,
+        "all_in_cad": 47545,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 45595.0,
+        "cap_cad": 50000,
+        "headroom_cad": 4405.0,
+        "net_msrp_cad": 40595.0,
+        "net_all_in_cad": 42545.0,
+        "rebate_pct_of_msrp": 10.97,
+        "reasons": [
+          "final transaction value $45,595 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 99.74
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 407,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.6,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 7.5,
+        "match_confidence": "high",
+        "nrcan_model": "Niro EV",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2025-kia-niro-ev-wind-plus",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "Niro EV",
+      "trim": "WIND +",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48595,
+        "freight_pdi_cad": 1950,
+        "all_in_cad": 50545,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 48595.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1405.0,
+        "net_msrp_cad": 43595.0,
+        "net_all_in_cad": 45545.0,
+        "rebate_pct_of_msrp": 10.29,
+        "reasons": [
+          "final transaction value $48,595 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 107.11
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 407,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.6,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 7.5,
+        "match_confidence": "high",
+        "nrcan_model": "Niro EV",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2024-kia-niro-ev-wind",
+      "model_year": 2024,
+      "make": "Kia",
+      "model": "Niro EV",
+      "trim": "WIND",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 45595,
+        "freight_pdi_cad": 1950,
+        "all_in_cad": 47545,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2024/specifications/ev-wind/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 45595.0,
+        "cap_cad": 50000,
+        "headroom_cad": 4405.0,
+        "net_msrp_cad": 40595.0,
+        "net_all_in_cad": 42545.0,
+        "rebate_pct_of_msrp": 10.97,
+        "reasons": [
+          "final transaction value $45,595 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 99.74
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 407,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.6,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 7.5,
+        "match_confidence": "high",
+        "nrcan_model": "Niro EV",
+        "nrcan_model_year": 2024
+      }
+    },
+    {
+      "id": "2024-kia-niro-ev-wind-plus",
+      "model_year": 2024,
+      "make": "Kia",
+      "model": "Niro EV",
+      "trim": "WIND +",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48595,
+        "freight_pdi_cad": 1950,
+        "all_in_cad": 50545,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2024/specifications/ev-wind/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 48595.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1405.0,
+        "net_msrp_cad": 43595.0,
+        "net_all_in_cad": 45545.0,
+        "rebate_pct_of_msrp": 10.29,
+        "reasons": [
+          "final transaction value $48,595 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 107.11
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 407,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.6,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 7.5,
+        "match_confidence": "high",
+        "nrcan_model": "Niro EV",
+        "nrcan_model_year": 2024
+      }
+    },
+    {
+      "id": "2026-kia-niro-phev-ex",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Niro PHEV",
+      "trim": "EX",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 38845,
+        "freight_pdi_cad": 2000,
+        "all_in_cad": 40845,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 38845.0,
+        "cap_cad": 50000,
+        "headroom_cad": 11155.0,
+        "net_msrp_cad": 36345.0,
+        "net_all_in_cad": 38345.0,
+        "rebate_pct_of_msrp": 6.44,
+        "reasons": [
+          "final transaction value $38,845 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 660.82
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 55,
+        "total_range_km": 836,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 4.8,
+        "motor_kw": 62,
+        "recharge_h": 2.8,
+        "match_confidence": "high",
+        "nrcan_model": "Niro Plug-in Hybrid",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-kia-niro-phev-ex-premium",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Niro PHEV",
+      "trim": "EX PREMIUM",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 41545,
+        "freight_pdi_cad": 2000,
+        "all_in_cad": 43545,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 41545.0,
+        "cap_cad": 50000,
+        "headroom_cad": 8455.0,
+        "net_msrp_cad": 39045.0,
+        "net_all_in_cad": 41045.0,
+        "rebate_pct_of_msrp": 6.02,
+        "reasons": [
+          "final transaction value $41,545 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 709.91
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 55,
+        "total_range_km": 836,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 4.8,
+        "motor_kw": 62,
+        "recharge_h": 2.8,
+        "match_confidence": "high",
+        "nrcan_model": "Niro Plug-in Hybrid",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-kia-niro-phev-lx",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Niro PHEV",
+      "trim": "LX",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 36845,
+        "freight_pdi_cad": 2000,
+        "all_in_cad": 38845,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 36845.0,
+        "cap_cad": 50000,
+        "headroom_cad": 13155.0,
+        "net_msrp_cad": 34345.0,
+        "net_all_in_cad": 36345.0,
+        "rebate_pct_of_msrp": 6.79,
+        "reasons": [
+          "final transaction value $36,845 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 624.45
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 55,
+        "total_range_km": 836,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 4.8,
+        "motor_kw": 62,
+        "recharge_h": 2.8,
+        "match_confidence": "high",
+        "nrcan_model": "Niro Plug-in Hybrid",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2025-kia-niro-phev-ex",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "Niro PHEV",
+      "trim": "EX",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 38795,
+        "freight_pdi_cad": 1950,
+        "all_in_cad": 40745,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 38795.0,
+        "cap_cad": 50000,
+        "headroom_cad": 11205.0,
+        "net_msrp_cad": 36295.0,
+        "net_all_in_cad": 38245.0,
+        "rebate_pct_of_msrp": 6.44,
+        "reasons": [
+          "final transaction value $38,795 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 659.91
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 55,
+        "total_range_km": 836,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 4.8,
+        "motor_kw": 62,
+        "recharge_h": 2.8,
+        "match_confidence": "high",
+        "nrcan_model": "Niro Plug-in Hybrid",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2025-kia-niro-phev-ex-premium",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "Niro PHEV",
+      "trim": "EX PREMIUM",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 41495,
+        "freight_pdi_cad": 1950,
+        "all_in_cad": 43445,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 41495.0,
+        "cap_cad": 50000,
+        "headroom_cad": 8505.0,
+        "net_msrp_cad": 38995.0,
+        "net_all_in_cad": 40945.0,
+        "rebate_pct_of_msrp": 6.02,
+        "reasons": [
+          "final transaction value $41,495 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 709.0
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 55,
+        "total_range_km": 836,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 4.8,
+        "motor_kw": 62,
+        "recharge_h": 2.8,
+        "match_confidence": "high",
+        "nrcan_model": "Niro Plug-in Hybrid",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2025-kia-niro-phev-lx",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "Niro PHEV",
+      "trim": "LX",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 36795,
+        "freight_pdi_cad": 1950,
+        "all_in_cad": 38745,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 36795.0,
+        "cap_cad": 50000,
+        "headroom_cad": 13205.0,
+        "net_msrp_cad": 34295.0,
+        "net_all_in_cad": 36245.0,
+        "rebate_pct_of_msrp": 6.79,
+        "reasons": [
+          "final transaction value $36,795 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 623.55
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 55,
+        "total_range_km": 836,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 4.8,
+        "motor_kw": 62,
+        "recharge_h": 2.8,
+        "match_confidence": "high",
+        "nrcan_model": "Niro Plug-in Hybrid",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2027-kia-pv5-basic",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "PV5",
+      "trim": "Basic",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 46995,
+        "freight_pdi_cad": null,
+        "all_in_cad": 46995,
+        "source_url": "https://www.kia.ca/en/about-kia/news/Kia-Canada-announces-pricing-for-2027-PV5-Cargo-scheduled-to-arrive-in-Canada-later-this-year",
+        "as_of": "2026-06-26",
+        "age_days": 78,
+        "confidence": "high",
+        "stale": false,
+        "notes": "freight not published"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 46995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 3005.0,
+        "net_msrp_cad": 41995.0,
+        "net_all_in_cad": 41995.0,
+        "rebate_pct_of_msrp": 10.64,
+        "reasons": [
+          "final transaction value $46,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-kia-pv5-plus",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "PV5",
+      "trim": "Plus",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49095,
+        "freight_pdi_cad": null,
+        "all_in_cad": 49095,
+        "source_url": "https://www.kia.ca/en/about-kia/news/Kia-Canada-announces-pricing-for-2027-PV5-Cargo-scheduled-to-arrive-in-Canada-later-this-year",
+        "as_of": "2026-06-26",
+        "age_days": 78,
+        "confidence": "high",
+        "stale": false,
+        "notes": "freight not published"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 49095.0,
+        "cap_cad": 50000,
+        "headroom_cad": 905.0,
+        "net_msrp_cad": 44095.0,
+        "net_all_in_cad": 44095.0,
+        "rebate_pct_of_msrp": 10.18,
+        "reasons": [
+          "final transaction value $49,095 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2026-kia-sorento-phev-lx-phev",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Sorento PHEV",
+      "trim": "LX PHEV",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48695,
+        "freight_pdi_cad": 2100,
+        "all_in_cad": 50795,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/sorento/2026/specifications/phev-lx/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 48695.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1305.0,
+        "net_msrp_cad": 46195.0,
+        "net_all_in_cad": 48295.0,
+        "rebate_pct_of_msrp": 5.13,
+        "reasons": [
+          "final transaction value $48,695 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 839.91
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 55,
+        "total_range_km": 739,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 6.9,
+        "motor_kw": 67,
+        "recharge_h": 3.8,
+        "match_confidence": "high",
+        "nrcan_model": "Sorento Plug-in Hybrid",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-kia-sportage-phev-ex-awd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "Sportage PHEV",
+      "trim": "EX AWD",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": null,
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Canadian pricing not found (dealer listing showed $47,283, unverified)",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 53,
+        "total_range_km": 763,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 6.6,
+        "motor_kw": 67,
+        "recharge_h": 2,
+        "match_confidence": "low",
+        "nrcan_model": "Sportage Plug-in Hybrid",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-kia-sportage-phev-ex-premium-awd",
+      "model_year": 2027,
+      "make": "Kia",
+      "model": "Sportage PHEV",
+      "trim": "EX Premium AWD",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": null,
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Canadian pricing not found",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 53,
+        "total_range_km": 763,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 6.6,
+        "motor_kw": 67,
+        "recharge_h": 2,
+        "match_confidence": "low",
+        "nrcan_model": "Sportage Plug-in Hybrid",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-kia-sportage-phev-ex",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Sportage PHEV",
+      "trim": "EX",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 46295,
+        "freight_pdi_cad": 2100,
+        "all_in_cad": 48395,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/sportage/2026/specifications/phev-ex/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 46295.0,
+        "cap_cad": 50000,
+        "headroom_cad": 3705.0,
+        "net_msrp_cad": 43795.0,
+        "net_all_in_cad": 45895.0,
+        "rebate_pct_of_msrp": 5.4,
+        "reasons": [
+          "final transaction value $46,295 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 826.32
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 53,
+        "total_range_km": 763,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 6.6,
+        "motor_kw": 67,
+        "recharge_h": 2,
+        "match_confidence": "high",
+        "nrcan_model": "Sportage Plug-in Hybrid",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-kia-sportage-phev-ex-premium",
+      "model_year": 2026,
+      "make": "Kia",
+      "model": "Sportage PHEV",
+      "trim": "EX PREMIUM",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49395,
+        "freight_pdi_cad": 2100,
+        "all_in_cad": 51495,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/sportage/2026/specifications/phev-ex/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 49395.0,
+        "cap_cad": 50000,
+        "headroom_cad": 605.0,
+        "net_msrp_cad": 46895.0,
+        "net_all_in_cad": 48995.0,
+        "rebate_pct_of_msrp": 5.06,
+        "reasons": [
+          "final transaction value $49,395 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 884.81
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 53,
+        "total_range_km": 763,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 6.6,
+        "motor_kw": 67,
+        "recharge_h": 2,
+        "match_confidence": "high",
+        "nrcan_model": "Sportage Plug-in Hybrid",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2025-kia-sportage-phev-ex-premium",
+      "model_year": 2025,
+      "make": "Kia",
+      "model": "Sportage PHEV",
+      "trim": "EX PREMIUM",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 46995,
+        "freight_pdi_cad": 2050,
+        "all_in_cad": 49045,
+        "source_url": "https://www.guideautoweb.com/en/makes/kia/sportage/2025/specifications/phev-ex-premium/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 46995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 3005.0,
+        "net_msrp_cad": 44495.0,
+        "net_all_in_cad": 46545.0,
+        "rebate_pct_of_msrp": 5.32,
+        "reasons": [
+          "final transaction value $46,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 809.0
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 55,
+        "total_range_km": 687,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 6.7,
+        "motor_kw": 67,
+        "recharge_h": 2,
+        "match_confidence": "high",
+        "nrcan_model": "Sportage Plug-in Hybrid",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2027-mini-countryman-se-all4-elementary-edition",
+      "model_year": 2027,
+      "make": "MINI",
+      "model": "Countryman SE All4",
+      "trim": "Elementary Edition",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49990,
+        "freight_pdi_cad": null,
+        "all_in_cad": 49990,
+        "source_url": "https://mini.ca/en/discover/elementary-edition",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": "freight/PDI not published on page"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 49990.0,
+        "cap_cad": 50000,
+        "headroom_cad": 10.0,
+        "net_msrp_cad": 44990.0,
+        "net_all_in_cad": 44990.0,
+        "rebate_pct_of_msrp": 10.0,
+        "reasons": [
+          "final transaction value $49,990 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 131.94
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 341,
+        "total_range_km": null,
+        "combined_kwh_100km": 21.7,
+        "combined_le_100km": 2.4,
+        "gas_combined_l_100km": null,
+        "motor_kw": 225,
+        "recharge_h": 8,
+        "match_confidence": "low",
+        "nrcan_model": "Countryman SE ALL4 (18\" Wheels)",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-mazda-cx-70-phev-gs-sc",
+      "model_year": 2026,
+      "make": "Mazda",
+      "model": "CX-70 PHEV",
+      "trim": "GS-SC",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48999,
+        "freight_pdi_cad": 2195,
+        "all_in_cad": 51194,
+        "source_url": "https://www.guideautoweb.com/en/makes/mazda/cx-70/2026/specifications/phev-gs-sc/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "medium",
+        "stale": false,
+        "notes": "Mazda Canada Dec-2025 release said $52,750; Car Guide now shows $48,999 (price cut)"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 48999.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1001.0,
+        "net_msrp_cad": 46499.0,
+        "net_all_in_cad": 48694.0,
+        "rebate_pct_of_msrp": 5.1,
+        "reasons": [
+          "final transaction value $48,999 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 1081.37
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Standard",
+        "range_km": 43,
+        "total_range_km": 801,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 9.2,
+        "motor_kw": 68,
+        "recharge_h": 2,
+        "match_confidence": "medium",
+        "nrcan_model": "CX-70 PHEV 4WD",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-mazda-cx-90-phev-gs",
+      "model_year": 2026,
+      "make": "Mazda",
+      "model": "CX-90 PHEV",
+      "trim": "GS",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49999,
+        "freight_pdi_cad": 2195,
+        "all_in_cad": 52194,
+        "source_url": "https://www.guideautoweb.com/en/makes/mazda/cx-90/2026/specifications/phev-gs/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "medium",
+        "stale": false,
+        "notes": "Mazda Canada Dec-2025 release said $53,750; Car Guide now shows $49,999"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 49999.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1.0,
+        "net_msrp_cad": 47499.0,
+        "net_all_in_cad": 49694.0,
+        "rebate_pct_of_msrp": 5.0,
+        "reasons": [
+          "final transaction value $49,999 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 1104.63
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Standard",
+        "range_km": 43,
+        "total_range_km": 801,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 9.2,
+        "motor_kw": 68,
+        "recharge_h": 2,
+        "match_confidence": "medium",
+        "nrcan_model": "CX-90 PHEV 4WD",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-mitsubishi-outlander-phev-es",
+      "model_year": 2026,
+      "make": "Mitsubishi",
+      "model": "Outlander PHEV",
+      "trim": "ES",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49998,
+        "freight_pdi_cad": 2125,
+        "all_in_cad": 52123,
+        "source_url": "https://www.guideautoweb.com/en/makes/mitsubishi/outlander/2026/specifications/phev-es/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 49998.0,
+        "cap_cad": 50000,
+        "headroom_cad": 2.0,
+        "net_msrp_cad": 47498.0,
+        "net_all_in_cad": 49623.0,
+        "rebate_pct_of_msrp": 5.0,
+        "reasons": [
+          "final transaction value $49,998 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 659.69
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Standard",
+        "range_km": 72,
+        "total_range_km": 690,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 8.6,
+        "motor_kw": 100,
+        "recharge_h": 6.5,
+        "match_confidence": "medium",
+        "nrcan_model": "Outlander PHEV AWD",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2025-mitsubishi-outlander-phev-es",
+      "model_year": 2025,
+      "make": "Mitsubishi",
+      "model": "Outlander PHEV",
+      "trim": "ES",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48698,
+        "freight_pdi_cad": 2050,
+        "all_in_cad": 50748,
+        "source_url": "https://www.guideautoweb.com/en/makes/mitsubishi/outlander/2025/specifications/phev-es/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 48698.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1302.0,
+        "net_msrp_cad": 46198.0,
+        "net_all_in_cad": 48248.0,
+        "rebate_pct_of_msrp": 5.13,
+        "reasons": [
+          "final transaction value $48,698 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 757.34
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Standard",
+        "range_km": 61,
+        "total_range_km": 687,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 9.0,
+        "motor_kw": 100,
+        "recharge_h": 6.5,
+        "match_confidence": "medium",
+        "nrcan_model": "Outlander PHEV AWD",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2026-nissan-leaf-s-plus",
+      "model_year": 2026,
+      "make": "Nissan",
+      "model": "Leaf",
+      "trim": "S+",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 44998,
+        "freight_pdi_cad": 2095,
+        "all_in_cad": 47093,
+        "source_url": "https://canada.nissannews.com/en-CA/releases/all-new-2026-nissan-leaf-pricing-announced-for-canada",
+        "as_of": "2025-09-01",
+        "age_days": 376,
+        "confidence": "high",
+        "stale": true,
+        "notes": "Nissan Canada release"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 44998.0,
+        "cap_cad": 50000,
+        "headroom_cad": 5002.0,
+        "net_msrp_cad": 39998.0,
+        "net_all_in_cad": 42093.0,
+        "rebate_pct_of_msrp": 11.11,
+        "reasons": [
+          "final transaction value $44,998 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 81.96
+      },
+      "spec": {
+        "vehicle_class": "Station wagon: Small",
+        "range_km": 488,
+        "total_range_km": null,
+        "combined_kwh_100km": 17.3,
+        "combined_le_100km": 1.9,
+        "gas_combined_l_100km": null,
+        "motor_kw": 160,
+        "recharge_h": 12,
+        "match_confidence": "high",
+        "nrcan_model": "LEAF S PLUS",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-nissan-leaf-sv-plus",
+      "model_year": 2026,
+      "make": "Nissan",
+      "model": "Leaf",
+      "trim": "SV+",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 47998,
+        "freight_pdi_cad": 2095,
+        "all_in_cad": 50093,
+        "source_url": "https://canada.nissannews.com/en-CA/releases/all-new-2026-nissan-leaf-pricing-announced-for-canada",
+        "as_of": "2025-09-01",
+        "age_days": 376,
+        "confidence": "high",
+        "stale": true,
+        "notes": "Nissan Canada release"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 47998.0,
+        "cap_cad": 50000,
+        "headroom_cad": 2002.0,
+        "net_msrp_cad": 42998.0,
+        "net_all_in_cad": 45093.0,
+        "rebate_pct_of_msrp": 10.42,
+        "reasons": [
+          "final transaction value $47,998 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 92.87
+      },
+      "spec": {
+        "vehicle_class": "Station wagon: Small",
+        "range_km": 463,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.4,
+        "combined_le_100km": 2.1,
+        "gas_combined_l_100km": null,
+        "motor_kw": 160,
+        "recharge_h": 12,
+        "match_confidence": "high",
+        "nrcan_model": "LEAF SV PLUS",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-subaru-solterra-limited",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Solterra",
+      "trim": "Limited",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": "https://www.guideautoweb.com/en/articles/82536/subaru-slashes-the-price-of-the-2027-solterra/",
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 trim-level pricing not published; base starts $47,995",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 359,
+        "total_range_km": null,
+        "combined_kwh_100km": 20.5,
+        "combined_le_100km": 2.3,
+        "gas_combined_l_100km": null,
+        "motor_kw": 160,
+        "recharge_h": 11,
+        "match_confidence": "low",
+        "nrcan_model": "Solterra AWD",
+        "nrcan_model_year": 2024
+      }
+    },
+    {
+      "id": "2027-subaru-solterra-limited-black-cladding",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Solterra",
+      "trim": "Limited Black Cladding",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": "https://www.guideautoweb.com/en/articles/82536/subaru-slashes-the-price-of-the-2027-solterra/",
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 trim-level pricing not published; base starts $47,995",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 359,
+        "total_range_km": null,
+        "combined_kwh_100km": 20.5,
+        "combined_le_100km": 2.3,
+        "gas_combined_l_100km": null,
+        "motor_kw": 160,
+        "recharge_h": 11,
+        "match_confidence": "low",
+        "nrcan_model": "Solterra AWD",
+        "nrcan_model_year": 2024
+      }
+    },
+    {
+      "id": "2027-subaru-solterra-touring",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Solterra",
+      "trim": "Touring",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 47995,
+        "freight_pdi_cad": null,
+        "all_in_cad": 47995,
+        "source_url": "https://www.guideautoweb.com/en/articles/82536/subaru-slashes-the-price-of-the-2027-solterra/",
+        "as_of": "2026-07-15",
+        "age_days": 59,
+        "confidence": "medium",
+        "stale": false,
+        "notes": "2027 starting MSRP; Touring assumed base trim"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 47995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 2005.0,
+        "net_msrp_cad": 42995.0,
+        "net_all_in_cad": 42995.0,
+        "rebate_pct_of_msrp": 10.42,
+        "reasons": [
+          "final transaction value $47,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 119.76
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 359,
+        "total_range_km": null,
+        "combined_kwh_100km": 20.5,
+        "combined_le_100km": 2.3,
+        "gas_combined_l_100km": null,
+        "motor_kw": 160,
+        "recharge_h": 11,
+        "match_confidence": "low",
+        "nrcan_model": "Solterra AWD",
+        "nrcan_model_year": 2024
+      }
+    },
+    {
+      "id": "2027-subaru-solterra-touring-black-cladding",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Solterra",
+      "trim": "Touring Black Cladding",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": "https://www.guideautoweb.com/en/articles/82536/subaru-slashes-the-price-of-the-2027-solterra/",
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 trim-level pricing not published; base starts $47,995",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 359,
+        "total_range_km": null,
+        "combined_kwh_100km": 20.5,
+        "combined_le_100km": 2.3,
+        "gas_combined_l_100km": null,
+        "motor_kw": 160,
+        "recharge_h": 11,
+        "match_confidence": "low",
+        "nrcan_model": "Solterra AWD",
+        "nrcan_model_year": 2024
+      }
+    },
+    {
+      "id": "2027-subaru-trailseeker-touring",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Trailseeker",
+      "trim": "Touring",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49995,
+        "freight_pdi_cad": null,
+        "all_in_cad": 49995,
+        "source_url": "https://emptytank.ca/2026/08/07/2027-subaru-trailseeker-gets-lower-price/",
+        "as_of": "2026-08-07",
+        "age_days": 36,
+        "confidence": "medium",
+        "stale": false,
+        "notes": "$53,152 incl. freight and fees per Subaru Canada release"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 49995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 5.0,
+        "net_msrp_cad": 44995.0,
+        "net_all_in_cad": 44995.0,
+        "rebate_pct_of_msrp": 10.0,
+        "reasons": [
+          "final transaction value $49,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2027-subaru-uncharted-fwd",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": "https://emptytank.ca/2026/08/07/2027-subaru-trailseeker-gets-lower-price/",
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Uncharted reported $2,000 below 2026 trims; per-trim MSRP not confirmed",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": null
+    },
+    {
+      "id": "2027-subaru-uncharted-fwd-long-range",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "FWD Long Range",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": "https://emptytank.ca/2026/08/07/2027-subaru-trailseeker-gets-lower-price/",
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Uncharted reported $2,000 below 2026 trims; per-trim MSRP not confirmed",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": null
+    },
+    {
+      "id": "2027-subaru-uncharted-gt",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "GT",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": "https://emptytank.ca/2026/08/07/2027-subaru-trailseeker-gets-lower-price/",
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Uncharted reported $2,000 below 2026 trims; per-trim MSRP not confirmed",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": null
+    },
+    {
+      "id": "2027-subaru-uncharted-sport",
+      "model_year": 2027,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "Sport",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": "https://emptytank.ca/2026/08/07/2027-subaru-trailseeker-gets-lower-price/",
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Uncharted reported $2,000 below 2026 trims; per-trim MSRP not confirmed",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": null
+    },
+    {
+      "id": "2026-subaru-uncharted-fwd",
+      "model_year": 2026,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 42995,
+        "freight_pdi_cad": 2295,
+        "all_in_cad": 45290,
+        "source_url": "https://www.guideautoweb.com/en/makes/subaru/uncharted/2026/specifications/sport/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 42995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 7005.0,
+        "net_msrp_cad": 37995.0,
+        "net_all_in_cad": 40290.0,
+        "rebate_pct_of_msrp": 11.63,
+        "reasons": [
+          "final transaction value $42,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2026-subaru-uncharted-fwd-lr",
+      "model_year": 2026,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "FWD LR",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 46995,
+        "freight_pdi_cad": 2295,
+        "all_in_cad": 49290,
+        "source_url": "https://www.guideautoweb.com/en/makes/subaru/uncharted/2026/specifications/sport/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": "FWD Long Range"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 46995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 3005.0,
+        "net_msrp_cad": 41995.0,
+        "net_all_in_cad": 44290.0,
+        "rebate_pct_of_msrp": 10.64,
+        "reasons": [
+          "final transaction value $46,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2026-subaru-uncharted-sport",
+      "model_year": 2026,
+      "make": "Subaru",
+      "model": "Uncharted",
+      "trim": "Sport",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49995,
+        "freight_pdi_cad": 2295,
+        "all_in_cad": 52290,
+        "source_url": "https://www.guideautoweb.com/en/makes/subaru/uncharted/2026/specifications/sport/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 49995.0,
+        "cap_cad": 50000,
+        "headroom_cad": 5.0,
+        "net_msrp_cad": 44995.0,
+        "net_all_in_cad": 47290.0,
+        "rebate_pct_of_msrp": 10.0,
+        "reasons": [
+          "final transaction value $49,995 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        }
+      },
+      "spec": null
+    },
+    {
+      "id": "2026-tesla-model-y-rwd-b",
+      "model_year": 2026,
+      "make": "Tesla",
+      "model": "Model Y",
+      "trim": "RWD-B",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49990,
+        "freight_pdi_cad": 2500,
+        "all_in_cad": 52490,
+        "source_url": "https://www.guideautoweb.com/en/makes/tesla/model-y/2026/specifications/rwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": "TC lists trim as RWD-B"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 49990.0,
+        "cap_cad": 50000,
+        "headroom_cad": 10.0,
+        "net_msrp_cad": 44990.0,
+        "net_all_in_cad": 47490.0,
+        "rebate_pct_of_msrp": 10.0,
+        "reasons": [
+          "final transaction value $49,990 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 97.17
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 463,
+        "total_range_km": null,
+        "combined_kwh_100km": 15.4,
+        "combined_le_100km": 1.7,
+        "gas_combined_l_100km": null,
+        "motor_kw": 220,
+        "recharge_h": 8,
+        "match_confidence": "high",
+        "nrcan_model": "Model Y RWD-B",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-toyota-c-hr-se-fwd",
+      "model_year": 2027,
+      "make": "Toyota",
+      "model": "C-HR",
+      "trim": "SE (FWD)",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": null,
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Canadian pricing not yet published",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 496,
+        "total_range_km": null,
+        "combined_kwh_100km": 16.2,
+        "combined_le_100km": 1.8,
+        "gas_combined_l_100km": null,
+        "motor_kw": 167,
+        "recharge_h": 8,
+        "match_confidence": "low",
+        "nrcan_model": "C-HR",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-toyota-c-hr-xse-awd",
+      "model_year": 2027,
+      "make": "Toyota",
+      "model": "C-HR",
+      "trim": "XSE (AWD)",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": null,
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Canadian pricing not yet published",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 496,
+        "total_range_km": null,
+        "combined_kwh_100km": 16.2,
+        "combined_le_100km": 1.8,
+        "gas_combined_l_100km": null,
+        "motor_kw": 167,
+        "recharge_h": 8,
+        "match_confidence": "low",
+        "nrcan_model": "C-HR",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-toyota-c-hr-se-fwd",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "C-HR",
+      "trim": "SE (FWD)",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 44900,
+        "freight_pdi_cad": 1930,
+        "all_in_cad": 46830,
+        "source_url": "https://emptytank.ca/2026/02/19/toyota-canada-announces-2026-c-hr-prices/",
+        "as_of": "2026-02-19",
+        "age_days": 205,
+        "confidence": "high",
+        "stale": true,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 44900.0,
+        "cap_cad": 50000,
+        "headroom_cad": 5100.0,
+        "net_msrp_cad": 39900.0,
+        "net_all_in_cad": 41830.0,
+        "rebate_pct_of_msrp": 11.14,
+        "reasons": [
+          "final transaction value $44,900 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 80.44
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 496,
+        "total_range_km": null,
+        "combined_kwh_100km": 16.2,
+        "combined_le_100km": 1.8,
+        "gas_combined_l_100km": null,
+        "motor_kw": 167,
+        "recharge_h": 8,
+        "match_confidence": "high",
+        "nrcan_model": "C-HR",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-toyota-c-hr-xse-awd",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "C-HR",
+      "trim": "XSE (AWD)",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49950,
+        "freight_pdi_cad": 1930,
+        "all_in_cad": 51880,
+        "source_url": "https://emptytank.ca/2026/02/19/toyota-canada-announces-2026-c-hr-prices/",
+        "as_of": "2026-02-19",
+        "age_days": 205,
+        "confidence": "high",
+        "stale": true,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 49950.0,
+        "cap_cad": 50000,
+        "headroom_cad": 50.0,
+        "net_msrp_cad": 44950.0,
+        "net_all_in_cad": 46880.0,
+        "rebate_pct_of_msrp": 10.01,
+        "reasons": [
+          "final transaction value $49,950 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 90.62
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 496,
+        "total_range_km": null,
+        "combined_kwh_100km": 16.2,
+        "combined_le_100km": 1.8,
+        "gas_combined_l_100km": null,
+        "motor_kw": 167,
+        "recharge_h": 8,
+        "match_confidence": "high",
+        "nrcan_model": "C-HR",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-toyota-prius-plug-in-hybrid-se",
+      "model_year": 2027,
+      "make": "Toyota",
+      "model": "Prius Plug-In Hybrid",
+      "trim": "SE",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": null,
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Canadian pricing not yet published",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 72,
+        "total_range_km": 962,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 4.5,
+        "motor_kw": 120,
+        "recharge_h": 4,
+        "match_confidence": "low",
+        "nrcan_model": "Prius Plug-in Hybrid SE",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-toyota-prius-plug-in-hybrid-xse",
+      "model_year": 2027,
+      "make": "Toyota",
+      "model": "Prius Plug-In Hybrid",
+      "trim": "XSE",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": null,
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Canadian pricing not yet published",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 64,
+        "total_range_km": 890,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 4.9,
+        "motor_kw": 120,
+        "recharge_h": 4,
+        "match_confidence": "low",
+        "nrcan_model": "Prius Plug-in Hybrid XSE",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-toyota-prius-plug-in-hybrid-xse-premium",
+      "model_year": 2027,
+      "make": "Toyota",
+      "model": "Prius Plug-In Hybrid",
+      "trim": "XSE Premium",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "source_url": null,
+        "as_of": null,
+        "confidence": null,
+        "notes": "2027 Canadian pricing not yet published",
+        "msrp_cad": null
+      },
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 64,
+        "total_range_km": 890,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 4.9,
+        "motor_kw": 120,
+        "recharge_h": 4,
+        "match_confidence": "low",
+        "nrcan_model": "Prius Plug-in Hybrid XSE",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-toyota-prius-plug-in-hybrid-nightshade",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "Prius Plug-in Hybrid",
+      "trim": "Nightshade",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 45680,
+        "freight_pdi_cad": 1860,
+        "all_in_cad": 47540,
+        "source_url": "https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 45680.0,
+        "cap_cad": 50000,
+        "headroom_cad": 4320.0,
+        "net_msrp_cad": 43180.0,
+        "net_all_in_cad": 45040.0,
+        "rebate_pct_of_msrp": 5.47,
+        "reasons": [
+          "final transaction value $45,680 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 599.72
+      },
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 72,
+        "total_range_km": 962,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 4.5,
+        "motor_kw": 120,
+        "recharge_h": 4,
+        "match_confidence": "medium",
+        "nrcan_model": "Prius Plug-in Hybrid SE",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-toyota-prius-plug-in-hybrid-se",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "Prius Plug-in Hybrid",
+      "trim": "SE",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 40050,
+        "freight_pdi_cad": 1860,
+        "all_in_cad": 41910,
+        "source_url": "https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 40050.0,
+        "cap_cad": 50000,
+        "headroom_cad": 9950.0,
+        "net_msrp_cad": 37550.0,
+        "net_all_in_cad": 39410.0,
+        "rebate_pct_of_msrp": 6.24,
+        "reasons": [
+          "final transaction value $40,050 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 521.53
+      },
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 72,
+        "total_range_km": 962,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 4.5,
+        "motor_kw": 120,
+        "recharge_h": 4,
+        "match_confidence": "high",
+        "nrcan_model": "Prius Plug-in Hybrid SE",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-toyota-prius-plug-in-hybrid-xse",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "Prius Plug-in Hybrid",
+      "trim": "XSE",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 44785,
+        "freight_pdi_cad": 1860,
+        "all_in_cad": 46645,
+        "source_url": "https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 44785.0,
+        "cap_cad": 50000,
+        "headroom_cad": 5215.0,
+        "net_msrp_cad": 42285.0,
+        "net_all_in_cad": 44145.0,
+        "rebate_pct_of_msrp": 5.58,
+        "reasons": [
+          "final transaction value $44,785 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 660.7
+      },
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 64,
+        "total_range_km": 890,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 4.9,
+        "motor_kw": 120,
+        "recharge_h": 4,
+        "match_confidence": "high",
+        "nrcan_model": "Prius Plug-in Hybrid XSE",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-toyota-prius-plug-in-hybrid-xse-premium",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "Prius Plug-in Hybrid",
+      "trim": "XSE Premium",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48535,
+        "freight_pdi_cad": 1860,
+        "all_in_cad": 50395,
+        "source_url": "https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 48535.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1465.0,
+        "net_msrp_cad": 46035.0,
+        "net_all_in_cad": 47895.0,
+        "rebate_pct_of_msrp": 5.15,
+        "reasons": [
+          "final transaction value $48,535 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 719.3
+      },
+      "spec": {
+        "vehicle_class": "Mid-size",
+        "range_km": 64,
+        "total_range_km": 890,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 4.9,
+        "motor_kw": 120,
+        "recharge_h": 4,
+        "match_confidence": "high",
+        "nrcan_model": "Prius Plug-in Hybrid XSE",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-toyota-rav4-plug-in-hybrid-se",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "RAV4 Plug-In Hybrid",
+      "trim": "SE",
+      "fuel_type": "PHEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48750,
+        "freight_pdi_cad": null,
+        "all_in_cad": 48750,
+        "source_url": "https://media.toyota.ca/en/releases/2026/toyota-canada-announces-pricing-for-the-all-new-2026-toyota-rav4.html",
+        "as_of": "2026-03-01",
+        "age_days": 195,
+        "confidence": "high",
+        "stale": true,
+        "notes": "Toyota Canada release"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 2500.0,
+        "lease_cad": {
+          "48": 2500.0,
+          "36": 1875.0,
+          "24": 1250.0,
+          "12": 625.0
+        },
+        "full_cad": 2500,
+        "final_transaction_value": 48750.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1250.0,
+        "net_msrp_cad": 46250.0,
+        "net_all_in_cad": 46250.0,
+        "rebate_pct_of_msrp": 5.13,
+        "reasons": [
+          "final transaction value $48,750 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 2000
+        },
+        "net_cad_per_km_range": 519.66
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 89,
+        "total_range_km": 1059,
+        "combined_kwh_100km": null,
+        "combined_le_100km": null,
+        "gas_combined_l_100km": 5.7,
+        "motor_kw": 151,
+        "recharge_h": 3,
+        "match_confidence": "medium",
+        "nrcan_model": "RAV4 Plug-in Hybrid AWD SE",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2027-toyota-bz-xle-fwd",
+      "model_year": 2027,
+      "make": "Toyota",
+      "model": "bZ",
+      "trim": "XLE FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 45985,
+        "freight_pdi_cad": null,
+        "all_in_cad": 45985,
+        "source_url": "https://electrek.co/2026/08/18/2027-toyota-bz-now-on-sale-how-much-it-costs/",
+        "as_of": "2026-08-18",
+        "age_days": 25,
+        "confidence": "medium",
+        "stale": false,
+        "notes": "starting price reported CA$45,985"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 45985.0,
+        "cap_cad": 50000,
+        "headroom_cad": 4015.0,
+        "net_msrp_cad": 40985.0,
+        "net_all_in_cad": 40985.0,
+        "rebate_pct_of_msrp": 10.87,
+        "reasons": [
+          "final transaction value $45,985 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 107.86
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 380,
+        "total_range_km": null,
+        "combined_kwh_100km": 16.1,
+        "combined_le_100km": 1.8,
+        "gas_combined_l_100km": null,
+        "motor_kw": 125,
+        "recharge_h": 6,
+        "match_confidence": "low",
+        "nrcan_model": "bZ",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-toyota-bz-xle-fwd",
+      "model_year": 2026,
+      "make": "Toyota",
+      "model": "bZ",
+      "trim": "XLE FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 45990,
+        "freight_pdi_cad": 1930,
+        "all_in_cad": 47920,
+        "source_url": "https://www.guideautoweb.com/en/makes/toyota/bz/2026/specifications/xle-fwd/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "high",
+        "stale": false,
+        "notes": null
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 45990.0,
+        "cap_cad": 50000,
+        "headroom_cad": 4010.0,
+        "net_msrp_cad": 40990.0,
+        "net_all_in_cad": 42920.0,
+        "rebate_pct_of_msrp": 10.87,
+        "reasons": [
+          "final transaction value $45,990 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 107.87
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 380,
+        "total_range_km": null,
+        "combined_kwh_100km": 16.1,
+        "combined_le_100km": 1.8,
+        "gas_combined_l_100km": null,
+        "motor_kw": 125,
+        "recharge_h": 6,
+        "match_confidence": "high",
+        "nrcan_model": "bZ",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2025-volkswagen-id-4-base",
+      "model_year": 2025,
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "trim": "Base",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48495,
+        "freight_pdi_cad": 2200,
+        "all_in_cad": 50695,
+        "source_url": "https://www.autotrader.ca/research/volkswagen/id-4/2025/",
+        "as_of": "2026-09-12",
+        "age_days": 0,
+        "confidence": "medium",
+        "stale": false,
+        "notes": "AutoTrader research page"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 48495.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1505.0,
+        "net_msrp_cad": 43495.0,
+        "net_all_in_cad": 45695.0,
+        "rebate_pct_of_msrp": 10.31,
+        "reasons": [
+          "final transaction value $48,495 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 131.01
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 332,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.6,
+        "combined_le_100km": 2.2,
+        "gas_combined_l_100km": null,
+        "motor_kw": 150,
+        "recharge_h": 6,
+        "match_confidence": "high",
+        "nrcan_model": "ID.4",
+        "nrcan_model_year": 2025
+      }
+    },
+    {
+      "id": "2026-volvo-ex30-single-motor-extended-range-core",
+      "model_year": 2026,
+      "make": "Volvo",
+      "model": "EX30 Single Motor Extended Range",
+      "trim": "Core",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 44000,
+        "freight_pdi_cad": null,
+        "all_in_cad": 44000,
+        "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
+        "as_of": "2026-05-09",
+        "age_days": 126,
+        "confidence": "high",
+        "stale": true,
+        "notes": "all-in $47,919 incl. fees/levies"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 44000.0,
+        "cap_cad": 50000,
+        "headroom_cad": 6000.0,
+        "net_msrp_cad": 39000.0,
+        "net_all_in_cad": 39000.0,
+        "rebate_pct_of_msrp": 11.36,
+        "reasons": [
+          "final transaction value $44,000 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 92.86
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 420,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.1,
+        "combined_le_100km": 2.0,
+        "gas_combined_l_100km": null,
+        "motor_kw": 200,
+        "recharge_h": 8,
+        "match_confidence": "high",
+        "nrcan_model": "EX30 Single Motor Extended Range",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-volvo-ex30-single-motor-extended-range-plus",
+      "model_year": 2026,
+      "make": "Volvo",
+      "model": "EX30 Single Motor Extended Range",
+      "trim": "Plus",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 45000,
+        "freight_pdi_cad": null,
+        "all_in_cad": 45000,
+        "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
+        "as_of": "2026-05-09",
+        "age_days": 126,
+        "confidence": "high",
+        "stale": true,
+        "notes": "all-in $48,919"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 45000.0,
+        "cap_cad": 50000,
+        "headroom_cad": 5000.0,
+        "net_msrp_cad": 40000.0,
+        "net_all_in_cad": 40000.0,
+        "rebate_pct_of_msrp": 11.11,
+        "reasons": [
+          "final transaction value $45,000 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 95.24
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 420,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.1,
+        "combined_le_100km": 2.0,
+        "gas_combined_l_100km": null,
+        "motor_kw": 200,
+        "recharge_h": 8,
+        "match_confidence": "high",
+        "nrcan_model": "EX30 Single Motor Extended Range",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-volvo-ex30-single-motor-extended-range-ultra",
+      "model_year": 2026,
+      "make": "Volvo",
+      "model": "EX30 Single Motor Extended Range",
+      "trim": "Ultra",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 46000,
+        "freight_pdi_cad": null,
+        "all_in_cad": 46000,
+        "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
+        "as_of": "2026-05-09",
+        "age_days": 126,
+        "confidence": "high",
+        "stale": true,
+        "notes": "all-in $49,919"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 46000.0,
+        "cap_cad": 50000,
+        "headroom_cad": 4000.0,
+        "net_msrp_cad": 41000.0,
+        "net_all_in_cad": 41000.0,
+        "rebate_pct_of_msrp": 10.87,
+        "reasons": [
+          "final transaction value $46,000 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 97.62
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 420,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.1,
+        "combined_le_100km": 2.0,
+        "gas_combined_l_100km": null,
+        "motor_kw": 200,
+        "recharge_h": 8,
+        "match_confidence": "high",
+        "nrcan_model": "EX30 Single Motor Extended Range",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-volvo-ex30-twin-motor-performance-plus",
+      "model_year": 2026,
+      "make": "Volvo",
+      "model": "EX30 Twin Motor Performance",
+      "trim": "Plus",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 48000,
+        "freight_pdi_cad": null,
+        "all_in_cad": 48000,
+        "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
+        "as_of": "2026-05-09",
+        "age_days": 126,
+        "confidence": "high",
+        "stale": true,
+        "notes": "all-in $51,919"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 48000.0,
+        "cap_cad": 50000,
+        "headroom_cad": 2000.0,
+        "net_msrp_cad": 43000.0,
+        "net_all_in_cad": 43000.0,
+        "rebate_pct_of_msrp": 10.42,
+        "reasons": [
+          "final transaction value $48,000 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 105.65
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 407,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.3,
+        "combined_le_100km": 2.2,
+        "gas_combined_l_100km": null,
+        "motor_kw": 315,
+        "recharge_h": 8,
+        "match_confidence": "high",
+        "nrcan_model": "EX30 Twin Performance",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-volvo-ex30-twin-motor-performance-ultra",
+      "model_year": 2026,
+      "make": "Volvo",
+      "model": "EX30 Twin Motor Performance",
+      "trim": "Ultra",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49000,
+        "freight_pdi_cad": null,
+        "all_in_cad": 49000,
+        "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
+        "as_of": "2026-05-09",
+        "age_days": 126,
+        "confidence": "high",
+        "stale": true,
+        "notes": "all-in $52,919"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 49000.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1000.0,
+        "net_msrp_cad": 44000.0,
+        "net_all_in_cad": 44000.0,
+        "rebate_pct_of_msrp": 10.2,
+        "reasons": [
+          "final transaction value $49,000 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 108.11
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 407,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.3,
+        "combined_le_100km": 2.2,
+        "gas_combined_l_100km": null,
+        "motor_kw": 315,
+        "recharge_h": 8,
+        "match_confidence": "high",
+        "nrcan_model": "EX30 Twin Performance",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
+      "id": "2026-volvo-ex30-twin-motor-performance-ultra-cross-country",
+      "model_year": 2026,
+      "make": "Volvo",
+      "model": "EX30 Twin Motor Performance",
+      "trim": "Ultra, Cross Country",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": {
+        "msrp_cad": 49000,
+        "freight_pdi_cad": null,
+        "all_in_cad": 49000,
+        "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
+        "as_of": "2026-05-09",
+        "age_days": 126,
+        "confidence": "high",
+        "stale": true,
+        "notes": "Cross Country Ultra; all-in $52,919"
+      },
+      "rebate": {
+        "eligible": true,
+        "purchase_cad": 5000.0,
+        "lease_cad": {
+          "48": 5000.0,
+          "36": 3750.0,
+          "24": 2500.0,
+          "12": 1250.0
+        },
+        "full_cad": 5000,
+        "final_transaction_value": 49000.0,
+        "cap_cad": 50000,
+        "headroom_cad": 1000.0,
+        "net_msrp_cad": 44000.0,
+        "net_all_in_cad": 44000.0,
+        "rebate_pct_of_msrp": 10.2,
+        "reasons": [
+          "final transaction value $49,000 is within the $50,000 cap"
+        ],
+        "next_step_down": {
+          "date": "2027-01-01",
+          "full_incentive_cad": 4000
+        },
+        "net_cad_per_km_range": 108.11
+      },
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 407,
+        "total_range_km": null,
+        "combined_kwh_100km": 19.3,
+        "combined_le_100km": 2.2,
+        "gas_combined_l_100km": null,
+        "motor_kw": 315,
+        "recharge_h": 8,
+        "match_confidence": "high",
+        "nrcan_model": "EX30 Twin Performance",
+        "nrcan_model_year": 2026
+      }
+    }
+  ],
+  "deals_meta": {
+    "as_of": "2026-09-12",
+    "prices_source": "prices/msrp_ca.csv (manufacturer Canadian pricing, see per-row source_url)",
+    "nrcan_snapshot": "2026-09-12",
+    "summary": {
+      "vehicles": 125,
+      "priced": 105,
+      "eligible_at_msrp": 101,
+      "unpriced": [
+        "2026-dodge-charger-r-t",
+        "2027-chevrolet-equinox-ev-lt-1",
+        "2027-chevrolet-equinox-ev-lt-2",
+        "2027-chevrolet-equinox-ev-lt1-awd",
+        "2027-kia-ev4-wind-awd",
+        "2027-kia-ev4-wind-premium-awd",
+        "2027-kia-sportage-phev-ex-awd",
+        "2027-kia-sportage-phev-ex-premium-awd",
+        "2027-subaru-solterra-limited",
+        "2027-subaru-solterra-limited-black-cladding",
+        "2027-subaru-solterra-touring-black-cladding",
+        "2027-subaru-uncharted-fwd",
+        "2027-subaru-uncharted-fwd-long-range",
+        "2027-subaru-uncharted-gt",
+        "2027-subaru-uncharted-sport",
+        "2027-toyota-c-hr-se-fwd",
+        "2027-toyota-c-hr-xse-awd",
+        "2027-toyota-prius-plug-in-hybrid-se",
+        "2027-toyota-prius-plug-in-hybrid-xse",
+        "2027-toyota-prius-plug-in-hybrid-xse-premium"
+      ],
+      "stale_prices": [
+        "2026-kia-ev4-gt-line",
+        "2026-kia-ev4-light",
+        "2026-kia-ev4-wind",
+        "2026-kia-ev4-wind-premium",
+        "2026-nissan-leaf-s-plus",
+        "2026-nissan-leaf-sv-plus",
+        "2026-toyota-c-hr-se-fwd",
+        "2026-toyota-c-hr-xse-awd",
+        "2026-toyota-rav4-plug-in-hybrid-se",
+        "2026-volvo-ex30-single-motor-extended-range-core",
+        "2026-volvo-ex30-single-motor-extended-range-plus",
+        "2026-volvo-ex30-single-motor-extended-range-ultra",
+        "2026-volvo-ex30-twin-motor-performance-plus",
+        "2026-volvo-ex30-twin-motor-performance-ultra",
+        "2026-volvo-ex30-twin-motor-performance-ultra-cross-country",
+        "2027-chevrolet-bolt-lt",
+        "2027-chevrolet-bolt-rs"
+      ],
+      "with_spec": 102,
+      "cheapest_net": [
+        31995.0,
+        "2027-kia-ev3-light-fwd"
+      ]
+    }
+  }
 }

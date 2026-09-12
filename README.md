@@ -79,3 +79,18 @@ tests/                         parser fixtures, calculator pins, dataset guards
 `evrebate build`) and reimplements the rules from `calc.py` in JS. The
 `deploy-pages` workflow publishes `site/` on every push to `main` that touches it,
 so each scheduled data refresh redeploys the calculator automatically.
+
+## Deals branch (real prices)
+
+- `prices/msrp_ca.csv`: curated Canadian MSRP + freight per TC-listed trim, each row with
+  source URL, as-of date and confidence. No open MSRP dataset exists for Canada, so this
+  is transcribed from OEM releases and pricing pages. Rows older than 90 days are flagged
+  `stale` in the build output so they get re-verified.
+- `evrebate/sources/nrcan.py`: NRCan fuel consumption ratings (open data) for range,
+  efficiency, body class and recharge time, matched heuristically to TC trims with a
+  per-row match confidence. Raw CSVs snapshot under `data/raw/nrcan_fuel_consumption/`.
+- `evrebate/deals.py`: runs every priced trim through the rules at sticker (no add-ons,
+  no dealer fees) for purchase and each lease term. Output `data/dataset/deals.json`
+  and bundled in `dataset.json` for the site.
+- Site: Deals tab (filters, sortable columns, click-through to the calculator with the
+  selection remembered on return) and Compare tab (up to 4 side by side).
