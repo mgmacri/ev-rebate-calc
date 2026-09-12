@@ -94,3 +94,9 @@ so each scheduled data refresh redeploys the calculator automatically.
   and bundled in `dataset.json` for the site.
 - Site: Deals tab (filters, sortable columns, click-through to the calculator with the
   selection remembered on return) and Compare tab (up to 4 side by side).
+
+## Brand
+
+Design tokens live in `site/brand.css`, the mark in `site/mark.svg`, and the
+reference style guide is published at `/brand.html`. Voice rules there apply to all
+copy, including the README. The phrase "elbows up" is banned.

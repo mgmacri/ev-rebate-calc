@@ -5,18 +5,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>EVDeals.ca — every federal EV rebate in Canada, priced</title>
 <meta name="description" content="Sticker price minus the federal rebate on every vehicle Transport Canada lists. Independent, updated twice a week, coast to coast to coast.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23D52B1E'/%3E%3Cpath fill='%23fff' d='M16 5l2 4 3-1-1 5 4-2-1 4 4 1-4 3 1 3-5-1-1 6h-4l-1-6-5 1 1-3-4-3 4-1-1-4 4 2-1-5 3 1z'/%3E%3C/svg%3E">
+<link rel="icon" href="mark.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="brand.css">
 <style>
-:root{--bg:#fafaf8;--card:#ffffff;--ink:#16212f;--muted:#5b6573;--line:#d8dad6;--red:#d52b1e;--accent:#b8231a;--accent-ink:#fff;--bad:#b8231a;--warn:#7a5200;--warn-bg:#fff4dc;--good-bg:#eef4ee;--good:#1f6b3a;--bad-bg:#fbe9e7;--display:"Barlow Condensed",Impact,"Arial Narrow",sans-serif;--body:Barlow,"Helvetica Neue",Arial,sans-serif}
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#121a24;--card:#1a2431;--ink:#eef0f2;--muted:#9aa5b1;--line:#2d3945;--accent:#ff5a4e;--accent-ink:#1a0806;--bad:#ff6b61;--warn:#f0b64a;--warn-bg:#2f2610;--good-bg:#173125;--good:#6fd39a;--bad-bg:#3a1a17}}
-:root[data-theme=dark]{--bg:#121a24;--card:#1a2431;--ink:#eef0f2;--muted:#9aa5b1;--line:#2d3945;--accent:#ff5a4e;--accent-ink:#1a0806;--bad:#ff6b61;--warn:#f0b64a;--warn-bg:#2f2610;--good-bg:#173125;--good:#6fd39a;--bad-bg:#3a1a17}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 var(--body);border-top:10px solid var(--red)}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.5 var(--body);border-top:var(--band) solid var(--red)}
+.card{box-shadow:var(--shadow)}
+th{background:var(--tan-soft)}
+tbody tr:nth-child(even){background:var(--paper)}
+.cbtn{background:var(--tan-soft);border-color:var(--tan-soft);color:var(--umber)}
+.cbtn[aria-pressed=true]{background:var(--umber);color:var(--tan);border-color:var(--umber)}
+.warn{border-left:4px solid var(--pelt)}
+.stats{border-top-color:var(--umber)}
+.hero h1{color:var(--ink)}
+.est,.hint,.sub{color:var(--muted)}
+.back a{color:var(--pelt)}
+.seg button[aria-pressed=true]{background:var(--umber);color:var(--tan)}
+input,select{background:var(--card)}
 .brand{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin:6px 0 2px}
 .wordmark{font-family:var(--display);font-weight:800;font-size:2.9rem;letter-spacing:-.01em;line-height:1;color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;gap:8px}
-.wordmark .leaf{width:34px;height:34px;flex:none}
+.wordmark .leaf{width:38px;height:38px;flex:none}
 .wordmark .tld{color:var(--red)}
 .brand .est{font-size:.9rem;color:var(--muted)}
 .hero{margin:14px 0 22px;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:24px;align-items:end}
@@ -34,7 +44,7 @@ main{max-width:1180px;margin:0 auto;padding:24px 16px 64px}
 
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:920px}
 @media(max-width:720px){.grid{grid-template-columns:1fr}}
-.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-3);padding:18px}
 .card h2{font-family:var(--display);font-size:1.3rem;font-weight:700;margin:0 0 12px;color:var(--ink)}
 label{display:block;font-size:.85rem;color:var(--muted);margin:10px 0 4px}
 label:first-of-type{margin-top:0}
@@ -111,7 +121,7 @@ tbody tr.dim{opacity:.55}
 <body>
 <main>
 <div class="brand">
-<a class="wordmark" href="#deals" aria-label="EVDeals.ca home"><svg class="leaf" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#d52b1e"/><path fill="#fff" d="M16 5l2 4 3-1-1 5 4-2-1 4 4 1-4 3 1 3-5-1-1 6h-4l-1-6-5 1 1-3-4-3 4-1-1-4 4 2-1-5 3 1z"/></svg><span>EVDeals<span class="tld">.ca</span></span></a>
+<a class="wordmark" href="#deals" aria-label="EVDeals.ca home"><img class="leaf" src="mark.svg" alt="" width="34" height="34"><span>EVDeals<span class="tld">.ca</span></span></a>
 <span class="est">Canada's federal EV rebate, priced on every eligible vehicle</span>
 </div>
 <div class="hero">
@@ -225,7 +235,7 @@ tbody tr.dim{opacity:.55}
 <div id="rules"></div>
 </details>
 <footer>
-<div class="made">Made in Canada 🍁 Built for buyers, not for dealers.</div>
+<div class="made">Made in Canada 🍁 Built for buyers, not for dealers. <a href="brand.html" style="color:var(--pelt);font:inherit">Brand</a></div>
 <div id="foot"></div>
 <div>EVDeals.ca is independent. It is not affiliated with any automaker, dealer, or the Government of Canada. Provincial rebates stack on top of the federal one and are not included here. Nothing on this site is a quote; the dealer's Transport Canada portal submission is what counts.</div>
 </footer>

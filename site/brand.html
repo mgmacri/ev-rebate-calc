@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EVDeals.ca brand and design system</title>
+<link rel="icon" href="mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="brand.css">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.5 var(--body);border-top:var(--band) solid var(--red)}
+main{max-width:1100px;margin:0 auto;padding:var(--s-5) var(--s-4) var(--s-7)}
+h1,h2,h3{font-family:var(--display);line-height:1.05;margin:0}
+h1{font-size:var(--fs-6);font-weight:800}
+h2{font-size:var(--fs-4);font-weight:700;margin:var(--s-7) 0 var(--s-3);padding-top:var(--s-4);border-top:2px solid var(--umber)}
+h3{font-size:var(--fs-3);font-weight:700;margin:var(--s-5) 0 var(--s-2)}
+p{max-width:64ch}
+.lede{color:var(--muted);font-size:var(--fs-2);max-width:56ch}
+.wordmark{font-family:var(--display);font-weight:800;font-size:2.9rem;letter-spacing:-.01em;display:inline-flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none}
+.wordmark .tld{color:var(--red)}
+.wordmark svg{width:44px;height:44px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:var(--s-3)}
+.swatch{border:1px solid var(--line);border-radius:var(--r-2);overflow:hidden;background:var(--card)}
+.swatch b{display:block;height:72px}
+.swatch div{padding:var(--s-2) var(--s-3);font-size:var(--fs-0)}
+.swatch code{display:block;color:var(--muted)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-5)}
+@media(max-width:760px){.two{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-3);padding:var(--s-4);box-shadow:var(--shadow)}
+.btn{display:inline-block;padding:10px 18px;border-radius:var(--r-2);font:600 var(--fs-2) var(--body);border:1px solid transparent;cursor:pointer;text-decoration:none}
+.btn-primary{background:var(--red);color:#fff}.btn-primary:hover{background:var(--red-deep)}
+.btn-secondary{background:transparent;color:var(--ink);border-color:var(--umber)}
+.btn-quiet{background:var(--tan-soft);color:var(--umber)}
+.pill{display:inline-block;padding:2px 10px;border-radius:var(--r-pill);font-size:var(--fs-0);font-weight:600}
+.pill.ok{background:var(--good-bg);color:var(--good)}.pill.no{background:var(--bad-bg);color:var(--bad)}.pill.na{background:var(--tan-soft);color:var(--muted)}
+.pill.leaf{background:var(--red);color:#fff}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line)}
+.tabs span{padding:10px 14px;font:700 1.25rem var(--display);color:var(--muted);border-bottom:3px solid transparent}
+.tabs span.on{color:var(--ink);border-bottom-color:var(--red)}
+table{border-collapse:collapse;width:100%;font-size:var(--fs-1);background:var(--card);border:1px solid var(--line);border-radius:var(--r-2);overflow:hidden}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line)}
+th{font-size:var(--fs-0);font-weight:600;color:var(--muted);background:var(--tan-soft)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tbody tr:nth-child(even){background:var(--paper)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:2px solid var(--umber);border-bottom:1px solid var(--line)}
+.stats div{padding:10px 12px 10px 0}.stats div+div{border-left:1px solid var(--line);padding-left:12px}
+.stats b{display:block;font:700 1.9rem/1.1 var(--display)}.stats span{font-size:var(--fs-0);color:var(--muted)}
+.callout{background:var(--tan-soft);border-left:4px solid var(--pelt);padding:var(--s-3) var(--s-4);border-radius:var(--r-1);max-width:64ch}
+.type-sample{display:grid;gap:var(--s-2)}
+.type-sample .d1{font:800 var(--fs-6)/1 var(--display)}
+.type-sample .d2{font:700 var(--fs-5)/1.05 var(--display)}
+.type-sample .d3{font:700 var(--fs-4)/1.1 var(--display)}
+.type-sample .b1{font:400 var(--fs-2)/1.5 var(--body)}
+.type-sample .b0{font:400 var(--fs-0)/1.4 var(--body);color:var(--muted)}
+.marks{display:flex;gap:var(--s-5);align-items:center;flex-wrap:wrap}
+.marks figure{margin:0;text-align:center;font-size:var(--fs-0);color:var(--muted)}
+.marks svg{display:block;margin:0 auto var(--s-2)}
+.dont{color:var(--bad)}
+.voice{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-4)}
+@media(max-width:760px){.voice{grid-template-columns:1fr}}
+.voice div{background:var(--card);border:1px solid var(--line);border-radius:var(--r-2);padding:var(--s-3) var(--s-4)}
+.voice h4{margin:0 0 var(--s-2);font:700 var(--fs-3) var(--display)}
+ul{padding-left:20px}li{margin:4px 0}
+footer{margin-top:var(--s-7);padding-top:var(--s-4);border-top:2px solid var(--umber);color:var(--muted);font-size:var(--fs-1)}
+.flagbar{height:var(--band);background:var(--red);margin-top:var(--s-7)}
+</style>
+</head>
+<body>
+<main>
+<a class="wordmark" href="index.html"><img src="mark.svg" alt="" width="44" height="44"><span>EVDeals<span class="tld">.ca</span></span></a>
+<h1 style="margin-top:16px">Brand and design system</h1>
+<p class="lede">EVDeals.ca is a straight-talking Canadian tool. It should feel like a good hardware store: warm, sturdy, honest about prices, and quietly proud of where it is from. The beaver is our spirit animal, not our clown.</p>
+
+<h2>Idea</h2>
+<div class="two">
+<div>
+<p><strong>Built here. Priced straight.</strong> Everything on the site exists to answer one question fast: what will this EV really cost me after the federal rebate, right now, in Canada.</p>
+<p>The mascot reference is a beaver with a flag. We keep the sentiment (industrious, friendly, national) and drop the cartoon rendering. The mark is flat, two-tone, and reads at 16 pixels.</p>
+</div>
+<div class="callout">Three words to check any screen against: <strong>warm, sturdy, plain.</strong> If it feels slick, cold, or salesy, it is wrong.</div>
+</div>
+
+<h2>Mark</h2>
+<div class="marks">
+<figure><img src="mark.svg" width="120" height="120" alt="EVDeals beaver mark"><span>Primary mark, 120px</span></figure>
+<figure><img src="mark.svg" width="44" height="44" alt=""><span>Header, 44px</span></figure>
+<figure><img src="mark.svg" width="16" height="16" alt=""><span>Favicon, 16px</span></figure>
+<figure style="background:var(--umber);padding:16px;border-radius:8px"><img src="mark.svg" width="64" height="64" alt=""><span style="color:var(--tan)">On umber</span></figure>
+</div>
+<p>A flat beaver head on a red rounded square. Two teeth, no outlines, no gradients. The maple leaf stays on the flag and in the favicon only. Do not add a hat, sunglasses, or hockey stick. Do not animate it.</p>
+
+<h2>Colour</h2>
+<div class="grid">
+<div class="swatch"><b style="background:var(--red)"></b><div>Flag red<code>--red #d52b1e</code></div></div>
+<div class="swatch"><b style="background:var(--red-deep)"></b><div>Red, pressed<code>--red-deep #b3231a</code></div></div>
+<div class="swatch"><b style="background:var(--pelt)"></b><div>Pelt<code>--pelt #8b5a2b</code></div></div>
+<div class="swatch"><b style="background:var(--tan)"></b><div>Belly tan<code>--tan #e8c58b</code></div></div>
+<div class="swatch"><b style="background:var(--tan-soft)"></b><div>Tan wash<code>--tan-soft #f4e3c4</code></div></div>
+<div class="swatch"><b style="background:var(--umber)"></b><div>Tail umber<code>--umber #3f2a17</code></div></div>
+<div class="swatch"><b style="background:var(--ink)"></b><div>Ink<code>--ink #2b1d12</code></div></div>
+<div class="swatch"><b style="background:var(--muted)"></b><div>Muted text<code>--muted #6e5a47</code></div></div>
+<div class="swatch"><b style="background:var(--line)"></b><div>Hairline<code>--line #dccbb3</code></div></div>
+<div class="swatch"><b style="background:var(--paper);border-bottom:1px solid var(--line)"></b><div>Paper<code>--paper #fbf8f2</code></div></div>
+<div class="swatch"><b style="background:var(--good)"></b><div>Eligible<code>--good #2e7d4f</code></div></div>
+<div class="swatch"><b style="background:var(--warn-bg)"></b><div>Caution wash<code>--warn-bg #fff2d6</code></div></div>
+</div>
+<h3>Rules</h3>
+<ul>
+<li>Red is loud on purpose, so it is rationed: the flag bands top and bottom, the ".ca", the active tab, one primary button per screen, and the leaf.</li>
+<li>Brown does the structural work. Umber for rules and headings, pelt for secondary emphasis, tan for stripes, badges and callouts.</li>
+<li>Green means eligible and nothing else. Red text means over cap or not eligible. Never use red for decoration inside data.</li>
+<li>No dark mode. The brand lives in daylight on paper.</li>
+</ul>
+
+<h2>Type</h2>
+<div class="two">
+<div class="type-sample">
+<div class="d1">Barlow Condensed 800</div>
+<div class="d2">Sticker price minus the rebate.</div>
+<div class="d3">Section heading, 700</div>
+<div class="b1">Barlow 400 for body. Seventeen pixels base, because our readers are not twenty-two. Lines under sixty-five characters.</div>
+<div class="b0">Barlow 400 small, muted. Table headers, footnotes, sources.</div>
+</div>
+<div>
+<p>One family, two widths. The condensed cut carries the personality: it reads like highway signage and hockey numbers. The regular cut does the reading.</p>
+<ul>
+<li>Headlines are sentences with a full stop, in sentence case. No all caps labels anywhere.</li>
+<li>Numbers use tabular figures and right-align in tables.</li>
+<li>Do not colour a single word in a headline for emphasis.</li>
+</ul>
+</div>
+</div>
+
+<h2>Voice</h2>
+<p>Write like a neighbour who has done the homework. Short sentences. Kilometres, not miles. Name the province when it matters. Say "Ottawa" for the federal government when talking to buyers, "Transport Canada" when citing the source.</p>
+<div class="voice">
+<div><h4>Say</h4><ul>
+<li>Sticker price minus the rebate, on every EV Ottawa will pay for.</li>
+<li>Works the same in Victoria, Winnipeg or St. John's.</li>
+<li>Built for buyers, not for dealers.</li>
+<li>No sign-up. No dealer spin.</li>
+<li>Made in Canada.</li>
+</ul></div>
+<div><h4 class="dont">Do not say</h4><ul>
+<li class="dont">"Elbows up" or any hockey-fight slogan. Banned in all copy, alt text and social.</li>
+<li class="dont">"Unlock", "supercharge", "game-changing", "seamless".</li>
+<li class="dont">"Eh", "hoser", double-double, or anything from a beer ad.</li>
+<li class="dont">Exclamation marks in interface copy.</li>
+<li class="dont">Any automaker's name or logo as if we were affiliated.</li>
+</ul></div>
+</div>
+
+<h2>Components</h2>
+<h3>Tabs</h3>
+<div class="tabs"><span class="on">Deals</span><span>Calculator</span><span>Compare</span></div>
+<h3>Buttons</h3>
+<p><a class="btn btn-primary">Find my rebate</a> &nbsp; <a class="btn btn-secondary">Open in calculator</a> &nbsp; <a class="btn btn-quiet">+ Compare</a></p>
+<p>One primary per screen. Secondary is an umber outline. Quiet is tan and used for repeated row actions.</p>
+<h3>Status pills</h3>
+<p><span class="pill ok">Eligible</span> &nbsp; <span class="pill no">Over cap</span> &nbsp; <span class="pill na">No price</span> &nbsp; <span class="pill na">stale</span> &nbsp; <span class="pill leaf">🍁 Made in Canada</span></p>
+<h3>Stat strip</h3>
+<div class="stats"><div><b>101</b><span>vehicles that qualify at sticker</span></div><div><b>$31,995</b><span>cheapest after rebate, Kia EV3</span></div><div><b>Jan 1, 2027</b><span>rebate drops to $4,000 for EVs</span></div></div>
+<h3>Table</h3>
+<table><thead><tr><th>Vehicle</th><th>Fuel</th><th class="num">MSRP</th><th class="num">Rebate</th><th class="num">Net</th><th>Status</th></tr></thead>
+<tbody><tr><td>2027 Kia EV3 Light FWD</td><td>BEV</td><td class="num">$36,995</td><td class="num" style="color:var(--good);font-weight:600">$5,000</td><td class="num">$31,995</td><td><span class="pill ok">Eligible</span></td></tr>
+<tr><td>2026 Chrysler Pacifica Select 🍁</td><td>PHEV</td><td class="num">$59,995</td><td class="num" style="color:var(--good);font-weight:600">$2,500</td><td class="num">$57,495</td><td><span class="pill ok">Eligible</span></td></tr>
+<tr><td>2026 Ford Mach-e Premium RWD Extended Range</td><td>BEV</td><td class="num">$54,995</td><td class="num">$0</td><td class="num">$54,995</td><td><span class="pill no">Over cap</span></td></tr></tbody></table>
+<h3>Callout</h3>
+<div class="callout">Canadian-made vehicles have no price cap. The Pacifica and Charger qualify at any sticker.</div>
+<h3>Card</h3>
+<div class="card" style="max-width:420px"><h3 style="margin-top:0">Result</h3><span class="pill ok">Eligible</span><div style="font:800 var(--fs-6)/1 var(--display);margin:6px 0">$5,000</div><span style="color:var(--muted);font-size:var(--fs-1)">Full BEV incentive for 2026</span></div>
+
+<h2>Layout</h2>
+<ul>
+<li>Flag bands: a 10px red band at the very top and bottom of every page. This is the one piece of chrome that never changes.</li>
+<li>Content width 1180px for data pages, 920px for reading. Left aligned. 16px side gutters on phones.</li>
+<li>Cards are white on paper with a hairline and a soft umber shadow. Radius 12px on cards, 8px on controls, 4px on callouts.</li>
+<li>Hairlines are tan-brown, never grey.</li>
+</ul>
+
+<footer>Tokens live in <code>brand.css</code>. The mark is <code>mark.svg</code>. This page is the reference; if the site and this page disagree, fix the site.</footer>
+</main>
+<div class="flagbar"></div>
+</body>
+</html>

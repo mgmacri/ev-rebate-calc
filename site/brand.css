@@ -1,0 +1,31 @@
+/* EVDeals.ca design tokens. Source of truth for colour, type, spacing, radius.
+   Palette is drawn from the beaver: pelt brown, belly tan, tail umber, flag red. */
+:root{
+  /* colour */
+  --red:#d52b1e;          /* flag red: the only loud colour. CTAs, active tab, leaf */
+  --red-deep:#b3231a;     /* hover/pressed red */
+  --pelt:#8b5a2b;         /* beaver pelt: secondary accent, headings on tan */
+  --tan:#e8c58b;          /* belly tan: highlights, badges, table stripes */
+  --tan-soft:#f4e3c4;     /* tan wash for callouts */
+  --umber:#3f2a17;        /* tail umber: primary ink */
+  --ink:#2b1d12;          /* darkest text */
+  --muted:#6e5a47;        /* secondary text */
+  --line:#dccbb3;         /* hairlines */
+  --paper:#fbf8f2;        /* page background, warm white */
+  --card:#ffffff;
+  --good:#2e7d4f;  --good-bg:#e6f2ea;
+  --bad:#b3231a;   --bad-bg:#fbe7e4;
+  --warn:#7a5200;  --warn-bg:#fff2d6;
+  /* aliases used by components */
+  --bg:var(--paper); --accent:var(--red); --accent-ink:#fff;
+  /* type */
+  --display:"Barlow Condensed",Impact,"Arial Narrow",sans-serif;
+  --body:Barlow,"Helvetica Neue",Arial,sans-serif;
+  --fs-0:.8rem; --fs-1:.9rem; --fs-2:1.05rem; --fs-3:1.3rem; --fs-4:1.8rem; --fs-5:2.6rem; --fs-6:3.4rem;
+  /* space and shape */
+  --s-1:4px; --s-2:8px; --s-3:12px; --s-4:16px; --s-5:24px; --s-6:32px; --s-7:48px;
+  --r-1:4px; --r-2:8px; --r-3:12px; --r-pill:999px;
+  --band:10px;            /* flag band thickness */
+  --shadow:0 1px 0 rgba(63,42,23,.08), 0 6px 18px -10px rgba(63,42,23,.25);
+}
+/* dark mode is intentionally not offered: the brand is daylight, paper and pelt. */
