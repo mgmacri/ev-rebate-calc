@@ -55,8 +55,13 @@ footer a,details a{color:inherit}
 .chk{display:flex;align-items:center;gap:6px;font-size:.85rem;color:var(--ink);margin-top:22px}
 .chk input{width:auto}
 .tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card)}
-table{border-collapse:collapse;width:100%;font-size:.88rem}
-th,td{padding:8px 10px;text-align:left;white-space:nowrap;border-bottom:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;font-size:.85rem}
+th,td{padding:7px 8px;text-align:left;white-space:nowrap;border-bottom:1px solid var(--line)}
+#dtable td.veh{white-space:normal;min-width:160px}
+#dtable .cbtn{white-space:nowrap}
+@media(max-width:1100px){#dtable .c-class,#dtable .c-perkm{display:none}}
+@media(max-width:900px){#dtable .c-allin,#dtable .c-headroom{display:none}}
+@media(max-width:700px){#dtable .c-fuel,#dtable .c-range{display:none}#dtable td.veh{min-width:120px}}
 th{position:sticky;top:0;background:var(--card);cursor:pointer;user-select:none;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
 th.num,td.num{text-align:right;font-variant-numeric:tabular-nums}
 th[aria-sort]:after{content:" ↕";opacity:.4}
@@ -109,17 +114,17 @@ tbody tr.dim{opacity:.55}
 </div>
 <div class="count" id="dcount"></div>
 <div class="tblwrap"><table id="dtable"><thead><tr>
-<th data-k="cmp" style="cursor:default"></th>
+<th data-k="cmp" style="cursor:default" title="Add to compare">Cmp</th>
 <th data-k="name">Vehicle</th>
-<th data-k="fuel_type">Fuel</th>
-<th data-k="vehicle_class">Body</th>
+<th class="c-fuel" data-k="fuel_type">Fuel</th>
+<th class="c-class" data-k="vehicle_class">Body</th>
 <th class="num" data-k="msrp">MSRP</th>
 <th class="num" data-k="rebate">Rebate</th>
 <th class="num" data-k="net">Net</th>
-<th class="num" data-k="allin">All-in net</th>
-<th class="num" data-k="headroom">Cap room</th>
-<th class="num" data-k="range">Range</th>
-<th class="num" data-k="perkm">Net $/km</th>
+<th class="num c-allin" data-k="allin">All-in net</th>
+<th class="num c-headroom" data-k="headroom">Cap room</th>
+<th class="num c-range" data-k="range">Range</th>
+<th class="num c-perkm" data-k="perkm">Net $/km</th>
 <th data-k="status">Status</th>
 </tr></thead><tbody id="dbody"></tbody></table></div>
 <p class="src" id="dfoot"></p>
@@ -409,16 +414,16 @@ function renderDeals() {
     const st = !priced ? '<span class="pill na">No price</span>' : r.eligible ? '<span class="pill ok">Eligible</span>' : '<span class="pill no">Over cap</span>';
     const inCmp = compareIds.includes(d.id);
     return `<tr data-id="${d.id}" class="${d.id === currentDealId ? 'sel' : ''}${priced ? '' : ' dim'}">
-<td><button class="cbtn" aria-pressed="${inCmp}" title="Add to compare">${inCmp ? '✓ Compare' : '+ Compare'}</button></td>
-<td>${dealName(d)}${d.canadian_made ? ' 🍁' : ''}${p?.stale ? ' <span class="pill na" title="Price older than 90 days">stale</span>' : ''}</td>
-<td>${d.fuel_type}</td><td>${(s.vehicle_class || '—').replace('Sport utility vehicle','SUV')}</td>
+<td><button class="cbtn" aria-pressed="${inCmp}" title="Add to compare">${inCmp ? '✓' : '+'}</button></td>
+<td class="veh">${dealName(d)}${d.canadian_made ? ' 🍁' : ''}${p?.stale ? ' <span class="pill na" title="Price older than 90 days">stale</span>' : ''}</td>
+<td class="c-fuel">${d.fuel_type}</td><td class="c-class">${(s.vehicle_class || '—').replace('Sport utility vehicle','SUV')}</td>
 <td class="num">${money(p?.msrp_cad)}</td>
 <td class="num">${priced ? (r.eligible ? '<span class="best">' + fmt(r.purchase_cad) + '</span>' : '$0') : '—'}</td>
 <td class="num">${priced ? fmt(r.net_msrp_cad) : '—'}</td>
-<td class="num">${priced && p.freight_pdi_cad != null ? fmt(r.net_all_in_cad) : '—'}</td>
-<td class="num">${priced ? (r.headroom_cad == null ? 'no cap' : (r.headroom_cad < 0 ? '−' : '') + fmt(Math.abs(r.headroom_cad))) : '—'}</td>
-<td class="num">${s.range_km ? s.range_km + ' km' : '—'}</td>
-<td class="num">${r?.net_cad_per_km_range ? '$' + r.net_cad_per_km_range.toFixed(0) : '—'}</td>
+<td class="num c-allin">${priced && p.freight_pdi_cad != null ? fmt(r.net_all_in_cad) : '—'}</td>
+<td class="num c-headroom">${priced ? (r.headroom_cad == null ? 'no cap' : (r.headroom_cad < 0 ? '−' : '') + fmt(Math.abs(r.headroom_cad))) : '—'}</td>
+<td class="num c-range">${s.range_km ? s.range_km + ' km' : '—'}</td>
+<td class="num c-perkm">${r?.net_cad_per_km_range ? '$' + r.net_cad_per_km_range.toFixed(0) : '—'}</td>
 <td>${st}</td></tr>`; }).join('') : '<tr><td colspan="12" class="empty">Nothing matches these filters.</td></tr>';
 }
 function openDeal(d, push = true) {
