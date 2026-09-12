@@ -3,21 +3,39 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Federal EV Rebate Calculator</title>
-<meta name="description" content="Calculate Canada's federal EVAP electric vehicle incentive for any eligible vehicle, purchase or lease.">
+<title>EVDeals.ca — every federal EV rebate in Canada, priced</title>
+<meta name="description" content="Sticker price minus the federal rebate on every vehicle Transport Canada lists. Independent, updated twice a week, coast to coast to coast.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23D52B1E'/%3E%3Cpath fill='%23fff' d='M16 5l2 4 3-1-1 5 4-2-1 4 4 1-4 3 1 3-5-1-1 6h-4l-1-6-5 1 1-3-4-3 4-1-1-4 4 2-1-5 3 1z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--ink:#16181d;--muted:#5d6470;--line:#dde1e7;--accent:#0b6e4f;--accent-ink:#fff;--bad:#b3261e;--warn:#8a5a00;--warn-bg:#fff6e0;--good-bg:#e8f5ef;--bad-bg:#fdecea}
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1115;--card:#181b21;--ink:#e8eaee;--muted:#9aa2ad;--line:#2b3038;--accent:#3ccf96;--accent-ink:#04120c;--bad:#ff6b61;--warn:#f0b64a;--warn-bg:#2a2210;--good-bg:#0f2a20;--bad-bg:#2c1513}}
-:root[data-theme=dark]{--bg:#0f1115;--card:#181b21;--ink:#e8eaee;--muted:#9aa2ad;--line:#2b3038;--accent:#3ccf96;--accent-ink:#04120c;--bad:#ff6b61;--warn:#f0b64a;--warn-bg:#2a2210;--good-bg:#0f2a20;--bad-bg:#2c1513}
+:root{--bg:#fafaf8;--card:#ffffff;--ink:#16212f;--muted:#5b6573;--line:#d8dad6;--red:#d52b1e;--accent:#b8231a;--accent-ink:#fff;--bad:#b8231a;--warn:#7a5200;--warn-bg:#fff4dc;--good-bg:#eef4ee;--good:#1f6b3a;--bad-bg:#fbe9e7;--display:"Barlow Condensed",Impact,"Arial Narrow",sans-serif;--body:Barlow,"Helvetica Neue",Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#121a24;--card:#1a2431;--ink:#eef0f2;--muted:#9aa5b1;--line:#2d3945;--accent:#ff5a4e;--accent-ink:#1a0806;--bad:#ff6b61;--warn:#f0b64a;--warn-bg:#2f2610;--good-bg:#173125;--good:#6fd39a;--bad-bg:#3a1a17}}
+:root[data-theme=dark]{--bg:#121a24;--card:#1a2431;--ink:#eef0f2;--muted:#9aa5b1;--line:#2d3945;--accent:#ff5a4e;--accent-ink:#1a0806;--bad:#ff6b61;--warn:#f0b64a;--warn-bg:#2f2610;--good-bg:#173125;--good:#6fd39a;--bad-bg:#3a1a17}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 var(--body);border-top:10px solid var(--red)}
+.brand{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin:6px 0 2px}
+.wordmark{font-family:var(--display);font-weight:800;font-size:2.9rem;letter-spacing:-.01em;line-height:1;color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+.wordmark .leaf{width:34px;height:34px;flex:none}
+.wordmark .tld{color:var(--red)}
+.brand .est{font-size:.9rem;color:var(--muted)}
+.hero{margin:14px 0 22px;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:24px;align-items:end}
+@media(max-width:760px){.hero{grid-template-columns:1fr}}
+.hero h1{font-family:var(--display);font-weight:700;font-size:2.4rem;line-height:1.05;margin:0 0 8px;max-width:22ch}
+.hero p{margin:0;color:var(--muted);max-width:52ch}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:2px solid var(--ink);border-bottom:1px solid var(--line)}
+.stats div{padding:10px 12px 10px 0}
+.stats div+div{border-left:1px solid var(--line);padding-left:12px}
+.stats b{display:block;font-family:var(--display);font-weight:700;font-size:1.9rem;line-height:1.1}
+.stats span{font-size:.82rem;color:var(--muted)}
+.ok{color:var(--good)}
+.best{color:var(--good)}
 main{max-width:1180px;margin:0 auto;padding:24px 16px 64px}
-h1{font-size:1.6rem;margin:0 0 4px}
-.sub{color:var(--muted);margin:0 0 20px;font-size:.95rem}
+
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:920px}
 @media(max-width:720px){.grid{grid-template-columns:1fr}}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
-.card h2{font-size:1rem;margin:0 0 12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.card h2{font-family:var(--display);font-size:1.3rem;font-weight:700;margin:0 0 12px;color:var(--ink)}
 label{display:block;font-size:.85rem;color:var(--muted);margin:10px 0 4px}
 label:first-of-type{margin-top:0}
 input,select{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
@@ -28,9 +46,9 @@ input:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px}
 .seg button{flex:1;padding:9px;border:0;background:transparent;color:var(--ink);font:inherit;cursor:pointer}
 .seg button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink)}
 .result{position:sticky;top:16px}
-.big{font-size:2.6rem;font-weight:700;line-height:1.1;margin:4px 0}
+.big{font-family:var(--display);font-size:3.4rem;font-weight:800;line-height:1;margin:6px 0}
 .status{display:inline-block;padding:3px 10px;border-radius:999px;font-size:.8rem;font-weight:600}
-.ok{background:var(--good-bg);color:var(--accent)}
+.status.ok{background:var(--good-bg);color:var(--good)}
 .no{background:var(--bad-bg);color:var(--bad)}
 dl{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:14px 0 0;font-size:.92rem}
 dt{color:var(--muted)}dd{margin:0;text-align:right;font-variant-numeric:tabular-nums}
@@ -40,15 +58,17 @@ ul{padding-left:18px;margin:8px 0;font-size:.92rem}
 .tag{display:inline-block;font-size:.72rem;padding:1px 7px;border:1px solid var(--line);border-radius:4px;margin-left:4px;color:var(--muted)}
 details{margin-top:22px;font-size:.9rem;color:var(--muted)}
 summary{cursor:pointer;color:var(--ink)}
-footer{margin-top:28px;font-size:.8rem;color:var(--muted)}
+footer{margin-top:36px;padding-top:14px;border-top:2px solid var(--ink);font-size:.85rem;color:var(--muted);display:grid;gap:8px}
+footer .made{font-family:var(--display);font-size:1.05rem;color:var(--ink)}
+.flagbar{height:10px;background:var(--red);margin-top:40px}
 footer a,details a{color:inherit}
 .excl{font-size:.8rem;color:var(--muted);margin-top:8px}
 
 .tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin:0 0 18px}
-.tabs button{background:transparent;border:0;border-bottom:3px solid transparent;padding:10px 14px;font:inherit;font-weight:600;color:var(--muted);cursor:pointer}
-.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
+.tabs button{background:transparent;border:0;border-bottom:3px solid transparent;padding:10px 14px;font-family:var(--display);font-size:1.25rem;font-weight:700;letter-spacing:.01em;color:var(--muted);cursor:pointer}
+.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--red)}
 .tabs .cmp{margin-left:auto}
-.badge{display:inline-block;min-width:18px;padding:0 6px;border-radius:999px;background:var(--accent);color:var(--accent-ink);font-size:.75rem;margin-left:6px}
+.badge{display:inline-block;min-width:18px;padding:0 6px;border-radius:999px;background:var(--red);color:#fff;font:600 .75rem var(--body);margin-left:6px;vertical-align:middle}
 .view[hidden]{display:none}
 .filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:12px}
 .filters label{margin:0 0 3px}
@@ -62,7 +82,7 @@ th,td{padding:7px 8px;text-align:left;white-space:nowrap;border-bottom:1px solid
 @media(max-width:1100px){#dtable .c-class,#dtable .c-perkm{display:none}}
 @media(max-width:900px){#dtable .c-allin,#dtable .c-headroom{display:none}}
 @media(max-width:700px){#dtable .c-fuel,#dtable .c-range{display:none}#dtable td.veh{min-width:120px}}
-th{position:sticky;top:0;background:var(--card);cursor:pointer;user-select:none;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
+th{position:sticky;top:0;background:var(--card);cursor:pointer;user-select:none;font-size:.8rem;font-weight:600;color:var(--muted)}
 th.num,td.num{text-align:right;font-variant-numeric:tabular-nums}
 th[aria-sort]:after{content:" ↕";opacity:.4}
 th[aria-sort=ascending]:after{content:" ↑";opacity:1}
@@ -72,26 +92,35 @@ tbody tr:hover{background:color-mix(in srgb,var(--accent) 8%,var(--card))}
 tbody tr.sel{background:color-mix(in srgb,var(--accent) 18%,var(--card));outline:2px solid var(--accent);outline-offset:-2px}
 tbody tr.dim{opacity:.55}
 .pill{display:inline-block;padding:1px 7px;border-radius:999px;font-size:.72rem;font-weight:600}
-.pill.ok{background:var(--good-bg);color:var(--accent)}.pill.no{background:var(--bad-bg);color:var(--bad)}.pill.na{background:var(--line);color:var(--muted)}
+.pill.status.ok{background:var(--good-bg);color:var(--good)}.pill.no{background:var(--bad-bg);color:var(--bad)}.pill.na{background:var(--line);color:var(--muted)}
 .cbtn{padding:3px 9px;border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--ink);font:inherit;font-size:.78rem;cursor:pointer}
 .cbtn[aria-pressed=true]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .count{font-size:.85rem;color:var(--muted);margin:6px 0 10px}
 .back{margin-bottom:12px;font-size:.9rem}
 .back a{color:var(--accent);cursor:pointer;text-decoration:underline}
 .cmpgrid{overflow-x:auto}
-.cmpgrid table td:first-child,.cmpgrid table th:first-child{position:sticky;left:0;background:var(--card);color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.03em}
+.cmpgrid table td:first-child,.cmpgrid table th:first-child{position:sticky;left:0;background:var(--card);color:var(--muted);font-size:.82rem;font-weight:600}
 .cmpgrid th{cursor:default;text-transform:none;font-size:.95rem;color:var(--ink);letter-spacing:0;white-space:normal;min-width:180px}
 .cmpgrid td{white-space:normal}
 .empty{padding:28px;text-align:center;color:var(--muted)}
 .src{font-size:.75rem;color:var(--muted)}
 .src a{color:inherit}
-.best{color:var(--accent);font-weight:700}
+.best{color:var(--good);font-weight:600}
 </style>
 </head>
 <body>
 <main>
-<h1>Federal EV Rebate Calculator</h1>
-<p class="sub">Canada's Electric Vehicle Affordability Program (EVAP). Real prices, the rebate on each, and why.</p>
+<div class="brand">
+<a class="wordmark" href="#deals" aria-label="EVDeals.ca home"><svg class="leaf" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#d52b1e"/><path fill="#fff" d="M16 5l2 4 3-1-1 5 4-2-1 4 4 1-4 3 1 3-5-1-1 6h-4l-1-6-5 1 1-3-4-3 4-1-1-4 4 2-1-5 3 1z"/></svg><span>EVDeals<span class="tld">.ca</span></span></a>
+<span class="est">Canada's federal EV rebate, priced on every eligible vehicle</span>
+</div>
+<div class="hero">
+<div>
+<h1>Sticker price minus the rebate, on every EV Ottawa will pay for.</h1>
+<p>We take the official Transport Canada list, put a real Canadian price on each trim, and run the federal rebate rules on it. No dealer spin, no sign-up. Works the same in Victoria, Winnipeg or St. John's.</p>
+</div>
+<div class="stats" id="stats"><div><b>—</b><span>eligible vehicles</span></div><div><b>—</b><span>cheapest after rebate</span></div><div><b>—</b><span>rebate drops on</span></div></div>
+</div>
 
 <div class="tabs" role="tablist">
 <button role="tab" id="tab-deals" aria-selected="true" data-view="deals">Deals</button>
@@ -195,8 +224,13 @@ tbody tr.dim{opacity:.55}
 <summary>Program rules encoded here</summary>
 <div id="rules"></div>
 </details>
-<footer id="foot"></footer>
+<footer>
+<div class="made">Made in Canada 🍁 Built for buyers, not for dealers.</div>
+<div id="foot"></div>
+<div>EVDeals.ca is independent. It is not affiliated with any automaker, dealer, or the Government of Canada. Provincial rebates stack on top of the federal one and are not included here. Nothing on this site is a quote; the dealer's Transport Canada portal submission is what counts.</div>
+</footer>
 </main>
+<div class="flagbar"></div>
 
 <script>
 const $ = s => document.querySelector(s);
@@ -211,9 +245,9 @@ fetch('./dataset.json').then(r => r.json()).then(d => {
   DS = d; vehicles = d.vehicles; deals = d.deals || [];
   $('#date').value = new Date().toISOString().slice(0, 10);
   renderList(''); renderRules(); render();
-  initDeals(); restoreState();
+  initDeals(); restoreState(); renderStats();
   const c = d.meta.counts;
-  $('#foot').innerHTML = `Vehicle list: ${c.vehicles} trims from <a href="${d.meta.source.url}">Transport Canada</a>, list last modified ${d.meta.source.date_modified}, fetched ${d.meta.source.fetched_at.slice(0,10)}. Rules version ${d.meta.rules_version}. This is an estimate; the dealer's portal submission is authoritative.`;
+  $('#foot').innerHTML = `Vehicle list: ${c.vehicles} trims from <a href="${d.meta.source.url}">Transport Canada</a>, list last modified ${d.meta.source.date_modified}, fetched ${d.meta.source.fetched_at.slice(0,10)}. Rules version ${d.meta.rules_version}. Refreshed automatically twice a week.`;
 }).catch(e => { $('#st').textContent = 'Could not load dataset'; console.error(e); });
 
 function renderList(q) {
@@ -308,6 +342,17 @@ function render() {
   $('#dl').innerHTML = rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
   $('#reasons').innerHTML = hasPrice ? r.reasons.map(x => `<li>${x}</li>`).join('') : '';
   $('#warns').innerHTML = hasPrice ? r.warns.map(x => `<div class="warn">${x}</div>`).join('') : '';
+}
+
+function renderStats() {
+  const el = $('#stats'); if (!el || !deals.length) return;
+  const elig = deals.filter(d => d.price?.msrp_cad && d.rebate?.eligible);
+  const cheapest = elig.reduce((a, b) => (!a || b.rebate.net_msrp_cad < a.rebate.net_msrp_cad) ? b : a, null);
+  const yr = new Date().getFullYear();
+  const nxt = DS.rules.incentive_schedule.amounts[yr + 1];
+  el.innerHTML = `<div><b>${elig.length}</b><span>vehicles that qualify at sticker</span></div>
+<div><b>${cheapest ? fmt(cheapest.rebate.net_msrp_cad) : '—'}</b><span>cheapest after rebate${cheapest ? ', ' + cheapest.make + ' ' + cheapest.model : ''}</span></div>
+<div><b>${nxt ? 'Jan 1, ' + (yr + 1) : '—'}</b><span>${nxt ? 'rebate drops to ' + fmt(nxt.BEV) + ' for EVs' : ''}</span></div>`;
 }
 
 /* ---------------- tabs ---------------- */
