@@ -122,12 +122,12 @@ tbody tr.dim{opacity:.55}
 <main>
 <div class="brand">
 <a class="wordmark" href="#deals" aria-label="EVDeals.ca home"><img class="leaf" src="mark.svg" alt="" width="34" height="34"><span>EVDeals<span class="tld">.ca</span></span></a>
-<span class="est">Canada's federal EV rebate, priced on every eligible vehicle</span>
+<span class="est">The federal EV rebate, priced on every eligible rig, eh</span>
 </div>
 <div class="hero">
 <div>
-<h1>Sticker price minus the rebate, on every EV Ottawa will pay for.</h1>
-<p>We take the official Transport Canada list, put a real Canadian price on each trim, and run the federal rebate rules on it. No dealer spin, no sign-up. Works the same in Victoria, Winnipeg or St. John's.</p>
+<h1>Sticker price minus the rebate, on every EV Ottawa will chip in for.</h1>
+<p>We take the official Transport Canada list, slap a real Canadian price on every trim, and run the federal rebate rules on it. No dealer spin, no sign-up. Grab a double-double and have a look. Works from Tofino to Torbay.</p>
 </div>
 <div class="stats" id="stats"><div><b>—</b><span>eligible vehicles</span></div><div><b>—</b><span>cheapest after rebate</span></div><div><b>—</b><span>rebate drops on</span></div></div>
 </div>
@@ -161,7 +161,7 @@ tbody tr.dim{opacity:.55}
 <th class="num" data-k="rebate">Rebate</th>
 <th class="num" data-k="net">Net</th>
 <th class="num c-allin" data-k="allin">All-in net</th>
-<th class="num c-headroom" data-k="headroom">Cap room</th>
+<th class="num c-headroom" data-k="headroom">Wiggle room</th>
 <th class="num c-range" data-k="range">Range</th>
 <th class="num c-perkm" data-k="perkm">Net $/km</th>
 <th data-k="status">Status</th>
@@ -179,10 +179,10 @@ tbody tr.dim{opacity:.55}
 <div class="grid">
 <section class="card">
 <h2>Vehicle</h2>
-<label for="q">Search eligible vehicles</label>
+<label for="q">Find your rig</label>
 <input id="q" type="search" placeholder="e.g. Equinox, Kia EV3, Pacifica" autocomplete="off">
 <select id="veh" size="6" aria-label="Eligible vehicles"></select>
-<div class="veh" id="vehinfo">Pick a vehicle from the Transport Canada list, or leave blank and set fuel type manually.</div>
+<div class="veh" id="vehinfo">Pick one off the Transport Canada list, or leave it blank and set the fuel type yourself.</div>
 
 <div class="row">
 <div><label for="fuel">Fuel type</label>
@@ -235,7 +235,7 @@ tbody tr.dim{opacity:.55}
 <div id="rules"></div>
 </details>
 <footer>
-<div class="made">Made in Canada 🍁 Built for buyers, not for dealers. <a href="brand.html" style="color:var(--pelt);font:inherit">Brand</a></div>
+<div class="made">Made in Canada, eh 🍁 Built for buyers, not for dealers. Sorry, dealers. <a href="brand.html" style="color:var(--pelt);font:inherit">Brand</a></div>
 <div id="foot"></div>
 <div>EVDeals.ca is independent. It is not affiliated with any automaker, dealer, or the Government of Canada. Provincial rebates stack on top of the federal one and are not included here. Nothing on this site is a quote; the dealer's Transport Canada portal submission is what counts.</div>
 </footer>
@@ -338,13 +338,13 @@ function render() {
   const r = compute();
   const st = $('#st');
   if (!hasPrice) { st.className = 'status'; st.textContent = 'Enter a price'; }
-  else { st.className = 'status ' + (r.eligible ? 'ok' : 'no'); st.textContent = r.eligible ? 'Eligible' : 'Not eligible'; }
+  else { st.className = 'status ' + (r.eligible ? 'ok' : 'no'); st.textContent = r.eligible ? 'Beauty. Eligible' : 'No dice. Not eligible'; }
   $('#amt').textContent = hasPrice ? fmt2(r.amount) : '—';
   $('#sub2').textContent = r.full != null ? `Full ${$('#fuel').value} incentive for ${r.year}: ${fmt(r.full)}` : '';
   const rows = [
     ['Final transaction value', fmt2(r.ftv)],
     ['Price cap', r.cap == null ? 'None (Canadian-made)' : fmt(r.cap)],
-    ['Room under cap', r.headroom == null ? '—' : (r.headroom < 0 ? '−' : '') + fmt2(Math.abs(r.headroom))],
+    ['Wiggle room under cap', r.headroom == null ? '—' : (r.headroom < 0 ? '−' : '') + fmt2(Math.abs(r.headroom))],
     ['Excluded from cap', fmt2(r.excluded)],
   ];
   if (txType === 'lease') rows.push(['Lease factor', (r.factor * 100).toFixed(1) + '%']);
@@ -360,9 +360,9 @@ function renderStats() {
   const cheapest = elig.reduce((a, b) => (!a || b.rebate.net_msrp_cad < a.rebate.net_msrp_cad) ? b : a, null);
   const yr = new Date().getFullYear();
   const nxt = DS.rules.incentive_schedule.amounts[yr + 1];
-  el.innerHTML = `<div><b>${elig.length}</b><span>vehicles that qualify at sticker</span></div>
-<div><b>${cheapest ? fmt(cheapest.rebate.net_msrp_cad) : '—'}</b><span>cheapest after rebate${cheapest ? ', ' + cheapest.make + ' ' + cheapest.model : ''}</span></div>
-<div><b>${nxt ? 'Jan 1, ' + (yr + 1) : '—'}</b><span>${nxt ? 'rebate drops to ' + fmt(nxt.BEV) + ' for EVs' : ''}</span></div>`;
+  el.innerHTML = `<div><b>${elig.length}</b><span>rigs that qualify at sticker</span></div>
+<div><b>${cheapest ? fmt(cheapest.rebate.net_msrp_cad) : '—'}</b><span>cheapest once the feds chip in${cheapest ? ', ' + cheapest.make + ' ' + cheapest.model : ''}</span></div>
+<div><b>${nxt ? 'Jan 1, ' + (yr + 1) : '—'}</b><span>${nxt ? 'rebate shrinks to ' + fmt(nxt.BEV) + ' for EVs' : ''}</span></div>`;
 }
 
 /* ---------------- tabs ---------------- */
@@ -479,7 +479,7 @@ function renderDeals() {
 <td class="num c-headroom">${priced ? (r.headroom_cad == null ? 'no cap' : (r.headroom_cad < 0 ? '−' : '') + fmt(Math.abs(r.headroom_cad))) : '—'}</td>
 <td class="num c-range">${s.range_km ? s.range_km + ' km' : '—'}</td>
 <td class="num c-perkm">${r?.net_cad_per_km_range ? '$' + r.net_cad_per_km_range.toFixed(0) : '—'}</td>
-<td>${st}</td></tr>`; }).join('') : '<tr><td colspan="12" class="empty">Nothing matches these filters.</td></tr>';
+<td>${st}</td></tr>`; }).join('') : '<tr><td colspan="12" class="empty">Nothing matches, bud. Loosen a filter and try again.</td></tr>';
 }
 function openDeal(d, push = true) {
   currentDealId = d.id; localStorage.setItem('evrebate.deal', d.id);
@@ -507,7 +507,7 @@ function updateCmpBadge() { const b = $('#cmpcount'); b.textContent = compareIds
 function renderCompare() {
   const items = compareIds.map(id => deals.find(d => d.id === id)).filter(Boolean);
   $('#cmpnote').textContent = items.length ? `${items.length} of 4 selected. Rebate at sticker, ${DS.deals_meta?.as_of || ''}.` : '';
-  if (!items.length) { $('#cmpgrid').innerHTML = '<div class="empty">Pick "+ Compare" on deals to see them side by side.</div>'; return; }
+  if (!items.length) { $('#cmpgrid').innerHTML = '<div class="empty">Hit + on a couple of rigs over in Deals and we\'ll line \'em up side by side.</div>'; return; }
   const money = v => v == null ? '—' : fmt(v);
   const best = (vals, dir) => { const nums = vals.filter(v => typeof v === 'number'); return nums.length > 1 ? (dir > 0 ? Math.max(...nums) : Math.min(...nums)) : null; };
   const row = (label, fn, dir = 0, fmtf = v => v == null ? '—' : v) => {
