@@ -1,10 +1,10 @@
 {
   "meta": {
-    "as_of": "2026-09-12",
+    "as_of": "2026-09-14",
     "prices_source": "prices/msrp_ca.csv (manufacturer Canadian pricing, see per-row source_url)",
-    "nrcan_snapshot": "2026-09-12",
+    "nrcan_snapshot": "2026-09-14",
     "summary": {
-      "vehicles": 125,
+      "vehicles": 126,
       "priced": 105,
       "eligible_at_msrp": 101,
       "unpriced": [
@@ -16,6 +16,7 @@
         "2027-kia-ev4-wind-premium-awd",
         "2027-kia-sportage-phev-ex-awd",
         "2027-kia-sportage-phev-ex-premium-awd",
+        "2027-nissan-ariya-sv-fwd",
         "2027-subaru-solterra-limited",
         "2027-subaru-solterra-limited-black-cladding",
         "2027-subaru-solterra-touring-black-cladding",
@@ -48,7 +49,7 @@
         "2027-chevrolet-bolt-lt",
         "2027-chevrolet-bolt-rs"
       ],
-      "with_spec": 102,
+      "with_spec": 103,
       "cheapest_net": [
         31995.0,
         "2027-kia-ev3-light-fwd"
@@ -70,7 +71,7 @@
         "all_in_cad": 39999,
         "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2025/oct/1009_2027-chevrolet-bolt.html",
         "as_of": "2025-10-09",
-        "age_days": 338,
+        "age_days": 340,
         "confidence": "medium",
         "stale": true,
         "notes": "GM Canada release; all-in $43,470 incl. freight/AC/dealer fees"
@@ -115,7 +116,7 @@
         "all_in_cad": 42599,
         "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2025/oct/1009_2027-chevrolet-bolt.html",
         "as_of": "2025-10-09",
-        "age_days": 338,
+        "age_days": 340,
         "confidence": "medium",
         "stale": true,
         "notes": "GM Canada release; all-in $46,070"
@@ -250,7 +251,7 @@
         "all_in_cad": 48799,
         "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2026/specifications/rs-awd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -308,7 +309,7 @@
         "all_in_cad": 52299,
         "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2026/specifications/rs-awd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -366,7 +367,7 @@
         "all_in_cad": 47499,
         "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2025/specifications/2lt-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": "Car Guide lists trim as 2LT FWD"
@@ -424,7 +425,7 @@
         "all_in_cad": 50999,
         "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2025/specifications/2lt-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": "Car Guide lists trim as 2LT AWD"
@@ -482,7 +483,7 @@
         "all_in_cad": 52499,
         "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2025/specifications/2lt-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": "RS FWD"
@@ -540,7 +541,7 @@
         "all_in_cad": 64785,
         "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -598,7 +599,7 @@
         "all_in_cad": 71780,
         "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -656,7 +657,7 @@
         "all_in_cad": 76515,
         "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -714,7 +715,7 @@
         "all_in_cad": 62290,
         "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -772,7 +773,7 @@
         "all_in_cad": 55175,
         "source_url": "https://www.lakeviewchrysler.ca/2025-chrysler-pacifica-plug-in-hybrid-for-sale/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "low",
         "stale": false,
         "notes": "FAV Edition price from dealer page; verify"
@@ -830,7 +831,7 @@
         "all_in_cad": 70185,
         "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2025/specifications/hybrid-select/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": "Hybrid Limited S Appearance"
@@ -888,7 +889,7 @@
         "all_in_cad": 62190,
         "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2025/specifications/hybrid-select/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -976,7 +977,7 @@
         "all_in_cad": 85195,
         "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2026/specifications/daytona-scat-pack/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": "2-door Daytona Scat Pack; 4-door is $85,000"
@@ -1034,7 +1035,7 @@
         "all_in_cad": 57690,
         "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2025/specifications/daytona-r-t/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1092,7 +1093,7 @@
         "all_in_cad": 89690,
         "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2025/specifications/daytona-r-t/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1150,7 +1151,7 @@
         "all_in_cad": 57690,
         "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2024/specifications/daytona-r-t/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1208,7 +1209,7 @@
         "all_in_cad": 89690,
         "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2024/specifications/daytona-r-t/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1266,7 +1267,7 @@
         "all_in_cad": 45190,
         "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2026/specifications/pop/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1324,7 +1325,7 @@
         "all_in_cad": 42190,
         "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2026/specifications/pop/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1382,7 +1383,7 @@
         "all_in_cad": 48190,
         "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2025/specifications/red/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1440,7 +1441,7 @@
         "all_in_cad": 45190,
         "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2025/specifications/red/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1498,7 +1499,7 @@
         "all_in_cad": 42190,
         "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2025/specifications/red/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1556,7 +1557,7 @@
         "all_in_cad": 43894,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/escape/2026/specifications/plug-in-hybrid/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "medium",
         "stale": false,
         "notes": "ford.ca advertises from $40,494; Car Guide lists $41,599"
@@ -1614,7 +1615,7 @@
         "all_in_cad": 46194,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/escape/2025/specifications/plug-in-hybrid/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1672,7 +1673,7 @@
         "all_in_cad": 48694,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/escape/2024/specifications/plug-in-hybrid/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1730,7 +1731,7 @@
         "all_in_cad": 57590,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1787,7 +1788,7 @@
         "all_in_cad": 53590,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1844,7 +1845,7 @@
         "all_in_cad": 55590,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1901,7 +1902,7 @@
         "all_in_cad": 49590,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -1959,7 +1960,7 @@
         "all_in_cad": 58590,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -2016,7 +2017,7 @@
         "all_in_cad": 51590,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -2074,7 +2075,7 @@
         "all_in_cad": 46049,
         "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2026/specifications/ev-preferred/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -2132,7 +2133,7 @@
         "all_in_cad": 47799,
         "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2026/specifications/ev-preferred/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -2190,7 +2191,7 @@
         "all_in_cad": 50849,
         "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2026/specifications/ev-preferred/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -2248,7 +2249,7 @@
         "all_in_cad": 48449,
         "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2025/specifications/ev-preferred/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -2306,7 +2307,7 @@
         "all_in_cad": 49849,
         "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2025/specifications/ev-preferred/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -2364,7 +2365,7 @@
         "all_in_cad": 50680,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 30,
+        "age_days": 32,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -2409,7 +2410,7 @@
         "all_in_cad": 48180,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 30,
+        "age_days": 32,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -2454,7 +2455,7 @@
         "all_in_cad": 52180,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 30,
+        "age_days": 32,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -2499,7 +2500,7 @@
         "all_in_cad": 48180,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 30,
+        "age_days": 32,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -2544,7 +2545,7 @@
         "all_in_cad": 45680,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 30,
+        "age_days": 32,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -2589,7 +2590,7 @@
         "all_in_cad": 39180,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 30,
+        "age_days": 32,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -2634,7 +2635,7 @@
         "all_in_cad": 45680,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 30,
+        "age_days": 32,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -2679,7 +2680,7 @@
         "all_in_cad": 43180,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 30,
+        "age_days": 32,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -2724,7 +2725,7 @@
         "all_in_cad": 50645,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
         "as_of": "2026-09-02",
-        "age_days": 10,
+        "age_days": 12,
         "confidence": "medium",
         "stale": false,
         "notes": "carryover from 2026"
@@ -2782,7 +2783,7 @@
         "all_in_cad": 41145,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
         "as_of": "2026-09-02",
-        "age_days": 10,
+        "age_days": 12,
         "confidence": "medium",
         "stale": false,
         "notes": "2027 non-GT pricing reported unchanged from 2026"
@@ -2870,7 +2871,7 @@
         "all_in_cad": 45145,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
         "as_of": "2026-09-02",
-        "age_days": 10,
+        "age_days": 12,
         "confidence": "medium",
         "stale": false,
         "notes": "carryover from 2026"
@@ -2958,7 +2959,7 @@
         "all_in_cad": 47645,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
         "as_of": "2026-09-02",
-        "age_days": 10,
+        "age_days": 12,
         "confidence": "medium",
         "stale": false,
         "notes": "carryover from 2026"
@@ -3016,7 +3017,7 @@
         "all_in_cad": 50645,
         "source_url": "https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/",
         "as_of": "2025-12-16",
-        "age_days": 270,
+        "age_days": 272,
         "confidence": "medium",
         "stale": true,
         "notes": "freight assumed $2,150"
@@ -3074,7 +3075,7 @@
         "all_in_cad": 41145,
         "source_url": "https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/",
         "as_of": "2025-12-16",
-        "age_days": 270,
+        "age_days": 272,
         "confidence": "medium",
         "stale": true,
         "notes": "freight assumed $2,150 (Kia CA standard)"
@@ -3132,7 +3133,7 @@
         "all_in_cad": 45145,
         "source_url": "https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/",
         "as_of": "2025-12-16",
-        "age_days": 270,
+        "age_days": 272,
         "confidence": "medium",
         "stale": true,
         "notes": "freight assumed $2,150"
@@ -3190,7 +3191,7 @@
         "all_in_cad": 47645,
         "source_url": "https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/",
         "as_of": "2025-12-16",
-        "age_days": 270,
+        "age_days": 272,
         "confidence": "medium",
         "stale": true,
         "notes": "freight assumed $2,150"
@@ -3248,7 +3249,7 @@
         "all_in_cad": 52145,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/ev5/2027/specifications/wind-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3293,7 +3294,7 @@
         "all_in_cad": 52145,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/ev5/2027/specifications/wind-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3338,7 +3339,7 @@
         "all_in_cad": 49645,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/ev5/2027/specifications/wind-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3383,7 +3384,7 @@
         "all_in_cad": 51145,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/ev6/2025/specifications/light-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3441,7 +3442,7 @@
         "all_in_cad": 47595,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3499,7 +3500,7 @@
         "all_in_cad": 50595,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3557,7 +3558,7 @@
         "all_in_cad": 47545,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3615,7 +3616,7 @@
         "all_in_cad": 50545,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3673,7 +3674,7 @@
         "all_in_cad": 47545,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2024/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3731,7 +3732,7 @@
         "all_in_cad": 50545,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2024/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3789,7 +3790,7 @@
         "all_in_cad": 40845,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3847,7 +3848,7 @@
         "all_in_cad": 43545,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3905,7 +3906,7 @@
         "all_in_cad": 38845,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3963,7 +3964,7 @@
         "all_in_cad": 40745,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4021,7 +4022,7 @@
         "all_in_cad": 43445,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4079,7 +4080,7 @@
         "all_in_cad": 38745,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4137,7 +4138,7 @@
         "all_in_cad": 46995,
         "source_url": "https://www.kia.ca/en/about-kia/news/Kia-Canada-announces-pricing-for-2027-PV5-Cargo-scheduled-to-arrive-in-Canada-later-this-year",
         "as_of": "2026-06-26",
-        "age_days": 78,
+        "age_days": 80,
         "confidence": "high",
         "stale": false,
         "notes": "freight not published"
@@ -4182,7 +4183,7 @@
         "all_in_cad": 49095,
         "source_url": "https://www.kia.ca/en/about-kia/news/Kia-Canada-announces-pricing-for-2027-PV5-Cargo-scheduled-to-arrive-in-Canada-later-this-year",
         "as_of": "2026-06-26",
-        "age_days": 78,
+        "age_days": 80,
         "confidence": "high",
         "stale": false,
         "notes": "freight not published"
@@ -4227,7 +4228,7 @@
         "all_in_cad": 50795,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/sorento/2026/specifications/phev-lx/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4345,7 +4346,7 @@
         "all_in_cad": 48395,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/sportage/2026/specifications/phev-ex/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4403,7 +4404,7 @@
         "all_in_cad": 51495,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/sportage/2026/specifications/phev-ex/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4461,7 +4462,7 @@
         "all_in_cad": 49045,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/sportage/2025/specifications/phev-ex-premium/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4519,7 +4520,7 @@
         "all_in_cad": 49990,
         "source_url": "https://mini.ca/en/discover/elementary-edition",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": "freight/PDI not published on page"
@@ -4577,7 +4578,7 @@
         "all_in_cad": 51194,
         "source_url": "https://www.guideautoweb.com/en/makes/mazda/cx-70/2026/specifications/phev-gs-sc/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "medium",
         "stale": false,
         "notes": "Mazda Canada Dec-2025 release said $52,750; Car Guide now shows $48,999 (price cut)"
@@ -4635,7 +4636,7 @@
         "all_in_cad": 52194,
         "source_url": "https://www.guideautoweb.com/en/makes/mazda/cx-90/2026/specifications/phev-gs/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "medium",
         "stale": false,
         "notes": "Mazda Canada Dec-2025 release said $53,750; Car Guide now shows $49,999"
@@ -4693,7 +4694,7 @@
         "all_in_cad": 52123,
         "source_url": "https://www.guideautoweb.com/en/makes/mitsubishi/outlander/2026/specifications/phev-es/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4751,7 +4752,7 @@
         "all_in_cad": 50748,
         "source_url": "https://www.guideautoweb.com/en/makes/mitsubishi/outlander/2025/specifications/phev-es/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4796,6 +4797,30 @@
       }
     },
     {
+      "id": "2027-nissan-ariya-sv-fwd",
+      "model_year": 2027,
+      "make": "Nissan",
+      "model": "ARIYA",
+      "trim": "SV FWD",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price": null,
+      "rebate": null,
+      "spec": {
+        "vehicle_class": "Station wagon: Small",
+        "range_km": 348,
+        "total_range_km": null,
+        "combined_kwh_100km": 20.7,
+        "combined_le_100km": 2.3,
+        "gas_combined_l_100km": null,
+        "motor_kw": 160,
+        "recharge_h": 10,
+        "match_confidence": "low",
+        "nrcan_model": "ARIYA SV",
+        "nrcan_model_year": 2026
+      }
+    },
+    {
       "id": "2026-nissan-leaf-s-plus",
       "model_year": 2026,
       "make": "Nissan",
@@ -4809,7 +4834,7 @@
         "all_in_cad": 47093,
         "source_url": "https://canada.nissannews.com/en-CA/releases/all-new-2026-nissan-leaf-pricing-announced-for-canada",
         "as_of": "2025-09-01",
-        "age_days": 376,
+        "age_days": 378,
         "confidence": "high",
         "stale": true,
         "notes": "Nissan Canada release"
@@ -4867,7 +4892,7 @@
         "all_in_cad": 50093,
         "source_url": "https://canada.nissannews.com/en-CA/releases/all-new-2026-nissan-leaf-pricing-announced-for-canada",
         "as_of": "2025-09-01",
-        "age_days": 376,
+        "age_days": 378,
         "confidence": "high",
         "stale": true,
         "notes": "Nissan Canada release"
@@ -4985,7 +5010,7 @@
         "all_in_cad": 47995,
         "source_url": "https://www.guideautoweb.com/en/articles/82536/subaru-slashes-the-price-of-the-2027-solterra/",
         "as_of": "2026-07-15",
-        "age_days": 59,
+        "age_days": 61,
         "confidence": "medium",
         "stale": false,
         "notes": "2027 starting MSRP; Touring assumed base trim"
@@ -5073,7 +5098,7 @@
         "all_in_cad": 49995,
         "source_url": "https://emptytank.ca/2026/08/07/2027-subaru-trailseeker-gets-lower-price/",
         "as_of": "2026-08-07",
-        "age_days": 36,
+        "age_days": 38,
         "confidence": "medium",
         "stale": false,
         "notes": "$53,152 incl. freight and fees per Subaru Canada release"
@@ -5190,7 +5215,7 @@
         "all_in_cad": 45290,
         "source_url": "https://www.guideautoweb.com/en/makes/subaru/uncharted/2026/specifications/sport/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5235,7 +5260,7 @@
         "all_in_cad": 49290,
         "source_url": "https://www.guideautoweb.com/en/makes/subaru/uncharted/2026/specifications/sport/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": "FWD Long Range"
@@ -5280,7 +5305,7 @@
         "all_in_cad": 52290,
         "source_url": "https://www.guideautoweb.com/en/makes/subaru/uncharted/2026/specifications/sport/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5325,7 +5350,7 @@
         "all_in_cad": 52490,
         "source_url": "https://www.guideautoweb.com/en/makes/tesla/model-y/2026/specifications/rwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": "TC lists trim as RWD-B"
@@ -5443,7 +5468,7 @@
         "all_in_cad": 46830,
         "source_url": "https://emptytank.ca/2026/02/19/toyota-canada-announces-2026-c-hr-prices/",
         "as_of": "2026-02-19",
-        "age_days": 205,
+        "age_days": 207,
         "confidence": "high",
         "stale": true,
         "notes": null
@@ -5501,7 +5526,7 @@
         "all_in_cad": 51880,
         "source_url": "https://emptytank.ca/2026/02/19/toyota-canada-announces-2026-c-hr-prices/",
         "as_of": "2026-02-19",
-        "age_days": 205,
+        "age_days": 207,
         "confidence": "high",
         "stale": true,
         "notes": null
@@ -5649,7 +5674,7 @@
         "all_in_cad": 47540,
         "source_url": "https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5707,7 +5732,7 @@
         "all_in_cad": 41910,
         "source_url": "https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5765,7 +5790,7 @@
         "all_in_cad": 46645,
         "source_url": "https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5823,7 +5848,7 @@
         "all_in_cad": 50395,
         "source_url": "https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5881,7 +5906,7 @@
         "all_in_cad": 48750,
         "source_url": "https://media.toyota.ca/en/releases/2026/toyota-canada-announces-pricing-for-the-all-new-2026-toyota-rav4.html",
         "as_of": "2026-03-01",
-        "age_days": 195,
+        "age_days": 197,
         "confidence": "high",
         "stale": true,
         "notes": "Toyota Canada release"
@@ -5939,7 +5964,7 @@
         "all_in_cad": 45985,
         "source_url": "https://electrek.co/2026/08/18/2027-toyota-bz-now-on-sale-how-much-it-costs/",
         "as_of": "2026-08-18",
-        "age_days": 25,
+        "age_days": 27,
         "confidence": "medium",
         "stale": false,
         "notes": "starting price reported CA$45,985"
@@ -5997,7 +6022,7 @@
         "all_in_cad": 47920,
         "source_url": "https://www.guideautoweb.com/en/makes/toyota/bz/2026/specifications/xle-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -6055,7 +6080,7 @@
         "all_in_cad": 50695,
         "source_url": "https://www.autotrader.ca/research/volkswagen/id-4/2025/",
         "as_of": "2026-09-12",
-        "age_days": 0,
+        "age_days": 2,
         "confidence": "medium",
         "stale": false,
         "notes": "AutoTrader research page"
@@ -6113,7 +6138,7 @@
         "all_in_cad": 44000,
         "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
         "as_of": "2026-05-09",
-        "age_days": 126,
+        "age_days": 128,
         "confidence": "high",
         "stale": true,
         "notes": "all-in $47,919 incl. fees/levies"
@@ -6171,7 +6196,7 @@
         "all_in_cad": 45000,
         "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
         "as_of": "2026-05-09",
-        "age_days": 126,
+        "age_days": 128,
         "confidence": "high",
         "stale": true,
         "notes": "all-in $48,919"
@@ -6229,7 +6254,7 @@
         "all_in_cad": 46000,
         "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
         "as_of": "2026-05-09",
-        "age_days": 126,
+        "age_days": 128,
         "confidence": "high",
         "stale": true,
         "notes": "all-in $49,919"
@@ -6287,7 +6312,7 @@
         "all_in_cad": 48000,
         "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
         "as_of": "2026-05-09",
-        "age_days": 126,
+        "age_days": 128,
         "confidence": "high",
         "stale": true,
         "notes": "all-in $51,919"
@@ -6345,7 +6370,7 @@
         "all_in_cad": 49000,
         "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
         "as_of": "2026-05-09",
-        "age_days": 126,
+        "age_days": 128,
         "confidence": "high",
         "stale": true,
         "notes": "all-in $52,919"
@@ -6403,7 +6428,7 @@
         "all_in_cad": 49000,
         "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
         "as_of": "2026-05-09",
-        "age_days": 126,
+        "age_days": 128,
         "confidence": "high",
         "stale": true,
         "notes": "Cross Country Ultra; all-in $52,919"
