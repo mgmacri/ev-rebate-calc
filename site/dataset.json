@@ -1,15 +1,15 @@
 {
   "meta": {
-    "dataset_version": "2026-09-17",
-    "generated_at": "2026-09-17T15:32:21+00:00",
+    "dataset_version": "2026-09-21",
+    "generated_at": "2026-09-21T17:02:32+00:00",
     "pipeline_version": "0.1.0",
     "rules_version": "2026-09-12",
     "source": {
       "name": "tc_evap_vehicle_list",
       "url": "https://tc.canada.ca/en/road-transportation/innovative-technologies/electric-vehicles/electric-vehicle-affordability-program-evap/electric-vehicle-affordability-program-vehicle-list",
-      "fetched_at": "2026-09-17T15:32:19+00:00",
+      "fetched_at": "2026-09-21T17:02:32+00:00",
       "date_modified": "2026-03-10",
-      "sha256": "ab1f60e73781dc940e254522c68ec63a09851439a747e9ec564d9af14ae0717a"
+      "sha256": "5d10d9b07a05e974994d0035cc5c949bb58c6441cb31c60e3ef3a622eb4765a5"
     },
     "counts": {
       "vehicles": 126,
@@ -29,7 +29,7 @@
     "deals": {
       "priced": 105,
       "eligible_at_msrp": 101,
-      "with_spec": 103,
+      "with_spec": 111,
       "unpriced": 21,
       "stale_prices": 17
     }
@@ -178,7 +178,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-chevrolet-bolt-rs",
@@ -204,7 +204,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-chevrolet-equinox-ev-lt-1",
@@ -230,7 +230,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-chevrolet-equinox-ev-lt-2",
@@ -256,7 +256,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-chevrolet-equinox-ev-lt1-awd",
@@ -282,7 +282,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-chevrolet-equinox-ev-lt",
@@ -308,7 +308,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-chevrolet-equinox-ev-lt-awd",
@@ -334,7 +334,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-chevrolet-equinox-ev-lt",
@@ -360,7 +360,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-chevrolet-equinox-ev-lt-awd",
@@ -386,7 +386,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-chevrolet-equinox-ev-rs",
@@ -412,7 +412,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-chrysler-pacifica-100th",
@@ -438,7 +438,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-chrysler-pacifica-limited",
@@ -464,7 +464,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-chrysler-pacifica-pinnacle",
@@ -490,7 +490,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-chrysler-pacifica-select",
@@ -516,7 +516,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-chrysler-pacifica-fav",
@@ -542,7 +542,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-chrysler-pacifica-limited",
@@ -568,7 +568,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-chrysler-pacifica-select",
@@ -594,7 +594,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-dodge-charger-r-t",
@@ -620,7 +620,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-dodge-charger-scat-pack",
@@ -646,7 +646,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-dodge-charger-r-t",
@@ -672,7 +672,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-dodge-charger-scat-pack",
@@ -698,7 +698,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2024-dodge-charger-r-t",
@@ -724,7 +724,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2024-dodge-charger-scat-pack",
@@ -750,7 +750,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-fiat-500e-icona",
@@ -776,7 +776,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-fiat-500e-pop",
@@ -802,7 +802,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-fiat-500e-giorgio-armani",
@@ -828,7 +828,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-fiat-500e-la-prima",
@@ -854,7 +854,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-fiat-500e-red",
@@ -880,7 +880,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-ford-escape-plug-in-hybrid-base",
@@ -906,7 +906,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-ford-escape-plug-in-hybrid-base",
@@ -932,7 +932,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2024-ford-escape-plug-in-hybrid-base",
@@ -958,7 +958,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-ford-mach-e-premium-rwd-extended-range",
@@ -984,7 +984,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-ford-mach-e-premium-rwd-standard-range",
@@ -1010,7 +1010,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-ford-mach-e-premium-eawd-standard-range",
@@ -1036,7 +1036,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-ford-mach-e-select-rwd-standard-range",
@@ -1062,7 +1062,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-ford-mach-e-select-eawd-extended-range",
@@ -1088,7 +1088,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-ford-mach-e-select-eawd-standard-range",
@@ -1114,7 +1114,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-hyundai-kona-ev-preferred",
@@ -1140,7 +1140,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-hyundai-kona-ev-preferred-w-trend-package",
@@ -1166,7 +1166,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-hyundai-kona-ev-preferred-w-ultimate-package",
@@ -1192,7 +1192,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-hyundai-kona-ev-preferred",
@@ -1218,7 +1218,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-hyundai-kona-ev-preferred-w-trend-package",
@@ -1244,7 +1244,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev3-gt-line-awd",
@@ -1270,7 +1270,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev3-gt-line-fwd",
@@ -1296,7 +1296,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev3-gt-line-limited-fwd",
@@ -1322,7 +1322,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev3-land-awd",
@@ -1348,7 +1348,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev3-land-fwd",
@@ -1374,7 +1374,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev3-light-fwd",
@@ -1400,7 +1400,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev3-wind-awd",
@@ -1426,7 +1426,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev3-wind-fwd",
@@ -1452,7 +1452,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev4-gt-line-fwd",
@@ -1478,7 +1478,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev4-light-fwd",
@@ -1504,7 +1504,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev4-wind-awd",
@@ -1530,7 +1530,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev4-wind-fwd",
@@ -1556,7 +1556,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev4-wind-premium-awd",
@@ -1582,7 +1582,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev4-wind-premium-fwd",
@@ -1608,7 +1608,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-kia-ev4-gt-line",
@@ -1634,7 +1634,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-kia-ev4-light",
@@ -1660,7 +1660,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-kia-ev4-wind",
@@ -1686,7 +1686,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-kia-ev4-wind-premium",
@@ -1712,7 +1712,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev5-land-fwd",
@@ -1738,7 +1738,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev5-wind-awd",
@@ -1764,7 +1764,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-ev5-wind-fwd",
@@ -1790,7 +1790,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-kia-ev6-light-rwd",
@@ -1816,7 +1816,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-kia-niro-ev-wind",
@@ -1842,7 +1842,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-kia-niro-ev-wind-plus",
@@ -1868,7 +1868,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-kia-niro-ev-wind",
@@ -1894,7 +1894,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-kia-niro-ev-wind-plus",
@@ -1920,7 +1920,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2024-kia-niro-ev-wind",
@@ -1946,7 +1946,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2024-kia-niro-ev-wind-plus",
@@ -1972,7 +1972,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-kia-niro-phev-ex",
@@ -1998,7 +1998,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-kia-niro-phev-ex-premium",
@@ -2024,7 +2024,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-kia-niro-phev-lx",
@@ -2050,7 +2050,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-kia-niro-phev-ex",
@@ -2076,7 +2076,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-kia-niro-phev-ex-premium",
@@ -2102,7 +2102,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-kia-niro-phev-lx",
@@ -2128,7 +2128,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-pv5-basic",
@@ -2154,7 +2154,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-pv5-plus",
@@ -2180,7 +2180,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-kia-sorento-phev-lx-phev",
@@ -2206,7 +2206,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-sportage-phev-ex-awd",
@@ -2232,7 +2232,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-kia-sportage-phev-ex-premium-awd",
@@ -2258,7 +2258,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-kia-sportage-phev-ex",
@@ -2284,7 +2284,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-kia-sportage-phev-ex-premium",
@@ -2310,7 +2310,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-kia-sportage-phev-ex-premium",
@@ -2336,7 +2336,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-mini-countryman-se-all4-elementary-edition",
@@ -2362,7 +2362,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-mazda-cx-70-phev-gs-sc",
@@ -2388,7 +2388,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-mazda-cx-90-phev-gs",
@@ -2414,7 +2414,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-mitsubishi-outlander-phev-es",
@@ -2440,7 +2440,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-mitsubishi-outlander-phev-es",
@@ -2466,7 +2466,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-nissan-ariya-sv-fwd",
@@ -2492,7 +2492,7 @@
         "page": 3
       },
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-nissan-leaf-s-plus",
@@ -2518,7 +2518,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-nissan-leaf-sv-plus",
@@ -2544,7 +2544,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-subaru-solterra-limited",
@@ -2570,7 +2570,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-subaru-solterra-limited-black-cladding",
@@ -2596,7 +2596,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-subaru-solterra-touring",
@@ -2622,7 +2622,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-subaru-solterra-touring-black-cladding",
@@ -2648,7 +2648,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-subaru-trailseeker-touring",
@@ -2674,7 +2674,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-subaru-uncharted-fwd",
@@ -2700,7 +2700,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-subaru-uncharted-fwd-long-range",
@@ -2726,7 +2726,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-subaru-uncharted-gt",
@@ -2752,7 +2752,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-subaru-uncharted-sport",
@@ -2778,7 +2778,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-subaru-uncharted-fwd",
@@ -2804,7 +2804,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-subaru-uncharted-fwd-lr",
@@ -2830,7 +2830,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-subaru-uncharted-sport",
@@ -2856,7 +2856,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-tesla-model-y-rwd-b",
@@ -2882,7 +2882,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-toyota-c-hr-se-fwd",
@@ -2908,7 +2908,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-toyota-c-hr-xse-awd",
@@ -2934,7 +2934,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-toyota-c-hr-se-fwd",
@@ -2960,7 +2960,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-toyota-c-hr-xse-awd",
@@ -2986,7 +2986,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-toyota-prius-plug-in-hybrid-se",
@@ -3012,7 +3012,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-toyota-prius-plug-in-hybrid-xse",
@@ -3038,7 +3038,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-toyota-prius-plug-in-hybrid-xse-premium",
@@ -3064,7 +3064,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-toyota-prius-plug-in-hybrid-nightshade",
@@ -3090,7 +3090,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-toyota-prius-plug-in-hybrid-se",
@@ -3116,7 +3116,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-toyota-prius-plug-in-hybrid-xse",
@@ -3142,7 +3142,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-toyota-prius-plug-in-hybrid-xse-premium",
@@ -3168,7 +3168,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-toyota-rav4-plug-in-hybrid-se",
@@ -3194,7 +3194,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2027-toyota-bz-xle-fwd",
@@ -3220,7 +3220,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-toyota-bz-xle-fwd",
@@ -3246,7 +3246,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2025-volkswagen-id-4-base",
@@ -3272,7 +3272,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-volvo-ex30-single-motor-extended-range-core",
@@ -3298,7 +3298,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-volvo-ex30-single-motor-extended-range-plus",
@@ -3324,7 +3324,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-volvo-ex30-single-motor-extended-range-ultra",
@@ -3350,7 +3350,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-volvo-ex30-twin-motor-performance-plus",
@@ -3376,7 +3376,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-volvo-ex30-twin-motor-performance-ultra",
@@ -3402,7 +3402,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     },
     {
       "id": "2026-volvo-ex30-twin-motor-performance-ultra-cross-country",
@@ -3428,7 +3428,7 @@
         "page": 5
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-17"
+      "last_seen": "2026-09-21"
     }
   ],
   "deals": [
@@ -3446,7 +3446,7 @@
         "all_in_cad": 39999,
         "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2025/oct/1009_2027-chevrolet-bolt.html",
         "as_of": "2025-10-09",
-        "age_days": 343,
+        "age_days": 347,
         "confidence": "medium",
         "stale": true,
         "notes": "GM Canada release; all-in $43,470 incl. freight/AC/dealer fees"
@@ -3491,7 +3491,7 @@
         "all_in_cad": 42599,
         "source_url": "https://www.gm.ca/en/home/company/canada/pdc.detail.html/Pages/news/ca/en/2025/oct/1009_2027-chevrolet-bolt.html",
         "as_of": "2025-10-09",
-        "age_days": 343,
+        "age_days": 347,
         "confidence": "medium",
         "stale": true,
         "notes": "GM Canada release; all-in $46,070"
@@ -3626,7 +3626,7 @@
         "all_in_cad": 48799,
         "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2026/specifications/rs-awd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3684,7 +3684,7 @@
         "all_in_cad": 52299,
         "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2026/specifications/rs-awd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3742,7 +3742,7 @@
         "all_in_cad": 47499,
         "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2025/specifications/2lt-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": "Car Guide lists trim as 2LT FWD"
@@ -3800,7 +3800,7 @@
         "all_in_cad": 50999,
         "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2025/specifications/2lt-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": "Car Guide lists trim as 2LT AWD"
@@ -3858,7 +3858,7 @@
         "all_in_cad": 52499,
         "source_url": "https://www.guideautoweb.com/en/makes/chevrolet/equinox-ev/2025/specifications/2lt-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": "RS FWD"
@@ -3916,7 +3916,7 @@
         "all_in_cad": 64785,
         "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -3974,7 +3974,7 @@
         "all_in_cad": 71780,
         "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4032,7 +4032,7 @@
         "all_in_cad": 76515,
         "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4090,7 +4090,7 @@
         "all_in_cad": 62290,
         "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2026/specifications/phev-select/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4148,7 +4148,7 @@
         "all_in_cad": 55175,
         "source_url": "https://www.lakeviewchrysler.ca/2025-chrysler-pacifica-plug-in-hybrid-for-sale/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "low",
         "stale": false,
         "notes": "FAV Edition price from dealer page; verify"
@@ -4206,7 +4206,7 @@
         "all_in_cad": 70185,
         "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2025/specifications/hybrid-select/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": "Hybrid Limited S Appearance"
@@ -4264,7 +4264,7 @@
         "all_in_cad": 62190,
         "source_url": "https://www.guideautoweb.com/en/makes/chrysler/pacifica/2025/specifications/hybrid-select/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4352,7 +4352,7 @@
         "all_in_cad": 85195,
         "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2026/specifications/daytona-scat-pack/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": "2-door Daytona Scat Pack; 4-door is $85,000"
@@ -4410,7 +4410,7 @@
         "all_in_cad": 57690,
         "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2025/specifications/daytona-r-t/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4468,7 +4468,7 @@
         "all_in_cad": 89690,
         "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2025/specifications/daytona-r-t/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4526,7 +4526,7 @@
         "all_in_cad": 57690,
         "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2024/specifications/daytona-r-t/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4584,7 +4584,7 @@
         "all_in_cad": 89690,
         "source_url": "https://www.guideautoweb.com/en/makes/dodge/charger/2024/specifications/daytona-r-t/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4642,7 +4642,7 @@
         "all_in_cad": 45190,
         "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2026/specifications/pop/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4700,7 +4700,7 @@
         "all_in_cad": 42190,
         "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2026/specifications/pop/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4758,7 +4758,7 @@
         "all_in_cad": 48190,
         "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2025/specifications/red/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4816,7 +4816,7 @@
         "all_in_cad": 45190,
         "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2025/specifications/red/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4874,7 +4874,7 @@
         "all_in_cad": 42190,
         "source_url": "https://www.guideautoweb.com/en/makes/fiat/500e/2025/specifications/red/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -4932,7 +4932,7 @@
         "all_in_cad": 43894,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/escape/2026/specifications/plug-in-hybrid/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "medium",
         "stale": false,
         "notes": "ford.ca advertises from $40,494; Car Guide lists $41,599"
@@ -4990,7 +4990,7 @@
         "all_in_cad": 46194,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/escape/2025/specifications/plug-in-hybrid/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5048,7 +5048,7 @@
         "all_in_cad": 48694,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/escape/2024/specifications/plug-in-hybrid/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5106,7 +5106,7 @@
         "all_in_cad": 57590,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5163,7 +5163,7 @@
         "all_in_cad": 53590,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5220,7 +5220,7 @@
         "all_in_cad": 55590,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5277,7 +5277,7 @@
         "all_in_cad": 49590,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5335,7 +5335,7 @@
         "all_in_cad": 58590,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5392,7 +5392,7 @@
         "all_in_cad": 51590,
         "source_url": "https://www.guideautoweb.com/en/makes/ford/mustang-mach-e/2026/specifications/premium-standard-range-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5450,7 +5450,7 @@
         "all_in_cad": 46049,
         "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2026/specifications/ev-preferred/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5508,7 +5508,7 @@
         "all_in_cad": 47799,
         "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2026/specifications/ev-preferred/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5566,7 +5566,7 @@
         "all_in_cad": 50849,
         "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2026/specifications/ev-preferred/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5624,7 +5624,7 @@
         "all_in_cad": 48449,
         "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2025/specifications/ev-preferred/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5682,7 +5682,7 @@
         "all_in_cad": 49849,
         "source_url": "https://www.guideautoweb.com/en/makes/hyundai/kona/2025/specifications/ev-preferred/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -5740,7 +5740,7 @@
         "all_in_cad": 50680,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 35,
+        "age_days": 39,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -5785,7 +5785,7 @@
         "all_in_cad": 48180,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 35,
+        "age_days": 39,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -5830,7 +5830,7 @@
         "all_in_cad": 52180,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 35,
+        "age_days": 39,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -5875,7 +5875,7 @@
         "all_in_cad": 48180,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 35,
+        "age_days": 39,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -5920,7 +5920,7 @@
         "all_in_cad": 45680,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 35,
+        "age_days": 39,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -5965,7 +5965,7 @@
         "all_in_cad": 39180,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 35,
+        "age_days": 39,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -6010,7 +6010,7 @@
         "all_in_cad": 45680,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 35,
+        "age_days": 39,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -6055,7 +6055,7 @@
         "all_in_cad": 43180,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev3-809303743.html",
         "as_of": "2026-08-13",
-        "age_days": 35,
+        "age_days": 39,
         "confidence": "high",
         "stale": false,
         "notes": "Kia Canada release; freight $2,185 plus up to $564 other fees"
@@ -6100,7 +6100,7 @@
         "all_in_cad": 50645,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
         "as_of": "2026-09-02",
-        "age_days": 15,
+        "age_days": 19,
         "confidence": "medium",
         "stale": false,
         "notes": "carryover from 2026"
@@ -6158,7 +6158,7 @@
         "all_in_cad": 41145,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
         "as_of": "2026-09-02",
-        "age_days": 15,
+        "age_days": 19,
         "confidence": "medium",
         "stale": false,
         "notes": "2027 non-GT pricing reported unchanged from 2026"
@@ -6246,7 +6246,7 @@
         "all_in_cad": 45145,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
         "as_of": "2026-09-02",
-        "age_days": 15,
+        "age_days": 19,
         "confidence": "medium",
         "stale": false,
         "notes": "carryover from 2026"
@@ -6334,7 +6334,7 @@
         "all_in_cad": 47645,
         "source_url": "https://www.newswire.ca/news-releases/kia-canada-announces-pricing-for-2027-ev4-gt-845927436.html",
         "as_of": "2026-09-02",
-        "age_days": 15,
+        "age_days": 19,
         "confidence": "medium",
         "stale": false,
         "notes": "carryover from 2026"
@@ -6392,7 +6392,7 @@
         "all_in_cad": 50645,
         "source_url": "https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/",
         "as_of": "2025-12-16",
-        "age_days": 275,
+        "age_days": 279,
         "confidence": "medium",
         "stale": true,
         "notes": "freight assumed $2,150"
@@ -6450,7 +6450,7 @@
         "all_in_cad": 41145,
         "source_url": "https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/",
         "as_of": "2025-12-16",
-        "age_days": 275,
+        "age_days": 279,
         "confidence": "medium",
         "stale": true,
         "notes": "freight assumed $2,150 (Kia CA standard)"
@@ -6508,7 +6508,7 @@
         "all_in_cad": 45145,
         "source_url": "https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/",
         "as_of": "2025-12-16",
-        "age_days": 275,
+        "age_days": 279,
         "confidence": "medium",
         "stale": true,
         "notes": "freight assumed $2,150"
@@ -6566,7 +6566,7 @@
         "all_in_cad": 47645,
         "source_url": "https://electricautonomy.ca/automakers/passenger-electric-vehicles/2025-12-16/kia-ev4-canada-price-electric-sedan/",
         "as_of": "2025-12-16",
-        "age_days": 275,
+        "age_days": 279,
         "confidence": "medium",
         "stale": true,
         "notes": "freight assumed $2,150"
@@ -6624,7 +6624,7 @@
         "all_in_cad": 52145,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/ev5/2027/specifications/wind-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -6669,7 +6669,7 @@
         "all_in_cad": 52145,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/ev5/2027/specifications/wind-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -6714,7 +6714,7 @@
         "all_in_cad": 49645,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/ev5/2027/specifications/wind-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -6759,7 +6759,7 @@
         "all_in_cad": 51145,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/ev6/2025/specifications/light-rwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -6817,7 +6817,7 @@
         "all_in_cad": 47595,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -6875,7 +6875,7 @@
         "all_in_cad": 50595,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -6933,7 +6933,7 @@
         "all_in_cad": 47545,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -6991,7 +6991,7 @@
         "all_in_cad": 50545,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -7049,7 +7049,7 @@
         "all_in_cad": 47545,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2024/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -7107,7 +7107,7 @@
         "all_in_cad": 50545,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2024/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -7165,7 +7165,7 @@
         "all_in_cad": 40845,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -7223,7 +7223,7 @@
         "all_in_cad": 43545,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -7281,7 +7281,7 @@
         "all_in_cad": 38845,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2026/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -7339,7 +7339,7 @@
         "all_in_cad": 40745,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -7397,7 +7397,7 @@
         "all_in_cad": 43445,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -7455,7 +7455,7 @@
         "all_in_cad": 38745,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/niro/2025/specifications/ev-wind/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -7513,7 +7513,7 @@
         "all_in_cad": 46995,
         "source_url": "https://www.kia.ca/en/about-kia/news/Kia-Canada-announces-pricing-for-2027-PV5-Cargo-scheduled-to-arrive-in-Canada-later-this-year",
         "as_of": "2026-06-26",
-        "age_days": 83,
+        "age_days": 87,
         "confidence": "high",
         "stale": false,
         "notes": "freight not published"
@@ -7558,7 +7558,7 @@
         "all_in_cad": 49095,
         "source_url": "https://www.kia.ca/en/about-kia/news/Kia-Canada-announces-pricing-for-2027-PV5-Cargo-scheduled-to-arrive-in-Canada-later-this-year",
         "as_of": "2026-06-26",
-        "age_days": 83,
+        "age_days": 87,
         "confidence": "high",
         "stale": false,
         "notes": "freight not published"
@@ -7603,7 +7603,7 @@
         "all_in_cad": 50795,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/sorento/2026/specifications/phev-lx/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -7721,7 +7721,7 @@
         "all_in_cad": 48395,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/sportage/2026/specifications/phev-ex/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -7779,7 +7779,7 @@
         "all_in_cad": 51495,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/sportage/2026/specifications/phev-ex/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -7837,7 +7837,7 @@
         "all_in_cad": 49045,
         "source_url": "https://www.guideautoweb.com/en/makes/kia/sportage/2025/specifications/phev-ex-premium/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -7895,7 +7895,7 @@
         "all_in_cad": 49990,
         "source_url": "https://mini.ca/en/discover/elementary-edition",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": "freight/PDI not published on page"
@@ -7953,7 +7953,7 @@
         "all_in_cad": 51194,
         "source_url": "https://www.guideautoweb.com/en/makes/mazda/cx-70/2026/specifications/phev-gs-sc/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "medium",
         "stale": false,
         "notes": "Mazda Canada Dec-2025 release said $52,750; Car Guide now shows $48,999 (price cut)"
@@ -8011,7 +8011,7 @@
         "all_in_cad": 52194,
         "source_url": "https://www.guideautoweb.com/en/makes/mazda/cx-90/2026/specifications/phev-gs/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "medium",
         "stale": false,
         "notes": "Mazda Canada Dec-2025 release said $53,750; Car Guide now shows $49,999"
@@ -8069,7 +8069,7 @@
         "all_in_cad": 52123,
         "source_url": "https://www.guideautoweb.com/en/makes/mitsubishi/outlander/2026/specifications/phev-es/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -8127,7 +8127,7 @@
         "all_in_cad": 50748,
         "source_url": "https://www.guideautoweb.com/en/makes/mitsubishi/outlander/2025/specifications/phev-es/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -8209,7 +8209,7 @@
         "all_in_cad": 47093,
         "source_url": "https://canada.nissannews.com/en-CA/releases/all-new-2026-nissan-leaf-pricing-announced-for-canada",
         "as_of": "2025-09-01",
-        "age_days": 381,
+        "age_days": 385,
         "confidence": "high",
         "stale": true,
         "notes": "Nissan Canada release"
@@ -8267,7 +8267,7 @@
         "all_in_cad": 50093,
         "source_url": "https://canada.nissannews.com/en-CA/releases/all-new-2026-nissan-leaf-pricing-announced-for-canada",
         "as_of": "2025-09-01",
-        "age_days": 381,
+        "age_days": 385,
         "confidence": "high",
         "stale": true,
         "notes": "Nissan Canada release"
@@ -8329,16 +8329,16 @@
       "rebate": null,
       "spec": {
         "vehicle_class": "Sport utility vehicle: Small",
-        "range_km": 359,
+        "range_km": 446,
         "total_range_km": null,
-        "combined_kwh_100km": 20.5,
-        "combined_le_100km": 2.3,
+        "combined_kwh_100km": 18.2,
+        "combined_le_100km": 2.0,
         "gas_combined_l_100km": null,
-        "motor_kw": 160,
-        "recharge_h": 11,
+        "motor_kw": 254,
+        "recharge_h": 8,
         "match_confidence": "low",
         "nrcan_model": "Solterra AWD",
-        "nrcan_model_year": 2024
+        "nrcan_model_year": 2026
       }
     },
     {
@@ -8359,16 +8359,16 @@
       "rebate": null,
       "spec": {
         "vehicle_class": "Sport utility vehicle: Small",
-        "range_km": 359,
+        "range_km": 446,
         "total_range_km": null,
-        "combined_kwh_100km": 20.5,
-        "combined_le_100km": 2.3,
+        "combined_kwh_100km": 18.2,
+        "combined_le_100km": 2.0,
         "gas_combined_l_100km": null,
-        "motor_kw": 160,
-        "recharge_h": 11,
+        "motor_kw": 254,
+        "recharge_h": 8,
         "match_confidence": "low",
         "nrcan_model": "Solterra AWD",
-        "nrcan_model_year": 2024
+        "nrcan_model_year": 2026
       }
     },
     {
@@ -8385,7 +8385,7 @@
         "all_in_cad": 47995,
         "source_url": "https://www.guideautoweb.com/en/articles/82536/subaru-slashes-the-price-of-the-2027-solterra/",
         "as_of": "2026-07-15",
-        "age_days": 64,
+        "age_days": 68,
         "confidence": "medium",
         "stale": false,
         "notes": "2027 starting MSRP; Touring assumed base trim"
@@ -8413,20 +8413,20 @@
           "date": "2027-01-01",
           "full_incentive_cad": 4000
         },
-        "net_cad_per_km_range": 119.76
+        "net_cad_per_km_range": 96.4
       },
       "spec": {
         "vehicle_class": "Sport utility vehicle: Small",
-        "range_km": 359,
+        "range_km": 446,
         "total_range_km": null,
-        "combined_kwh_100km": 20.5,
-        "combined_le_100km": 2.3,
+        "combined_kwh_100km": 18.2,
+        "combined_le_100km": 2.0,
         "gas_combined_l_100km": null,
-        "motor_kw": 160,
-        "recharge_h": 11,
+        "motor_kw": 254,
+        "recharge_h": 8,
         "match_confidence": "low",
         "nrcan_model": "Solterra AWD",
-        "nrcan_model_year": 2024
+        "nrcan_model_year": 2026
       }
     },
     {
@@ -8447,16 +8447,16 @@
       "rebate": null,
       "spec": {
         "vehicle_class": "Sport utility vehicle: Small",
-        "range_km": 359,
+        "range_km": 446,
         "total_range_km": null,
-        "combined_kwh_100km": 20.5,
-        "combined_le_100km": 2.3,
+        "combined_kwh_100km": 18.2,
+        "combined_le_100km": 2.0,
         "gas_combined_l_100km": null,
-        "motor_kw": 160,
-        "recharge_h": 11,
+        "motor_kw": 254,
+        "recharge_h": 8,
         "match_confidence": "low",
         "nrcan_model": "Solterra AWD",
-        "nrcan_model_year": 2024
+        "nrcan_model_year": 2026
       }
     },
     {
@@ -8473,7 +8473,7 @@
         "all_in_cad": 49995,
         "source_url": "https://emptytank.ca/2026/08/07/2027-subaru-trailseeker-gets-lower-price/",
         "as_of": "2026-08-07",
-        "age_days": 41,
+        "age_days": 45,
         "confidence": "medium",
         "stale": false,
         "notes": "$53,152 incl. freight and fees per Subaru Canada release"
@@ -8500,9 +8500,22 @@
         "next_step_down": {
           "date": "2027-01-01",
           "full_incentive_cad": 4000
-        }
+        },
+        "net_cad_per_km_range": 101.34
       },
-      "spec": null
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 444,
+        "total_range_km": null,
+        "combined_kwh_100km": 18.2,
+        "combined_le_100km": 2.0,
+        "gas_combined_l_100km": null,
+        "motor_kw": 334,
+        "recharge_h": 8,
+        "match_confidence": "low",
+        "nrcan_model": "Trailseeker AWD",
+        "nrcan_model_year": 2026
+      }
     },
     {
       "id": "2027-subaru-uncharted-fwd",
@@ -8520,7 +8533,19 @@
         "msrp_cad": null
       },
       "rebate": null,
-      "spec": null
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 399,
+        "total_range_km": null,
+        "combined_kwh_100km": 15.3,
+        "combined_le_100km": 1.7,
+        "gas_combined_l_100km": null,
+        "motor_kw": 167,
+        "recharge_h": 6,
+        "match_confidence": "low",
+        "nrcan_model": "Uncharted",
+        "nrcan_model_year": 2026
+      }
     },
     {
       "id": "2027-subaru-uncharted-fwd-long-range",
@@ -8538,7 +8563,19 @@
         "msrp_cad": null
       },
       "rebate": null,
-      "spec": null
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 496,
+        "total_range_km": null,
+        "combined_kwh_100km": 16.2,
+        "combined_le_100km": 1.8,
+        "gas_combined_l_100km": null,
+        "motor_kw": 167,
+        "recharge_h": 8,
+        "match_confidence": "low",
+        "nrcan_model": "Uncharted Long Range",
+        "nrcan_model_year": 2026
+      }
     },
     {
       "id": "2027-subaru-uncharted-gt",
@@ -8556,7 +8593,19 @@
         "msrp_cad": null
       },
       "rebate": null,
-      "spec": null
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 399,
+        "total_range_km": null,
+        "combined_kwh_100km": 15.3,
+        "combined_le_100km": 1.7,
+        "gas_combined_l_100km": null,
+        "motor_kw": 167,
+        "recharge_h": 6,
+        "match_confidence": "low",
+        "nrcan_model": "Uncharted",
+        "nrcan_model_year": 2026
+      }
     },
     {
       "id": "2027-subaru-uncharted-sport",
@@ -8574,7 +8623,19 @@
         "msrp_cad": null
       },
       "rebate": null,
-      "spec": null
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 399,
+        "total_range_km": null,
+        "combined_kwh_100km": 15.3,
+        "combined_le_100km": 1.7,
+        "gas_combined_l_100km": null,
+        "motor_kw": 167,
+        "recharge_h": 6,
+        "match_confidence": "low",
+        "nrcan_model": "Uncharted",
+        "nrcan_model_year": 2026
+      }
     },
     {
       "id": "2026-subaru-uncharted-fwd",
@@ -8590,7 +8651,7 @@
         "all_in_cad": 45290,
         "source_url": "https://www.guideautoweb.com/en/makes/subaru/uncharted/2026/specifications/sport/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -8617,9 +8678,22 @@
         "next_step_down": {
           "date": "2027-01-01",
           "full_incentive_cad": 4000
-        }
+        },
+        "net_cad_per_km_range": 95.23
       },
-      "spec": null
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 399,
+        "total_range_km": null,
+        "combined_kwh_100km": 15.3,
+        "combined_le_100km": 1.7,
+        "gas_combined_l_100km": null,
+        "motor_kw": 167,
+        "recharge_h": 6,
+        "match_confidence": "high",
+        "nrcan_model": "Uncharted",
+        "nrcan_model_year": 2026
+      }
     },
     {
       "id": "2026-subaru-uncharted-fwd-lr",
@@ -8635,7 +8709,7 @@
         "all_in_cad": 49290,
         "source_url": "https://www.guideautoweb.com/en/makes/subaru/uncharted/2026/specifications/sport/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": "FWD Long Range"
@@ -8662,9 +8736,22 @@
         "next_step_down": {
           "date": "2027-01-01",
           "full_incentive_cad": 4000
-        }
+        },
+        "net_cad_per_km_range": 84.67
       },
-      "spec": null
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 496,
+        "total_range_km": null,
+        "combined_kwh_100km": 16.2,
+        "combined_le_100km": 1.8,
+        "gas_combined_l_100km": null,
+        "motor_kw": 167,
+        "recharge_h": 8,
+        "match_confidence": "high",
+        "nrcan_model": "Uncharted Long Range",
+        "nrcan_model_year": 2026
+      }
     },
     {
       "id": "2026-subaru-uncharted-sport",
@@ -8680,7 +8767,7 @@
         "all_in_cad": 52290,
         "source_url": "https://www.guideautoweb.com/en/makes/subaru/uncharted/2026/specifications/sport/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -8707,9 +8794,22 @@
         "next_step_down": {
           "date": "2027-01-01",
           "full_incentive_cad": 4000
-        }
+        },
+        "net_cad_per_km_range": 112.77
       },
-      "spec": null
+      "spec": {
+        "vehicle_class": "Sport utility vehicle: Small",
+        "range_km": 399,
+        "total_range_km": null,
+        "combined_kwh_100km": 15.3,
+        "combined_le_100km": 1.7,
+        "gas_combined_l_100km": null,
+        "motor_kw": 167,
+        "recharge_h": 6,
+        "match_confidence": "high",
+        "nrcan_model": "Uncharted",
+        "nrcan_model_year": 2026
+      }
     },
     {
       "id": "2026-tesla-model-y-rwd-b",
@@ -8725,7 +8825,7 @@
         "all_in_cad": 52490,
         "source_url": "https://www.guideautoweb.com/en/makes/tesla/model-y/2026/specifications/rwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": "TC lists trim as RWD-B"
@@ -8843,7 +8943,7 @@
         "all_in_cad": 46830,
         "source_url": "https://emptytank.ca/2026/02/19/toyota-canada-announces-2026-c-hr-prices/",
         "as_of": "2026-02-19",
-        "age_days": 210,
+        "age_days": 214,
         "confidence": "high",
         "stale": true,
         "notes": null
@@ -8901,7 +9001,7 @@
         "all_in_cad": 51880,
         "source_url": "https://emptytank.ca/2026/02/19/toyota-canada-announces-2026-c-hr-prices/",
         "as_of": "2026-02-19",
-        "age_days": 210,
+        "age_days": 214,
         "confidence": "high",
         "stale": true,
         "notes": null
@@ -9049,7 +9149,7 @@
         "all_in_cad": 47540,
         "source_url": "https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -9107,7 +9207,7 @@
         "all_in_cad": 41910,
         "source_url": "https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -9165,7 +9265,7 @@
         "all_in_cad": 46645,
         "source_url": "https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -9223,7 +9323,7 @@
         "all_in_cad": 50395,
         "source_url": "https://www.guideautoweb.com/en/makes/toyota/prius-plug-in-hybrid/2026/specifications/se/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -9281,7 +9381,7 @@
         "all_in_cad": 48750,
         "source_url": "https://media.toyota.ca/en/releases/2026/toyota-canada-announces-pricing-for-the-all-new-2026-toyota-rav4.html",
         "as_of": "2026-03-01",
-        "age_days": 200,
+        "age_days": 204,
         "confidence": "high",
         "stale": true,
         "notes": "Toyota Canada release"
@@ -9339,7 +9439,7 @@
         "all_in_cad": 45985,
         "source_url": "https://electrek.co/2026/08/18/2027-toyota-bz-now-on-sale-how-much-it-costs/",
         "as_of": "2026-08-18",
-        "age_days": 30,
+        "age_days": 34,
         "confidence": "medium",
         "stale": false,
         "notes": "starting price reported CA$45,985"
@@ -9397,7 +9497,7 @@
         "all_in_cad": 47920,
         "source_url": "https://www.guideautoweb.com/en/makes/toyota/bz/2026/specifications/xle-fwd/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "high",
         "stale": false,
         "notes": null
@@ -9455,7 +9555,7 @@
         "all_in_cad": 50695,
         "source_url": "https://www.autotrader.ca/research/volkswagen/id-4/2025/",
         "as_of": "2026-09-12",
-        "age_days": 5,
+        "age_days": 9,
         "confidence": "medium",
         "stale": false,
         "notes": "AutoTrader research page"
@@ -9513,7 +9613,7 @@
         "all_in_cad": 44000,
         "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
         "as_of": "2026-05-09",
-        "age_days": 131,
+        "age_days": 135,
         "confidence": "high",
         "stale": true,
         "notes": "all-in $47,919 incl. fees/levies"
@@ -9571,7 +9671,7 @@
         "all_in_cad": 45000,
         "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
         "as_of": "2026-05-09",
-        "age_days": 131,
+        "age_days": 135,
         "confidence": "high",
         "stale": true,
         "notes": "all-in $48,919"
@@ -9629,7 +9729,7 @@
         "all_in_cad": 46000,
         "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
         "as_of": "2026-05-09",
-        "age_days": 131,
+        "age_days": 135,
         "confidence": "high",
         "stale": true,
         "notes": "all-in $49,919"
@@ -9687,7 +9787,7 @@
         "all_in_cad": 48000,
         "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
         "as_of": "2026-05-09",
-        "age_days": 131,
+        "age_days": 135,
         "confidence": "high",
         "stale": true,
         "notes": "all-in $51,919"
@@ -9745,7 +9845,7 @@
         "all_in_cad": 49000,
         "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
         "as_of": "2026-05-09",
-        "age_days": 131,
+        "age_days": 135,
         "confidence": "high",
         "stale": true,
         "notes": "all-in $52,919"
@@ -9803,7 +9903,7 @@
         "all_in_cad": 49000,
         "source_url": "https://emptytank.ca/2026/05/09/volvo-drops-2026-ex30-price-in-canada/",
         "as_of": "2026-05-09",
-        "age_days": 131,
+        "age_days": 135,
         "confidence": "high",
         "stale": true,
         "notes": "Cross Country Ultra; all-in $52,919"
@@ -9849,9 +9949,9 @@
     }
   ],
   "deals_meta": {
-    "as_of": "2026-09-17",
+    "as_of": "2026-09-21",
     "prices_source": "prices/msrp_ca.csv (manufacturer Canadian pricing, see per-row source_url)",
-    "nrcan_snapshot": "2026-09-17",
+    "nrcan_snapshot": "2026-09-21",
     "summary": {
       "vehicles": 126,
       "priced": 105,
@@ -9898,7 +9998,7 @@
         "2027-chevrolet-bolt-lt",
         "2027-chevrolet-bolt-rs"
       ],
-      "with_spec": 103,
+      "with_spec": 111,
       "cheapest_net": [
         31995.0,
         "2027-kia-ev3-light-fwd"
