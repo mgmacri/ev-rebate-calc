@@ -1,20 +1,20 @@
 {
   "meta": {
-    "dataset_version": "2026-09-24",
-    "generated_at": "2026-09-24T15:49:04+00:00",
+    "dataset_version": "2026-09-28",
+    "generated_at": "2026-09-28T18:35:56+00:00",
     "pipeline_version": "0.1.0",
     "rules_version": "2026-09-12",
     "source": {
       "name": "tc_evap_vehicle_list",
       "url": "https://tc.canada.ca/en/road-transportation/innovative-technologies/electric-vehicles/electric-vehicle-affordability-program-evap/electric-vehicle-affordability-program-vehicle-list",
-      "fetched_at": "2026-09-24T15:49:03+00:00",
+      "fetched_at": "2026-09-28T18:35:55+00:00",
       "date_modified": "2026-03-10",
-      "sha256": "f56b50a5d6380fb28e3754ce8d9001c3c4baec7238321f677c7315e1b48cc8cf"
+      "sha256": "7cf7954f827dcabf00c7bf0d99f1ec403491468036d86556c877b48182524856"
     },
     "counts": {
-      "vehicles": 126,
+      "vehicles": 129,
       "by_fuel_type": {
-        "BEV": 92,
+        "BEV": 95,
         "PHEV": 34
       },
       "canadian_made": 13,
@@ -22,16 +22,20 @@
     },
     "consistency_issues": {},
     "changes_since_previous": {
-      "added": [],
+      "added": [
+        "2027-nissan-leaf-s",
+        "2027-nissan-leaf-s-plus",
+        "2027-nissan-leaf-sv-plus"
+      ],
       "removed": [],
       "changed": []
     },
     "deals": {
       "priced": 105,
       "eligible_at_msrp": 101,
-      "with_spec": 111,
-      "unpriced": 21,
-      "stale_prices": 17
+      "with_spec": 114,
+      "unpriced": 24,
+      "stale_prices": 19
     }
   },
   "vehicles": [
@@ -59,7 +63,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-chevrolet-bolt-rs",
@@ -85,7 +89,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-chevrolet-equinox-ev-lt-1",
@@ -111,7 +115,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-chevrolet-equinox-ev-lt-2",
@@ -137,7 +141,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-chevrolet-equinox-ev-lt1-awd",
@@ -163,7 +167,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-chevrolet-equinox-ev-lt",
@@ -189,7 +193,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-chevrolet-equinox-ev-lt-awd",
@@ -215,7 +219,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-chevrolet-equinox-ev-lt",
@@ -241,7 +245,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-chevrolet-equinox-ev-lt-awd",
@@ -267,7 +271,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-chevrolet-equinox-ev-rs",
@@ -293,7 +297,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-chrysler-pacifica-100th",
@@ -319,7 +323,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-chrysler-pacifica-limited",
@@ -345,7 +349,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-chrysler-pacifica-pinnacle",
@@ -371,7 +375,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-chrysler-pacifica-select",
@@ -397,7 +401,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-chrysler-pacifica-fav",
@@ -423,7 +427,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-chrysler-pacifica-limited",
@@ -449,7 +453,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-chrysler-pacifica-select",
@@ -475,7 +479,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-dodge-charger-r-t",
@@ -501,7 +505,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-dodge-charger-scat-pack",
@@ -527,7 +531,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-dodge-charger-r-t",
@@ -553,7 +557,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-dodge-charger-scat-pack",
@@ -579,7 +583,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2024-dodge-charger-r-t",
@@ -605,7 +609,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2024-dodge-charger-scat-pack",
@@ -631,7 +635,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-fiat-500e-icona",
@@ -657,7 +661,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-fiat-500e-pop",
@@ -683,7 +687,7 @@
         "page": 0
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-fiat-500e-giorgio-armani",
@@ -709,7 +713,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-fiat-500e-la-prima",
@@ -735,7 +739,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-fiat-500e-red",
@@ -761,7 +765,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-ford-escape-plug-in-hybrid-base",
@@ -787,7 +791,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-ford-escape-plug-in-hybrid-base",
@@ -813,7 +817,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2024-ford-escape-plug-in-hybrid-base",
@@ -839,7 +843,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-ford-mach-e-premium-rwd-extended-range",
@@ -865,7 +869,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-ford-mach-e-premium-rwd-standard-range",
@@ -891,7 +895,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-ford-mach-e-premium-eawd-standard-range",
@@ -917,7 +921,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-ford-mach-e-select-rwd-standard-range",
@@ -943,7 +947,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-ford-mach-e-select-eawd-extended-range",
@@ -969,7 +973,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-ford-mach-e-select-eawd-standard-range",
@@ -995,7 +999,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-hyundai-kona-ev-preferred",
@@ -1021,7 +1025,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-hyundai-kona-ev-preferred-w-trend-package",
@@ -1047,7 +1051,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-hyundai-kona-ev-preferred-w-ultimate-package",
@@ -1073,7 +1077,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-hyundai-kona-ev-preferred",
@@ -1099,7 +1103,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-hyundai-kona-ev-preferred-w-trend-package",
@@ -1125,7 +1129,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev3-gt-line-awd",
@@ -1151,7 +1155,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev3-gt-line-fwd",
@@ -1177,7 +1181,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev3-gt-line-limited-fwd",
@@ -1203,7 +1207,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev3-land-awd",
@@ -1229,7 +1233,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev3-land-fwd",
@@ -1255,7 +1259,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev3-light-fwd",
@@ -1281,7 +1285,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev3-wind-awd",
@@ -1307,7 +1311,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev3-wind-fwd",
@@ -1333,7 +1337,7 @@
         "page": 1
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev4-gt-line-fwd",
@@ -1359,7 +1363,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev4-light-fwd",
@@ -1385,7 +1389,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev4-wind-awd",
@@ -1411,7 +1415,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev4-wind-fwd",
@@ -1437,7 +1441,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev4-wind-premium-awd",
@@ -1463,7 +1467,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev4-wind-premium-fwd",
@@ -1489,7 +1493,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-kia-ev4-gt-line",
@@ -1515,7 +1519,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-kia-ev4-light",
@@ -1541,7 +1545,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-kia-ev4-wind",
@@ -1567,7 +1571,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-kia-ev4-wind-premium",
@@ -1593,7 +1597,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev5-land-fwd",
@@ -1619,7 +1623,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev5-wind-awd",
@@ -1645,7 +1649,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-ev5-wind-fwd",
@@ -1671,7 +1675,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-kia-ev6-light-rwd",
@@ -1697,7 +1701,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-kia-niro-ev-wind",
@@ -1723,7 +1727,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-kia-niro-ev-wind-plus",
@@ -1749,7 +1753,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-kia-niro-ev-wind",
@@ -1775,7 +1779,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-kia-niro-ev-wind-plus",
@@ -1801,7 +1805,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2024-kia-niro-ev-wind",
@@ -1827,7 +1831,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2024-kia-niro-ev-wind-plus",
@@ -1853,7 +1857,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-kia-niro-phev-ex",
@@ -1879,7 +1883,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-kia-niro-phev-ex-premium",
@@ -1905,7 +1909,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-kia-niro-phev-lx",
@@ -1931,7 +1935,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-kia-niro-phev-ex",
@@ -1957,7 +1961,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-kia-niro-phev-ex-premium",
@@ -1983,7 +1987,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-kia-niro-phev-lx",
@@ -2009,7 +2013,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-pv5-basic",
@@ -2035,7 +2039,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-pv5-plus",
@@ -2061,7 +2065,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-kia-sorento-phev-lx-phev",
@@ -2087,7 +2091,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-sportage-phev-ex-awd",
@@ -2113,7 +2117,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-kia-sportage-phev-ex-premium-awd",
@@ -2139,7 +2143,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-kia-sportage-phev-ex",
@@ -2165,7 +2169,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-kia-sportage-phev-ex-premium",
@@ -2191,7 +2195,7 @@
         "page": 2
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-kia-sportage-phev-ex-premium",
@@ -2217,7 +2221,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-mini-countryman-se-all4-elementary-edition",
@@ -2243,7 +2247,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-mazda-cx-70-phev-gs-sc",
@@ -2269,7 +2273,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-mazda-cx-90-phev-gs",
@@ -2295,7 +2299,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-mitsubishi-outlander-phev-es",
@@ -2321,7 +2325,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-mitsubishi-outlander-phev-es",
@@ -2347,7 +2351,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-nissan-ariya-sv-fwd",
@@ -2373,7 +2377,85 @@
         "page": 3
       },
       "first_seen": "2026-09-14",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
+    },
+    {
+      "id": "2027-nissan-leaf-s",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Nissan",
+      "model": "Leaf",
+      "trim": "S",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "1a940d25478c177c",
+        "page": 3
+      },
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28"
+    },
+    {
+      "id": "2027-nissan-leaf-s-plus",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Nissan",
+      "model": "Leaf",
+      "trim": "S+",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "f015e2122427dc6f",
+        "page": 3
+      },
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28"
+    },
+    {
+      "id": "2027-nissan-leaf-sv-plus",
+      "program_id": "ca-federal-evap",
+      "model_year": 2027,
+      "make": "Nissan",
+      "model": "Leaf",
+      "trim": "SV+",
+      "fuel_type": "BEV",
+      "canadian_made": false,
+      "price_cap_cad": 50000,
+      "price_cap_basis": "final_transaction_value",
+      "published": {
+        "year": 2026,
+        "purchase_or_48mo": 5000,
+        "lease_36mo": 3750,
+        "lease_24mo": 2500,
+        "lease_12mo": 1250
+      },
+      "source": {
+        "name": "tc_evap_vehicle_list",
+        "row_hash": "81fd7e3cd8103a04",
+        "page": 3
+      },
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-nissan-leaf-s-plus",
@@ -2399,7 +2481,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-nissan-leaf-sv-plus",
@@ -2425,7 +2507,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-subaru-solterra-limited",
@@ -2451,7 +2533,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-subaru-solterra-limited-black-cladding",
@@ -2477,7 +2559,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-subaru-solterra-touring",
@@ -2500,10 +2582,10 @@
       "source": {
         "name": "tc_evap_vehicle_list",
         "row_hash": "1da2670b2f2ff6a9",
-        "page": 3
+        "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-subaru-solterra-touring-black-cladding",
@@ -2526,10 +2608,10 @@
       "source": {
         "name": "tc_evap_vehicle_list",
         "row_hash": "74e1f42c438f5407",
-        "page": 3
+        "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-subaru-trailseeker-touring",
@@ -2552,10 +2634,10 @@
       "source": {
         "name": "tc_evap_vehicle_list",
         "row_hash": "533ab16d0513035f",
-        "page": 3
+        "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-subaru-uncharted-fwd",
@@ -2581,7 +2663,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-subaru-uncharted-fwd-long-range",
@@ -2607,7 +2689,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-subaru-uncharted-gt",
@@ -2633,7 +2715,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-subaru-uncharted-sport",
@@ -2659,7 +2741,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-subaru-uncharted-fwd",
@@ -2685,7 +2767,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-subaru-uncharted-fwd-lr",
@@ -2711,7 +2793,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-subaru-uncharted-sport",
@@ -2737,7 +2819,7 @@
         "page": 3
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-tesla-model-y-rwd-b",
@@ -2763,7 +2845,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-toyota-c-hr-se-fwd",
@@ -2789,7 +2871,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-toyota-c-hr-xse-awd",
@@ -2815,7 +2897,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-toyota-c-hr-se-fwd",
@@ -2841,7 +2923,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-toyota-c-hr-xse-awd",
@@ -2867,7 +2949,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-toyota-prius-plug-in-hybrid-se",
@@ -2893,7 +2975,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-toyota-prius-plug-in-hybrid-xse",
@@ -2919,7 +3001,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-toyota-prius-plug-in-hybrid-xse-premium",
@@ -2945,7 +3027,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-toyota-prius-plug-in-hybrid-nightshade",
@@ -2971,7 +3053,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-toyota-prius-plug-in-hybrid-se",
@@ -2997,7 +3079,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-toyota-prius-plug-in-hybrid-xse",
@@ -3023,7 +3105,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-toyota-prius-plug-in-hybrid-xse-premium",
@@ -3049,7 +3131,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-toyota-rav4-plug-in-hybrid-se",
@@ -3075,7 +3157,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2027-toyota-bz-xle-fwd",
@@ -3101,7 +3183,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-toyota-bz-xle-fwd",
@@ -3127,7 +3209,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2025-volkswagen-id-4-base",
@@ -3153,7 +3235,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-volvo-ex30-single-motor-extended-range-core",
@@ -3179,7 +3261,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-volvo-ex30-single-motor-extended-range-plus",
@@ -3205,7 +3287,7 @@
         "page": 4
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-volvo-ex30-single-motor-extended-range-ultra",
@@ -3228,10 +3310,10 @@
       "source": {
         "name": "tc_evap_vehicle_list",
         "row_hash": "67964f68ad0fa0b4",
-        "page": 4
+        "page": 5
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-volvo-ex30-twin-motor-performance-plus",
@@ -3254,10 +3336,10 @@
       "source": {
         "name": "tc_evap_vehicle_list",
         "row_hash": "7aef7507156c57c0",
-        "page": 4
+        "page": 5
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-volvo-ex30-twin-motor-performance-ultra",
@@ -3280,10 +3362,10 @@
       "source": {
         "name": "tc_evap_vehicle_list",
         "row_hash": "2676faaaa7589ad5",
-        "page": 4
+        "page": 5
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     },
     {
       "id": "2026-volvo-ex30-twin-motor-performance-ultra-cross-country",
@@ -3309,7 +3391,7 @@
         "page": 5
       },
       "first_seen": "2026-09-12",
-      "last_seen": "2026-09-24"
+      "last_seen": "2026-09-28"
     }
   ]
 }

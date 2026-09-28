@@ -80,5 +80,25 @@
     "removed": [],
     "changed": [],
     "consistency_issues": []
+  },
+  {
+    "dataset_version": "2026-09-28",
+    "counts": {
+      "vehicles": 129,
+      "by_fuel_type": {
+        "BEV": 95,
+        "PHEV": 34
+      },
+      "canadian_made": 13,
+      "makes": 16
+    },
+    "added": [
+      "2027-nissan-leaf-s",
+      "2027-nissan-leaf-s-plus",
+      "2027-nissan-leaf-sv-plus"
+    ],
+    "removed": [],
+    "changed": [],
+    "consistency_issues": []
   }
 ]
