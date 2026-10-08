@@ -132,5 +132,23 @@
     "removed": [],
     "changed": [],
     "consistency_issues": []
+  },
+  {
+    "dataset_version": "2026-10-08",
+    "counts": {
+      "vehicles": 130,
+      "by_fuel_type": {
+        "BEV": 96,
+        "PHEV": 34
+      },
+      "canadian_made": 13,
+      "makes": 16
+    },
+    "added": [
+      "2027-tesla-model-y-rwd-b"
+    ],
+    "removed": [],
+    "changed": [],
+    "consistency_issues": []
   }
 ]
