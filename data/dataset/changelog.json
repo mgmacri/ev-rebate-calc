@@ -166,5 +166,23 @@
     "removed": [],
     "changed": [],
     "consistency_issues": []
+  },
+  {
+    "dataset_version": "2026-10-15",
+    "counts": {
+      "vehicles": 131,
+      "by_fuel_type": {
+        "BEV": 97,
+        "PHEV": 34
+      },
+      "canadian_made": 13,
+      "makes": 16
+    },
+    "added": [
+      "2027-mitsubishi-eclipse-sportback-ev"
+    ],
+    "removed": [],
+    "changed": [],
+    "consistency_issues": []
   }
 ]
