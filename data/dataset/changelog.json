@@ -248,5 +248,27 @@
     "removed": [],
     "changed": [],
     "consistency_issues": []
+  },
+  {
+    "dataset_version": "2026-11-05",
+    "counts": {
+      "vehicles": 133,
+      "by_fuel_type": {
+        "BEV": 99,
+        "PHEV": 34
+      },
+      "canadian_made": 13,
+      "makes": 16
+    },
+    "added": [
+      "2027-hyundai-kona-ev-preferred",
+      "2027-hyundai-kona-ev-preferred-w-trend-package",
+      "2027-hyundai-kona-ev-preferred-w-ultimate-package"
+    ],
+    "removed": [
+      "2027-kia-ev3-land-fwd"
+    ],
+    "changed": [],
+    "consistency_issues": []
   }
 ]
