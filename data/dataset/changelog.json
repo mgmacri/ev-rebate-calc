@@ -270,5 +270,21 @@
     ],
     "changed": [],
     "consistency_issues": []
+  },
+  {
+    "dataset_version": "2026-11-09",
+    "counts": {
+      "vehicles": 133,
+      "by_fuel_type": {
+        "BEV": 99,
+        "PHEV": 34
+      },
+      "canadian_made": 13,
+      "makes": 16
+    },
+    "added": [],
+    "removed": [],
+    "changed": [],
+    "consistency_issues": []
   }
 ]
